@@ -1,126 +1,316 @@
-# LessOrMore
+# minima
+
+*Minima is a one-size-fits-all Jekyll theme for writers*. It's Jekyll's default (and first) theme. It's what you get when you run `jekyll new`.
+
+***Disclaimer:** The information here may vary depending on the version you're using. Please refer to the `README.md` bundled
+within the theme-gem for information specific to your version or by pointing your browser to the Git tag corresponding to your
+version. e.g. https://github.com/jekyll/minima/blob/v2.5.0/README.md*  
+*Running `bundle show minima` will provide you with the local path to your current theme version.*
 
 
-致谢
-====================================
-+ 感谢[Less官网](http://lesscss.cn/)的样式，本Jekyll框架的样式都是基于Less官网的样式直接拷贝过来的。只是重构了JS，并且加入了Jekyll语法而已。
-+ 感谢[Github](https://github.com/)提供的代码维护和发布平台
-+ 感谢[Jekyll](https://jekyllrb.com/)团队做出如此优秀的产品
-+ 感谢[Solar](https://github.com/mattvh/solar-theme-jekyll)的原作者[Matt Harzewski](http://www.webmaster-source.com/)，在`2014.11`-`2016.09`的两年间，我的博客选用了此样式模版
+[Theme preview](https://jekyll.github.io/minima/)
 
+![minima theme preview](/screenshot.png)
 
-使用
-====================================
+## Installation
 
-下载
-------------------------------------
+Add this line to your Jekyll site's Gemfile:
 
-使用git从[LessOrMore](https://github.com/luoyan35714/LessOrMore.git)主页下载项目
-
-``` bash
-git clone https://github.com/luoyan35714/LessOrMore.git
+```ruby
+gem "minima"
 ```
 
-配置
-------------------------------------
+And then execute:
 
-`LessOrMore`项目需要配置的只有一个文件`_config.yml`，打开之后按照如下进行配置。
+    $ bundle
 
-> 特别注意`baseurl`的配置。如果是`***.github.io`项目，不修改为空''的话，会导致JS,CSS等静态资源无法找到的错误
 
-``` bash
-name: 博客名称
-email: 邮箱地址
-author: 作者名
-url: 个人网站
-# baseurl修改为项目名，如果项目是'***.github.io'，则设置为空''
-baseurl: "/LessOrMore"
-resume_site: 个人简历网站
-github: github地址
-github_username: github用户名称
-# 请到百度统计官网[https://tongji.baidu.com/](https://tongji.baidu.com/)申请自己的网站ID并在此处替换，否则将无法正常统计访问量
-baidu_analysis: 94be4b0f9fc5d94cc0d0415ea6761ae9
-# 请到revolvermaps [http://www.revolvermaps.com/?target=setupgl](http://www.revolvermaps.com/?target=setupgl)申请自己的网站ID并在此处替换，否则将无法正常统计访问量
-revolvermaps: 5ytn1ssq6za
+## Contents At-A-Glance
+
+Minima has been scaffolded by the `jekyll new-theme` command and therefore has all the necessary files and directories to have a new Jekyll site up and running with zero-configuration.
+
+### Layouts
+
+Refers to files within the `_layouts` directory, that define the markup for your theme.
+
+  - `default.html` &mdash; The base layout that lays the foundation for subsequent layouts. The derived layouts inject their contents into this file at the line that says ` {{ content }} ` and are linked to this file via [FrontMatter](https://jekyllrb.com/docs/frontmatter/) declaration `layout: default`.
+  - `home.html` &mdash; The layout for your landing-page / home-page / index-page. [[More Info.](#home-layout)]
+  - `page.html` &mdash; The layout for your documents that contain FrontMatter, but are not posts.
+  - `post.html` &mdash; The layout for your posts.
+
+#### Home Layout
+
+`home.html` is a flexible HTML layout for the site's landing-page / home-page / index-page. <br/>
+
+##### *Main Heading and Content-injection*
+
+From Minima v2.2 onwards, the *home* layout will inject all content from your `index.md` / `index.html` **before** the **`Posts`** heading. This will allow you to include non-posts related content to be published on the landing page under a dedicated heading. *We recommended that you title this section with a Heading2 (`##`)*.
+
+Usually the `site.title` itself would suffice as the implicit 'main-title' for a landing-page. But, if your landing-page would like a heading to be explicitly displayed, then simply define a `title` variable in the document's front matter and it will be rendered with an `<h1>` tag.
+
+##### *Post Listing*
+
+This section is optional from Minima v2.2 onwards.<br/>
+It will be automatically included only when your site contains one or more valid posts or drafts (if the site is configured to `show_drafts`).
+
+The title for this section is `Posts` by default and rendered with an `<h2>` tag. You can customize this heading by defining a `list_title` variable in the document's front matter.
+
+
+### Includes
+
+Refers to snippets of code within the `_includes` directory that can be inserted in multiple layouts (and another include-file as well) within the same theme-gem.
+
+  - `disqus_comments.html` &mdash; Code to markup disqus comment box.
+  - `footer.html` &mdash; Defines the site's footer section.
+  - `google-analytics.html` &mdash; Inserts Google Analytics module (active only in production environment).
+  - `head.html` &mdash; Code-block that defines the `<head></head>` in *default* layout.
+  - `custom-head.html` &mdash; Placeholder to allow users to add more metadata to `<head />`.
+  - `header.html` &mdash; Defines the site's main header section. By default, pages with a defined `title` attribute will have links displayed here.
+  - `social.html` &mdash; Renders social-media icons based on the `minima:social_links` data in the config file.
+
+
+### Sass
+
+Refers to `.scss` files within the `_sass` directory that define the theme's styles.
+
+  - `minima/skins/classic.scss` &mdash; The "classic" skin of the theme. *Used by default.*
+  - `minima/initialize.scss` &mdash; A component that defines the theme's *skin-agnostic* variable defaults and sass partials.
+    It imports the following components (in the following order):
+    - `minima/custom-variables.scss` &mdash; A hook that allows overriding variable defaults and mixins. (*Note: Cannot override styles*)
+    - `minima/_base.scss` &mdash; Sass partial for resets and defines base styles for various HTML elements.
+    - `minima/_layout.scss` &mdash; Sass partial that defines the visual style for various layouts.
+    - `minima/custom-styles.scss` &mdash; A hook that allows overriding styles defined above. (*Note: Cannot override variables*)
+
+Refer the [skins](#skins) section for more details.
+
+
+### Assets
+
+Refers to various asset files within the `assets` directory.
+
+  - `assets/css/style.scss` &mdash; Imports sass files from within the `_sass` directory and gets processed into the theme's
+    stylesheet: `assets/css/styles.css`.
+  - `assets/minima-social-icons.svg` &mdash; A composite SVG file comprised of *symbols* related to various social-media icons.
+    This file is used as-is without any processing. Refer [section on social networks](#social-networks) for its usage.
+
+
+### Plugins
+
+Minima comes with [`jekyll-seo-tag`](https://github.com/jekyll/jekyll-seo-tag) plugin preinstalled to make sure your website gets the most useful meta tags. See [usage](https://github.com/jekyll/jekyll-seo-tag#usage) to know how to set it up.
+
+
+## Usage
+
+Have the following line in your config file:
+
+```yaml
+theme: minima
 ```
 
-关于统计
-------------------------------------
 
-本项目支持三种统计，分别是
+### Customizing templates
 
-+ [百度统计](https://tongji.baidu.com)
+To override the default structure and style of minima, simply create the concerned directory at the root of your site, copy the file you wish to customize to that directory, and then edit the file.
+e.g., to override the [`_includes/head.html `](_includes/head.html) file to specify a custom style path, create an `_includes` directory, copy `_includes/head.html` from minima gem folder to `<yoursite>/_includes` and start editing that file.
 
-百度统计是后台统计，并没有再页面有任何展示，但是可以通过登录百度统计官网查看更详细的访问记录分析。
-当Fork本项目之后需要去百度统计官网申请自己的baidu统计ID替换 `_config.yml` 文件中的 `baidu_analysis`。
+The site's default CSS has now moved to a new place within the gem itself, [`assets/css/style.scss`](assets/css/style.scss).
 
-+ [revolvermaps地图统计](http://www.revolvermaps.com/)
+In Minima 3.0, if you only need to customize the colors of the theme, refer to the subsequent section on skins. To have your
+*CSS overrides* in sync with upstream changes released in future versions, you can collect all your overrides for the Sass
+variables and mixins inside a sass file placed at `_sass/minima/custom-variables.scss` and all other overrides inside a sass file
+placed at path `_sass/minima/custom.scss`.
 
-revolvermaps地图统计是展示在左侧当行栏的地图展示，具体展示形式可以去官网定制。
-当Fork本项目之后需要去revolvermaps地图官网申请自己的统计ID， 替换`_config.yml` 文件中的 `revolvermaps`。
+You need not maintain entire partial(s) at the site's source just to override a few styles. However, your stylesheet's primary
+source (`assets/css/style.scss`) should contain the following:
 
-+ [不蒜子统计](http://busuanzi.ibruce.info/)
+  - Front matter dashes at the very beginning (can be empty).
+  - Directive to import a skin.
+  - Directive to import the base styles (automatically loads overrides when available).
 
-不蒜子统计是出现在页面右上角的`本站总访问量n次`统计，本统计会自动识别客户所对应的域名，根据不同域名统计，所以并不需要Fork本项目者做任何修改。
-更多不蒜子的展示方式可以去官网查看。
+Therefore, your `assets/css/style.scss` should contain the following at minimum:
 
-
-如何写文章
-------------------------------------
-
-在`LessOrMore/_posts`目录下新建一个文件，可以创建文件夹并在文件夹中添加文件，方便维护。在新建文件中粘贴如下信息，并修改以下的`titile`,`date`,`categories`,`tag`的相关信息，添加`* content {:toc}`为目录相关信息，在进行正文书写前需要在目录和正文之间输入至少2行空行。然后按照正常的Markdown语法书写正文。
-
-``` bash
+```sass
 ---
-layout: post
-#标题配置
-title:  标题
-#时间配置
-date:   2016-08-27 01:08:00 +0800
-#大类配置
-categories: document
-#小类配置
-tag: 教程
 ---
 
-* content
-{:toc}
-
-
-我是正文。我是正文。我是正文。我是正文。我是正文。我是正文。
+@import "minima/skins/{{ site.minima.skin | default: 'classic' }}";
+@import "minima/initialize";
 ```
 
-执行
-------------------------------------
+#### Skins
 
-``` bash
-jekyll server
+Minima 3.0 supports defining and switching between multiple color-palettes (or *skins*).
+
+```
+.
+├── minima.scss
+└── minima
+    └── _syntax-highlighting.scss
 ```
 
-效果
-------------------------------------
-打开浏览器并输入URL`http://localhost:4000/`,回车。
+
+A skin is a Sass file placed in the directory `_sass/minima/skins` and it defines the variable defaults related to the "color"
+aspect of the theme. It also embeds the Sass rules related to syntax-highlighting since that is primarily related to color and
+has to be adjusted in harmony with the current skin.
+
+The default color palette for Minima is defined within `_sass/minima/skins/classic.scss`. To switch to another available skin,
+simply declare it in the site's config file. For example, to activate `_sass/minima/skins/sunrise.scss` as the skin, the setting
+would be:
+
+```yaml
+minima:
+  skin: sunrise
+```
+
+As part of the migration to support skins, some existing Sass variables have been retired and some **have been redefined** as
+summarized in the following table:
+
+Minima 2.0      | Minima 3.0
+--------------- | ----------
+`$brand-color`  | `$link-base-color`
+`$grey-*`       | `$brand-*`
+`$orange-color` | *has been removed*
 
 
-为什么重复造轮子
-====================================
+### Customize navigation links
 
-很明显，我在重复造轮子。在13年接触到GIT，14年末接触到Jekyll，然后搭建了自己的博客，当时是选用了[JekyllThemes](http://jekyllthemes.org/)上的[Solar](https://github.com/mattvh/solar-theme-jekyll)主题，一直到现在。不过中间一直感觉页面风格还是偏暗，阅读不方便。并且有一些小的细节做的不是很好。在页面的跨平台浏览上有一些瑕疵。并且不区分一级标题和二级标题，导致没有重点强调。诸如此类，用了2年，用的越多，越发吃力，中间就一直在寻找新的能够让我一眼认定的主题。
+This allows you to set which pages you want to appear in the navigation area and configure order of the links.
 
-虽然设计好看的主题很多。但是真正适合拿来做博客的却不多。中间一直没有找到合适的主题。直到有一天看到Less官网的主题之后，豁然觉得这就是我的博客想要的样子。简单而又不平凡。所以就决定了要把博客迁移到这个主题，然后拿了两天晚上来把这个主题做出来。
+For instance, to only link to the `about` and the `portfolio` page, add the following to your `_config.yml`:
 
-重复造了轮子，但是这个是迄今为止自己觉得最适合我的博客的轮子，所以是值得的！
+```yaml
+header_pages:
+  - about.md
+  - portfolio.md
+```
 
-关于作者
-====================================
 
-热爱开源，热爱折腾的Java程序猿。更多个人信息和联系方式可以参照[我的简介](http://www.hifreud.com/Resume.io/)。
+### Change default date format
 
-写在最后
-====================================
+You can change the default date format by specifying `site.minima.date_format`
+in `_config.yml`.
 
-如果你也像我一样在寻觅一个简洁的博客主题。不妨试下LessOrMore。
+```
+# Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: "%b %-d, %Y"
+```
 
-之前此处是有打赏功能的，不过最近在整理自己，发现打赏功能偏离了我写这个Jekyll主题的初衷，所以删除了打赏功能。
 
-非常感谢之前打赏过的朋友们！！
+### Extending the `<head />`
+
+You can *add* custom metadata to the `<head />` of your layouts by creating a file `_includes/custom-head.html` in your source directory. For example, to add favicons:
+
+1. Head over to [https://realfavicongenerator.net/](https://realfavicongenerator.net/) to add your own favicons.
+2. [Customize](#customization) default `_includes/custom-head.html` in your source directory and insert the given code snippet.
+
+
+### Enabling comments (via Disqus)
+
+Optionally, if you have a Disqus account, you can tell Jekyll to use it to show a comments section below each post.
+
+To enable it, add the following lines to your Jekyll site:
+
+```yaml
+  disqus:
+    shortname: my_disqus_shortname
+```
+
+You can find out more about Disqus' shortnames [here](https://help.disqus.com/installation/whats-a-shortname).
+
+Comments are enabled by default and will only appear in production, i.e., `JEKYLL_ENV=production`
+
+If you don't want to display comments for a particular post you can disable them by adding `comments: false` to that post's YAML Front Matter.
+
+:warning: `url`, e.g. `https://example.com`, must be set in you config file for Disqus to work.
+
+### Author Metadata
+
+From `Minima-3.0` onwards, `site.author` is expected to be a mapping of attributes instead of a simple scalar value:
+
+```yaml
+author:
+  name: John Smith
+  email: "john.smith@foobar.com"
+```
+
+To migrate existing metadata, update your config file and any reference to the object in your layouts and includes as summarized below:
+
+Minima 2.x    | Minima 3.0
+------------- | -------------------
+`site.author` | `site.author.name`
+`site.email`  | `site.author.email`
+
+
+### Social networks
+
+You can add links to the accounts you have on other sites, with respective icon, by adding one or more of the following options in your config.
+From `Minima-3.0` onwards, the usernames are to be nested under `minima.social_links`, with the keys being simply the social-network's name:
+
+```yaml
+minima:
+  social_links:
+    twitter: jekyllrb
+    github: jekyll
+    stackoverflow: "11111"
+    dribbble: jekyll
+    facebook: jekyll
+    flickr: jekyll
+    instagram: jekyll
+    linkedin: jekyll
+    pinterest: jekyll
+    telegram: jekyll
+    microdotblog: jekyll
+    keybase: jekyll
+
+    mastodon:
+     - username: jekyll
+       instance: example.com
+     - username: jekyll2
+       instance: example.com
+
+    gitlab:
+     - username: jekyll
+       instance: example.com
+     - username: jekyll2
+       instance: example.com
+
+    youtube: jekyll
+    youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
+    youtube_channel_name: CloudCannon
+```
+
+
+### Enabling Google Analytics
+
+To enable Google Analytics, add the following lines to your Jekyll site:
+
+```yaml
+  google_analytics: UA-NNNNNNNN-N
+```
+
+Google Analytics will only appear in production, i.e., `JEKYLL_ENV=production`
+
+### Enabling Excerpts on the Home Page
+
+To display post-excerpts on the Home Page, simply add the following to your `_config.yml`:
+
+```yaml
+show_excerpts: true
+```
+
+
+## Contributing
+
+Bug reports and pull requests are welcome on GitHub at https://github.com/jekyll/minima. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+
+## Development
+
+To set up your environment to develop this theme, run `script/bootstrap`.
+
+To test your theme, run `script/server` (or `bundle exec jekyll serve`) and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme and the contents. As you make modifications, your site will regenerate and you should see the changes in the browser after a refresh.
+
+## License
+
+The theme is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
