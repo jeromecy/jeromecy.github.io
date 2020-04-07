@@ -1,6 +1,7 @@
 title: ZCao's space
 author:
   name: Zhanglong Cao
+  location: Perth, WA
   email: cao.zhanglong@gmail.com
 description: > # this means to ignore newlines until "show_excerpts:"
   This is my personal blog to share my experience and statistical theory and applications.
@@ -54,6 +55,26 @@ header_pages:
 # Build settings
 theme: minima
 
-plugins:
- - jekyll-feed
- - jekyll-seo-tag
+#plugins:
+# - jekyll-feed
+# - jekyll-seo-tag
+
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
