@@ -1,7 +1,11 @@
 ---
 layout: page
-title: Work
-permalink: /workdone/
+title: My Work
+permalink: /Workdone/
 ---
 
-This is a list of work I have done.
+This is a list of works/projects I have done.
+
+## 1 project one
+
+## project two
