@@ -12,9 +12,12 @@ permalink: /Reading/
 ## Non-professional Books
 
 ### Reading
-* Unworried Store (ナミヤ雑貨店の奇蹟, 解忧杂货店)
+* Word power made easy
+* 1984
 
 ### Read
+* Journey Under the Midnight Sun (白夜行)
+* Unworried Store (ナミヤ雑貨店の奇蹟, 解忧杂货店)
 * Bad Blood
 * Steve Jobs
 
@@ -24,7 +27,5 @@ permalink: /Reading/
 * Burkner, P. C. (2017). brms: An R package for Bayesian multilevel models using Stan. J. Stat. Softw., 80(1).
 * Burkner, P. C. (2018). Advanced Bayesian multilevel modeling with the R package brms. R J., 10(1):395-411.
 * Schmidt, P., Mohring, J., Koch, R. J., and Piepho, H. P. (2018). More, larger, simpler: How comparable are on-farm and on-station trials for cultivar evaluation? Crop Sci., 58(4):1508-1518.
-* Sorensen, T., Hohenstein, S., and Vasishth, S. (2016). Bayesian linear mixed models using Stan: A tutorial for
-psychologists, linguists, and cognitive scientists. Quant. Methods Psychol., 12(3):175-200.
-* Waldmann, P. and Ericsson, T. (2006). Comparison of REML and Gibbs sampling estimates of multi-trait genetic
-parameters in Scots pine. Theor. Appl. Genet., 112(8):1441-1451.
+* Sorensen, T., Hohenstein, S., and Vasishth, S. (2016). Bayesian linear mixed models using Stan: A tutorial for psychologists, linguists, and cognitive scientists. Quant. Methods Psychol., 12(3):175-200.
+* Waldmann, P. and Ericsson, T. (2006). Comparison of REML and Gibbs sampling estimates of multi-trait genetic parameters in Scots pine. Theor. Appl. Genet., 112(8):1441-1451.
