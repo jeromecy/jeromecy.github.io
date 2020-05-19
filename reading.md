@@ -8,15 +8,18 @@ permalink: /Reading/
 
 ## Professional Books
 
+* Design and anlaysis of experiments, Volume 3, Special Designs and Applications. Edited by Klaus Hinkelmann.
 
 ## Non-professional Books
 
 ### Reading
-* Word power made easy
+* Why we buy. The science of shopping
 * 1984
 
 ### Read
+* The Moon and Sixpence
 * Journey Under the Midnight Sun (白夜行)
+* Deep Work
 * Unworried Store (ナミヤ雑貨店の奇蹟, 解忧杂货店)
 * Bad Blood
 * Steve Jobs
