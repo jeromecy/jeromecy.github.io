@@ -15,14 +15,14 @@ minima:
 
   # generate social links in footer
   social_links:
-    twitter: https://twitter.com/JeromeCY ###jekyllrb
-    github: https://github.com/jeromecy ## jekyll
+    twitter: JeromeCY ###jekyllrb
+    github: jeromecy ## jekyll
     # devto: jekyll
     # dribbble: jekyll
     # facebook: jekyll
     # flickr:   jekyll
     # instagram: jekyll
-    linkedin: https://www.linkedin.com/in/zhanglong-cao-72208487 ## jekyll
+    linkedin: zhanglong-cao-72208487 ## jekyll
     # pinterest: jekyll
     # youtube: jekyll
     # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
