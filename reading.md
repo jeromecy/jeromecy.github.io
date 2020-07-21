@@ -13,10 +13,12 @@ permalink: /Reading/
 ## Non-professional Books
 
 ### Reading
-* Why we buy. The science of shopping
+* Decisive moments in history
 * 1984
 
 ### Read
+* Soul Cage (灵魂之匣)
+* Why we buy. The science of shopping
 * The Moon and Sixpence
 * Journey Under the Midnight Sun (白夜行)
 * Deep Work
@@ -25,6 +27,8 @@ permalink: /Reading/
 * Steve Jobs
 
 # Publications I am reading
+
+{% bibliography --cited %}
 
 * Baek, E., Beretvas, S. N., Van den Noortgate, W., and Ferron, J. M. (2019). Brief Research Report: Bayesian Versus REML Estimations With Noninformative Priors in Multilevel Single-Case Data. J. Exp. Educ., 0(0):1-13.
 * Burkner, P. C. (2017). brms: An R package for Bayesian multilevel models using Stan. J. Stat. Softw., 80(1).
