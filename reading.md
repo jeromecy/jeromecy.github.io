@@ -9,10 +9,12 @@ permalink: /Reading/
 * Design and anlaysis of experiments, Volume 3, Special Designs and Applications. Edited by Klaus Hinkelmann.
 
 ### In progress
-* Decisive moments in history
+* Hollow Cross 
 * 1984
 
 ### Finished
+* Decisive moments in history
+* Firefly Summer
 * Soul Cage (灵魂之匣)
 * Why we buy. The science of shopping
 * The Moon and Sixpence
