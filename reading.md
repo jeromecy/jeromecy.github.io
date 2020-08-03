@@ -9,10 +9,11 @@ permalink: /Reading/
 * Design and anlaysis of experiments, Volume 3, Special Designs and Applications. Edited by Klaus Hinkelmann.
 
 ### In progress
-* Hollow Cross 
 * 1984
+* Convenience Store
 
 ### Finished
+* Hollow Cross
 * Decisive moments in history
 * Firefly Summer
 * Soul Cage (灵魂之匣)
