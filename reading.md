@@ -9,10 +9,11 @@ permalink: /Reading/
 * Design and anlaysis of experiments, Volume 3, Special Designs and Applications. Edited by Klaus Hinkelmann.
 
 ### In progress
+* Why do you give up?
 * 1984
-* Convenience Store
 
 ### Finished
+* Convenience Store
 * Hollow Cross
 * Decisive moments in history
 * Firefly Summer
