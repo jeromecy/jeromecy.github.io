@@ -1,0 +1,10 @@
+I"n<p>This is the poster of my work with the supervisor Dr. Matthew Parry.</p>
+
+<p>Part 1 is given by Suman about OFE and GWR approach. The detail is referred to the <a href="https://doi.org/10.1016/j.fcr.2020.107783" target="_blank">publication</a>.</p>
+
+<h2 id="title-adaptive-sequential-mcmc-for-combined-state-and-parameters-estimation">Title: Adaptive Sequential MCMC for Combined State and Parameters Estimation</h2>
+
+<p>Abstract: Most algorithms for combined state and parameter estimation in state space models either estimate the states and parameters by incorporating the param-eters in the state space, or marginalize out the parameters through suﬃcient statistics. In the case of a linear state space model and starting with a joint distribution over states, observations and parameters, we implement an MCMC sampler with two phases. In the learning phase, a self-tuning sampler is used to learn the parameter mean and covariance structure. In the estimation phase, the parameter mean and covariance structure informs the proposal mechanism and is also used in a delayed-acceptance algorithm, which greatly improves sam-pling eﬃciency. Information on the resulting state of the system is given by a Gaussian mixture. In on-line mode, the algorithm is adaptive and uses a sliding window approach by cutting oﬀ historical data to accelerate sampling speed and to maintain appropriate acceptance rates. We apply the algorithm to joint state and parameter estimation in the case of irregularly sampled GPS time series data.</p>
+
+<p><a href="//JeromeCY.github.io/PDF/2018-BayesCompPoster.pdf" target="_blank">Presentation files</a></p>
+:ET
