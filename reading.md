@@ -2,6 +2,7 @@
 layout: page
 title: Reading list
 permalink: /Reading/
+group: navigation
 ---
 
 ## Professional Books

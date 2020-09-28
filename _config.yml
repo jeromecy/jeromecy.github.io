@@ -1,77 +1,52 @@
-title: ZCao's space
-author:
-  name: Zhanglong Cao
-  location: Perth, WA
-  email: cao.zhanglong@gmail.com
-description: > # this means to ignore newlines until "show_excerpts:"
-  This is my personal blog to share my experience and statistical theory and applications.
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
 
-show_excerpts: true # set to true to show excerpts on the homepage
-
-# Minima date format
-# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
-minima:
-  date_format: "%d/%m/%Y"
-
-  # generate social links in footer
-  social_links:
-    twitter: JeromeCY ###jekyllrb
-    github: jeromecy ## jekyll
-    # devto: jekyll
-    # dribbble: jekyll
-    # facebook: jekyll
-    # flickr:   jekyll
-    # instagram: jekyll
-    linkedin: zhanglong-cao-72208487 ## jekyll
-    # pinterest: jekyll
-    # youtube: jekyll
-    # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
-    # youtube_channel_name: CloudCannon
-    # telegram: jekyll
-    # googleplus: +jekyll
-    # microdotblog: jekyll
-    # keybase: jekyll
-
-    # Mastodon instances
-    # mastodon:
-    # - username: jekyll
-    #   instance: example.com
-    # - username: jekyll2
-    #   instance: example.com
-
-    # GitLab instances
-    # gitlab:
-    # - username: jekyll
-    #   instance: example.com
-    # - username: jekyll2
-    #   instance: example.com
-
-# If you want to link only specific pages in your header, uncomment
-# this and add the path to the pages in order as they should show up
-header_pages:
- - reading.md
- - workdone.md
- - about.md
-
-
-# Build settings
-theme: minima
-
-plugins:
- - jekyll-feed
-
-# - jekyll-seo-tag
-
-
-# Conversion
-markdown: kramdown
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
 highlighter: rouge
+markdown: kramdown
+
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
 
-# Markdown Processing
+disqus: zcao
+google_analytics: dbyll
+title: Zhanglong Cao
+location: Perth, WA
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: # ZCAO's SPACE
+
+description: This is my homepage for sharing knowledge and experience.
+author:
+  name: Dr. Zhanglong Cao
+  github: jeromecy
+  twitter: JeromeCY
+  linkedin: zhanglong-cao-72208487
+  email: cao.zhanglong@gmail.com
+#  pinterest: asd123
+  bio: Statistician, Biometrician
+  email_md5: 9f00102e0a362e3a92ccefd0d35c6e5d
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+# set it as url of an image
+# sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
+
+BASE_PATH:
+
+plugins:
+  - jekyll-paginate
+
+
 kramdown:
   input: GFM
   hard_wrap: false
