@@ -1,31 +1,30 @@
----
-layout: page
-title: Reading list
-permalink: /Reading/
-group: navigation
----
+I"�<h2 id="professional-books">Professional Books</h2>
 
-## Professional Books
+<ul>
+  <li>Design and anlaysis of experiments, Volume 3, Special Designs and Applications. Edited by Klaus Hinkelmann.</li>
+</ul>
 
-* Design and anlaysis of experiments, Volume 3, Special Designs and Applications. Edited by Klaus Hinkelmann.
+<h3 id="in-progress">In progress</h3>
+<ul>
+  <li>Why do you give up?</li>
+  <li>1984</li>
+</ul>
 
-### In progress
-* Why do you give up?
-* 1984
-
-### Finished
-* Convenience Store
-* Hollow Cross
-* Decisive moments in history
-* Firefly Summer
-* Soul Cage (灵魂之匣)
-* Why we buy. The science of shopping
-* The Moon and Sixpence
-* Journey Under the Midnight Sun (白夜行)
-* Deep Work
-* Unworried Store (ナミヤ雑貨店の奇蹟, 解忧杂货店)
-* Bad Blood
-* Steve Jobs
+<h3 id="finished">Finished</h3>
+<ul>
+  <li>Convenience Store</li>
+  <li>Hollow Cross</li>
+  <li>Decisive moments in history</li>
+  <li>Firefly Summer</li>
+  <li>Soul Cage (灵魂之匣)</li>
+  <li>Why we buy. The science of shopping</li>
+  <li>The Moon and Sixpence</li>
+  <li>Journey Under the Midnight Sun (白夜行)</li>
+  <li>Deep Work</li>
+  <li>Unworried Store (ナミヤ雑貨店の奇蹟, 解忧杂货店)</li>
+  <li>Bad Blood</li>
+  <li>Steve Jobs</li>
+</ul>
 
 <!-- ## Publications I am reading
 
@@ -36,3 +35,4 @@ group: navigation
 * Griffin, T. W., Dobbins, C. L., Vyn, T. J., Florax, R. J. G. M. G. M., & Lowenberg-Deboer, J. M. (2008). Spatial analysis of yield monitor data: Case studies of on-farm trials and farm management decision making. Precis. Agric., 9(5), 269–283. https://doi.org/10.1007/s11119-008-9072-2
 * Bates, D., Mächler, M., Bolker, B. M., & Walker, S. C. (2015). Fitting linear mixed-effects models using lme4. Journal of Statistical Software, 67(1). https://doi.org/10.18637/jss.v067.i01
 * Hurley, T. M., Malzer, G. L., & Kilian, B. (2004). Estimating site-specific nitrogen crop response functions: A conceptual framework and geostatistical model. Agronomy Journal, 96(5), 1331–1343. https://doi.org/10.2134/agronj2004.1331 -->
+:ET
