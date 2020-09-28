@@ -2,7 +2,7 @@
 layout: post
 title:  分享一下在新西兰打官司（维权）的经历
 date:   2018-07-24 00:00:00 +0800
-categories: document
+categories: Life
 tag: NZ
 ---
 
