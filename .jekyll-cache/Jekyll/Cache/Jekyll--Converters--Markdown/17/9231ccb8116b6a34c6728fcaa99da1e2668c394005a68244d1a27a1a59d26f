@@ -1,8 +1,0 @@
-I"Ù<p>The first international conference that I attended at Dec 2016. This is part of the work during my PhD at the University of Otago.</p>
-
-<h2 id="title-trajectory-estimation-from-gps-data-using-an-adaptive-smoothing-spline">Title: Trajectory estimation from GPS data using an adaptive smoothing spline</h2>
-
-<p>Abstract: Accommodating spatial variation is common in analysing field trials, and has become a challenge in large on-farm experiments. Simple linear mixed models and Gaussian distribution are incapable of dealing with complex data sets and results in misspecification. This paper describes a Bayesian framework to analyse the model with spatially correlated random parameters for large on-farm experiments. With advanced model diagnostic tools, we found that the model with Gaussian assumption is misspecified. Therefore, we use Student distribution with which the model is augmented. The open-source R-code that implements our proposed method for analysing on-farm data is provided for further use. We also discuss the difference of the Bayesian approach and GWR, and compare the results from these two approaches.</p>
-
-<p><a href="//JeromeCY.github.io/PDF/2020-SAGISymposiumOFE.pdf" target="_blank">Presentation files</a></p>
-:ET

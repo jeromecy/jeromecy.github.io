@@ -1,0 +1,4 @@
+I"µ<p>Recently, I encountered a problem with using PSIS and Pareto k for model diagnostics and selection. Some models have good posterior predictive checking performance but a few terrible Pareto k values. And sometimes, a model with more high k values might be misspecified.</p>
+
+<p>A discussion is at <a href="https://discourse.mc-stan.org/t/good-pp-check-and-r-square-but-large-pareto-k-values/17678" target="_blank">Stan forum</a>.</p>
+:ET

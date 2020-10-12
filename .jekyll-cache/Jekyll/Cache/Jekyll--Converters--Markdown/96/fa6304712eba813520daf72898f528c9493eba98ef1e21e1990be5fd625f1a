@@ -1,0 +1,6 @@
+I"×<h2 id="title-spline-based-approach-to-infer-farm-vehicle-trajectories">Title: Spline-based approach to infer farm vehicle trajectories</h2>
+
+<p>Abstract: Tractors, working on an orchard or vineyard, are often fitted with GPS units. These GPS units provide position and velocity information with errors to orchardists, who want to know exactly where these tractors have been. A smoothing spline is a promising method to infer such trajectories. I develop a smoothing spline that incorporates velocity information but penalises excessive accelerations. The application that concerns my industry partner is tractors in spraying mode. The penalty term is therefore also dependent on spraying state. We develop cross validation techniques to find the three smoothing parameters of interest. A simulation study and real data example are presented to demonstrate the effectiveness of this new method.</p>
+
+<p><a href="//JeromeCY.github.io/PDF/2015-NZMASP.pdf" target="_blank">PDF.</a></p>
+:ET
