@@ -1,4 +1,4 @@
-I"+<p>I am working as a statistician/biometrician at SAGI West (Statistics for the Australian Grains Industry – Western region)/Curtin University.</p>
+I"<.<p>I am working as a statistician/biometrician at SAGI West (Statistics for the Australian Grains Industry – Western region)/Curtin University.</p>
 
 <h2 id="education">Education</h2>
 
@@ -31,15 +31,11 @@
 <p><strong>Publications</strong></p>
 
 <ul>
-  <li>S. Rakshit, et al, Novel approach to the analysis of spatially-varying treatment effects in on-farm experiments,
-Field Crops Research, June, 2020.</li>
-  <li>M. Shankar, et al, Targeting improved partial resistance using yield-loss response curves for foliar diseases
-of wheat, GRDC updates, 2020.</li>
-  <li>Z. Cao, D. Bryant, T. Molteno, C. Fox, M. Parry. Adaptive Smoothing V-Spline for Trajectory Reconstruction,
-Submitted to Journal of Computational and Graphical Statistics</li>
-  <li>Z. Cao, D. Bryant, M. Parry. Adaptive Sequential MCMC for Combined State and Parameter Estimation,
-arXiv:1803.07734.</li>
-  <li>Z. Cao, D. Bryant, M. Parry, V-Spline as Bayes Estimates, arXiv:1803.07645.1</li>
+  <li>S. Rakshit, et al, Novel approach to the analysis of spatially-varying treatment effects in on-farm experiments, Field Crops Research, June, 2020. <a href="https://doi.org/10.1016/j.fcr.2020.107783">DOI:10.1016/j.fcr.2020.107783</a></li>
+  <li>M. Shankar, et al, Targeting improved partial resistance using yield-loss response curves for foliar diseases of wheat, GRDC updates, 2020. <a href="https://grdc.com.au/resources-and-publications/grdc-update-papers/tab-content/grdc-update-papers/2020/02/targeting-improved-partial-resistance-using-yield-loss-response-curves-for-foliar-diseases-of-wheat">Link to webpage</a></li>
+  <li>Z. Cao, D. Bryant, M. Parry. Adaptive Sequential MCMC for Combined State and Parameter Estimation, <a href="https://arxiv.org/abs/1803.07734">arXiv:1803.07734</a></li>
+  <li>Z. Cao, D. Bryant, M. Parry, V-Spline as Bayes Estimates, <a href="https://arxiv.org/abs/1803.07645">arXiv:1803.07645.1</a></li>
+  <li>Z. Cao, D. Bryant, T. Molteno, C. Fox, M. Parry. Adaptive Smoothing V-Spline for Trajectory Reconstruction, Submitted to Journal of Computational and Graphical Statistics. <a href="https://arxiv.org/abs/1803.07184">arXiv:1803.07184</a></li>
   <li>X.L. Wang, Z. Cao. Unicity Theorems of Meromorphic Functions with Three Weighted Sharing Values,
 Chinese Quarterly Journal of Mathematics, 2012, 27(1):110-116</li>
   <li>Z. Cao, X.L. Wang. Meromorphic Functions Sharing Two Sets with Weighted Value of One, Journal of the
@@ -47,8 +43,9 @@ University of Shanghai for Science and Technology, Vol.32, No.5, 2010.</li>
 </ul>
 
 <p><strong>Manuscripts in preparation</strong></p>
+
 <ul>
-  <li>S. Rakshit, Z. Cao. Bayesian Inference of Spatially Correlated Random Parameters for On-farm Experiment.</li>
+  <li>Z. Cao., S. Rakshit. Bayesian Inference of Spatially Correlated Random Parameters for On-farm Experiment.</li>
   <li>F. Evans, Z. Cao, S. Cook. Analysis of data from large of on-farm experiments using Bayesian latent
 Gaussian models.</li>
   <li>M. Ashworth, R.L. Rocha, R. Devlin, R. Smith, Z. Cao. The interaction between wheat (Triticum aestivum)
@@ -67,6 +64,7 @@ with wheat (Triticum aestivum L.).</li>
 </ul>
 
 <p><strong>Conferences and Seminars</strong></p>
+
 <ul>
   <li>SAGI Symposium, Sep 2020, On-farm Strip Trials: going beyond small plot experiments</li>
   <li>IBS Dec 2019, Adelaide, Model selection and principle of parsimony in statistical modelling in agriculture.</li>
@@ -95,6 +93,12 @@ Dr Mike Ashworth.</li>
 of Life Sciences, La Trobe University.</li>
 </ul>
 
+<p><strong>R-package</strong></p>
+
+<ul>
+  <li><em>V-Spline</em>. Adaptive V-spline and the Bayesian estimates. Refer to <a href="https://github.com/jeromecy/VSplinePackage">Github repository</a>.</li>
+</ul>
+
 <h2 id="work-experience">Work experience</h2>
 
 <ul>
@@ -105,8 +109,7 @@ of Life Sciences, La Trobe University.</li>
       <dd><em>Research Associate (Full time)</em>,</dd>
       <dd>
         <ul>
-          <li>Biometrician: Work closely with agronomists and plant breeders. Advise and consult with research and
-advisory staff on the experimental design and statistical analysis of experiments.</li>
+          <li>Biometrician: Work closely with agronomists and plant breeders. Advise and consult with research and advisory staff on the experimental design and statistical analysis of experiments.</li>
         </ul>
       </dd>
       <dd>
@@ -128,8 +131,7 @@ advisory staff on the experimental design and statistical analysis of experiment
       <dd><em>Research Assistant (Part-time)</em></dd>
       <dd>
         <ul>
-          <li>R Programmer: Working on genotype imputation research topic. Assisting with developing and coding in
-R to achieve a higher accuracy and efficiency. Testing computer code for big data set.</li>
+          <li>R Programmer: Working on genotype imputation research topic. Assisting with developing and coding in R to achieve a higher accuracy and efficiency. Testing computer code for big data set.</li>
         </ul>
       </dd>
       <dd>
@@ -153,7 +155,7 @@ R to achieve a higher accuracy and efficiency. Testing computer code for big dat
         <ul>
           <li>Teaching Fellow: Taught STATS 110 summer school 2016, 2017 and 2018. It was a collaborative work
 with other two Ph.D. students. Each of us taught one-third of the course book. My portion covered basic
-distribution definitions, hypothesis testing, 2 testing and contingency table.</li>
+distribution definitions, hypothesis testing, <code class="language-plaintext highlighter-rouge">R2</code> testing and contingency table.</li>
         </ul>
       </dd>
       <dd>
@@ -165,7 +167,7 @@ distribution definitions, hypothesis testing, 2 testing and contingency table.<
   </li>
   <li>
     <dl>
-      <dt>May - August 2014</dt>
+      <dt>May — August 2014</dt>
       <dd><strong>Honghai Longteng E-Commercial Ltd Company, Jinan, China</strong></dd>
       <dd><em>Senior Data Analyst (Full time)</em></dd>
       <dd>
@@ -194,7 +196,7 @@ distribution definitions, hypothesis testing, 2 testing and contingency table.<
     <dl>
       <dt>Jul 2011 — Jun 2013</dt>
       <dd><strong>Beijing Yisheng Leju Information Service Ltd Company, Beijing, China</strong></dd>
-      <dd><em>Data Analyst</em></dd>
+      <dd><em>Data Analyst (Full time)</em></dd>
       <dd>
         <ul>
           <li>Products Manager: Managed network products and provided product management service to clients.</li>
@@ -217,40 +219,33 @@ career in this company.</li>
     <dl>
       <dt>Jul — Oct 2010</dt>
       <dd><strong>Bureau of Shanghai World Expo Coordination</strong></dd>
-      <dd><em>Data Analyst/Leader of New System Research Group, (Internship)</em>
-· Data Analyst Analyzed hourly and daily visitors’ data for the site operation and control center. Predicted
-the number of visitors to the Expo Park in the following 2 and 3 days.
-· Group Leader Led a group of staff to develop advanced forecasting mathematical model and system, which
-have more precise hourly and daily predictions. This work was reported in newspapers and other media.
-· Volunteer Volunteer of Shanghai Expo 2010. Provided services for visitors in the Expo site.</dd>
+      <dd><em>Data Analyst/Leader of New System Research Group (Internship)</em></dd>
+      <dd>
+        <ul>
+          <li>Data Analyst: Analyzed hourly and daily visitors’ data for the site operation and control center. Predicted the number of visitors to the Expo Park in the following 2 and 3 days.</li>
+        </ul>
+      </dd>
+      <dd>
+        <ul>
+          <li>Group Leader: Led a group of staff to develop advanced forecasting mathematical model and system, which have more precise hourly and daily predictions. This work was reported in newspapers and other media.</li>
+        </ul>
+      </dd>
+      <dd>
+        <ul>
+          <li>Volunteer: Volunteer of Shanghai Expo 2010. Provided services for visitors in the Expo site.</li>
+        </ul>
+      </dd>
     </dl>
   </li>
 </ul>
 
-<h2 id="extra-section-call-it-whatever-you-want">Extra Section, Call it Whatever You Want</h2>
+<h2 id="programming-skills">Programming skills</h2>
 
 <ul>
-  <li>
-    <p>Human Languages:</p>
-
-    <ul>
-      <li>English (native speaker)</li>
-      <li>???</li>
-      <li>This is what a nested list looks like.</li>
-    </ul>
-  </li>
-  <li>
-    <p>Random tidbit</p>
-  </li>
-  <li>
-    <p>Other sort of impressive-sounding thing you did</p>
-  </li>
+  <li><code class="language-plaintext highlighter-rouge">R</code> (professional)</li>
+  <li><code class="language-plaintext highlighter-rouge">Python</code> (medium level)</li>
+  <li><code class="language-plaintext highlighter-rouge">Julia</code> (new)</li>
 </ul>
 
-<hr />
-
-<blockquote>
-  <p><a href="mailto:email@example.com">email@example.com</a> • +00 (0)00 000 0000 • XX years old<br />
-address - Mytown, Mycountry</p>
-</blockquote>
+<p>Here is my project <a href="https://github.com/jeromecy">Github repository</a>.</p>
 :ET

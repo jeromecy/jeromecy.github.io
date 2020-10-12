@@ -51,15 +51,9 @@ Gaussian models.
 - M. Ashworth, R.L. Rocha, R. Devlin, R. Smith, Z. Cao. The interaction between wheat (Triticum aestivum)
 establishment timing and pre-emergent herbicides choice on annual ryegrass (Lolium rigidum Gaud.) growth
 and competition.
-- M. Ashworth, R.L. Rocha, R. Devlin, R. Smith, Z. Cao. The interaction between seeding rate and row spacing
-of hybrid and open pollinated canola (Brassica napus) varieties on wild radish (Raphanus raphanistrum)
-growth and seed production.
-- M. Ashworth, R.L. Rocha, R. Devlin, R. Smith, Z. Cao. The interaction between seeding rate and seed size
-of hybrid and open pollinated canola (Brassica napus) varieties on annual ryegrass (Lolium rigidum) growth
-and competition.
-- M. Ashworth, R.L. Rocha, R. Devlin, R. Smith, Z. Cao. The contribution of nitrogen fertilizer timing and
-placement in reducing the growth and seed production of ryegrass (Lolium rigidum Gaudin) in competition
-with wheat (Triticum aestivum L.).
+- M. Ashworth, R.L. Rocha, R. Devlin, R. Smith, Z. Cao. The interaction between seeding rate and row spacing of hybrid and open pollinated canola (Brassica napus) varieties on wild radish (Raphanus raphanistrum) growth and seed production.
+- M. Ashworth, R.L. Rocha, R. Devlin, R. Smith, Z. Cao. The interaction between seeding rate and seed size of hybrid and open pollinated canola (Brassica napus) varieties on annual ryegrass (Lolium rigidum) growth and competition.
+- M. Ashworth, R.L. Rocha, R. Devlin, R. Smith, Z. Cao. The contribution of nitrogen fertilizer timing and placement in reducing the growth and seed production of ryegrass (Lolium rigidum Gaudin) in competition with wheat (Triticum aestivum L.).
 - Z. Cao, M. Lee. Assessing accuracy of imputation using different SNP panel densities.
 
 
@@ -90,9 +84,21 @@ Dr Mike Ashworth.
 - National Phenology Initiative 2020. Collaboration with NPI Team, Animal Plant and Soil Sciences, School
 of Life Sciences, La Trobe University.
 
+
+**Shinyapp**
+
+The *Yield Response Curves (YRC) project (DAW00245)* was a national collaboration initiated by the Grains Research and Development Corporation to deliver quantitative information on wheat and barley variety yield response to disease, as mediated by variety resistance. The main project outputs describe the relationships between yield and disease (yield response curves) for a range of resistance classes under a range of disease pressures. The project prioritised regionally important pathogens.
+
+This site has been designed to enable access to a comprehensive series of experiments, conducted throughout the course of the project, in the form of multi-environment trial (MET) analysed results summaries presented using ShinyR data visualisation. Results by disease can be viewed at a high level and also drilled down into further detail, as required by the user. The visualisation tools enable users to compare analysed results dynamically for ease of interpretation and to export the depicted relationships in the form of screen shots of graphs or tables.
+
+*The project partners included Department of Primary Industries and Regional Development Western Australia; Department of Agriculture and Fisheries, Queensland; Agriculture Victoria, Victoria; Department of Primary Industries, New South Wales.*
+
+The APP is at [https://zhanglong.shinyapps.io/Demo/](https://zhanglong.shinyapps.io/Demo)
+
+
 **R-package**
 
-- *V-Spline*. Adaptive V-spline and the Bayesian estimates. Refer to [Github repository](https://github.com/jeromecy/VSplinePackage).
+- `V-Spline`. Adaptive V-spline and the Bayesian estimates. Refer to [Github repository](https://github.com/jeromecy/VSplinePackage).
 
 
 
@@ -102,16 +108,14 @@ Work experience
 - Nov 2018 --- present
 :   **SAGI West, Curtin University, Perth, Australia**
 :   *Research Associate (Full time)*,
-:   - Biometrician: Work closely with agronomists and plant breeders. Advise and consult with research and
-advisory staff on the experimental design and statistical analysis of experiments.
+:   - Biometrician: Work closely with agronomists and plant breeders. Advise and consult with research and advisory staff on the experimental design and statistical analysis of experiments.
 :   - Statistician: Contribute to research output. Develop cutting-edge statistical methodology and algorithms.
 :   - Publish/exhibit in high quality journals/outlets.
 
 - Mar 2018 --- Nov 2018
 :   **University of Otago, Dunedin, New Zealand**
 :   *Research Assistant (Part-time)*
-:   - R Programmer: Working on genotype imputation research topic. Assisting with developing and coding in
-R to achieve a higher accuracy and efficiency. Testing computer code for big data set.
+:   - `R` Programmer: Working on genotype imputation research topic. Assisting with developing and coding in R to achieve a higher accuracy and efficiency. Testing computer code for big data set.
 :   - Data Analyst: Assisting with analysing results to linear mixed models on the topic about genotype imputation accuracy.
 
 
@@ -121,7 +125,7 @@ R to achieve a higher accuracy and efficiency. Testing computer code for big dat
 :   - Statistician: Worked on a joint project with Physics department. Used statistical modeling method to infer trajectories of moving vehicles from noisy GPS data.
 :   - Teaching Fellow: Taught STATS 110 summer school 2016, 2017 and 2018. It was a collaborative work
 with other two Ph.D. students. Each of us taught one-third of the course book. My portion covered basic
-distribution definitions, hypothesis testing, 2 testing and contingency table.
+distribution definitions, hypothesis testing, `R2` testing and contingency table.
 :   - Tutor: Tutored Stats and Maths undergraduates from 2015 to 2017.
 
 
@@ -154,8 +158,8 @@ career in this company.
 Programming skills
 ----------------------
 
-- R (professional)
-- Python (medium level)
-- Julia (new)
+- `R` (professional)
+- `Python` (medium level)
+- `Julia` (new)
 
 Here is my project [Github repository](https://github.com/jeromecy).
