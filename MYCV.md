@@ -159,7 +159,7 @@ Programming skills
 ----------------------
 
 - `R` (professional)
-- `Python` (medium level)
+- `Python` (intermediate level)
 - `Julia` (new)
 
 Here is my project [Github repository](https://github.com/jeromecy).
