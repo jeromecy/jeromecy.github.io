@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1603335697423.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2032480223",
+    "id" : "6C0CCB95",
+    "lastKnownWriteTime" : 1603335527,
+    "last_content_update" : 1603335527,
+    "path" : "~/Personal/MyBlog/_posts/2020-10-22-LMM-notes.Rmd",
+    "project_path" : "_posts/2020-10-22-LMM-notes.Rmd",
+    "properties" : {
+        "cursorPosition" : "2,7",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

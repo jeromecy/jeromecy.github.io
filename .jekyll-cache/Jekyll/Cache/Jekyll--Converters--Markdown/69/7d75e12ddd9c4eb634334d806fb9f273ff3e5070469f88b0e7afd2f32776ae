@@ -1,4 +1,4 @@
-I"§.<p>I am working as a statistician/biometrician at SAGI West (Statistics for the Australian Grains Industry â€“ Western region)/Curtin University.</p>
+I"³4<p>I am working as a statistician/biometrician at SAGI West (Statistics for the Australian Grains Industry â€“ Western region)/Curtin University.</p>
 
 <h2 id="education">Education</h2>
 
@@ -51,15 +51,9 @@ Gaussian models.</li>
   <li>M. Ashworth, R.L. Rocha, R. Devlin, R. Smith, Z. Cao. The interaction between wheat (Triticum aestivum)
 establishment timing and pre-emergent herbicides choice on annual ryegrass (Lolium rigidum Gaud.) growth
 and competition.</li>
-  <li>M. Ashworth, R.L. Rocha, R. Devlin, R. Smith, Z. Cao. The interaction between seeding rate and row spacing
-of hybrid and open pollinated canola (Brassica napus) varieties on wild radish (Raphanus raphanistrum)
-growth and seed production.</li>
-  <li>M. Ashworth, R.L. Rocha, R. Devlin, R. Smith, Z. Cao. The interaction between seeding rate and seed size
-of hybrid and open pollinated canola (Brassica napus) varieties on annual ryegrass (Lolium rigidum) growth
-and competition.</li>
-  <li>M. Ashworth, R.L. Rocha, R. Devlin, R. Smith, Z. Cao. The contribution of nitrogen fertilizer timing and
-placement in reducing the growth and seed production of ryegrass (Lolium rigidum Gaudin) in competition
-with wheat (Triticum aestivum L.).</li>
+  <li>M. Ashworth, R.L. Rocha, R. Devlin, R. Smith, Z. Cao. The interaction between seeding rate and row spacing of hybrid and open pollinated canola (Brassica napus) varieties on wild radish (Raphanus raphanistrum) growth and seed production.</li>
+  <li>M. Ashworth, R.L. Rocha, R. Devlin, R. Smith, Z. Cao. The interaction between seeding rate and seed size of hybrid and open pollinated canola (Brassica napus) varieties on annual ryegrass (Lolium rigidum) growth and competition.</li>
+  <li>M. Ashworth, R.L. Rocha, R. Devlin, R. Smith, Z. Cao. The contribution of nitrogen fertilizer timing and placement in reducing the growth and seed production of ryegrass (Lolium rigidum Gaudin) in competition with wheat (Triticum aestivum L.).</li>
   <li>Z. Cao, M. Lee. Assessing accuracy of imputation using different SNP panel densities.</li>
 </ul>
 
@@ -92,6 +86,16 @@ Dr Mike Ashworth.</li>
   <li>National Phenology Initiative 2020. Collaboration with NPI Team, Animal Plant and Soil Sciences, School
 of Life Sciences, La Trobe University.</li>
 </ul>
+
+<p><strong>Shinyapp</strong></p>
+
+<p>The <em>Yield Response Curves (YRC) project (DAW00245)</em> was a national collaboration initiated by the Grains Research and Development Corporation to deliver quantitative information on wheat and barley variety yield response to disease, as mediated by variety resistance. The main project outputs describe the relationships between yield and disease (yield response curves) for a range of resistance classes under a range of disease pressures. The project prioritised regionally important pathogens.</p>
+
+<p>This site has been designed to enable access to a comprehensive series of experiments, conducted throughout the course of the project, in the form of multi-environment trial (MET) analysed results summaries presented using <code class="language-plaintext highlighter-rouge">ShinyR</code> data visualisation. Results by disease can be viewed at a high level and also drilled down into further detail, as required by the user. The visualisation tools enable users to compare analysed results dynamically for ease of interpretation and to export the depicted relationships in the form of screen shots of graphs or tables.</p>
+
+<p><em>The project partners included Department of Primary Industries and Regional Development Western Australia; Department of Agriculture and Fisheries, Queensland; Agriculture Victoria, Victoria; Department of Primary Industries, New South Wales.</em></p>
+
+<p>The APP is at <a href="https://zhanglong.shinyapps.io/Demo">https://zhanglong.shinyapps.io/Demo/</a></p>
 
 <p><strong>R-package</strong></p>
 
@@ -243,7 +247,7 @@ career in this company.</li>
 
 <ul>
   <li><code class="language-plaintext highlighter-rouge">R</code> (professional)</li>
-  <li><code class="language-plaintext highlighter-rouge">Python</code> (medium level)</li>
+  <li><code class="language-plaintext highlighter-rouge">Python</code> (intermediate level)</li>
   <li><code class="language-plaintext highlighter-rouge">Julia</code> (new)</li>
 </ul>
 

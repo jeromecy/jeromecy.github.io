@@ -1,0 +1,67 @@
+---
+title: "A note on estimating LMM with REML and Bayesian approaches"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+I encountered that REML and Bayesian approahes treat the random term $u$ of a linear mixed model differently. 
+
+
+Suppose we have a linear mixed model
+\begin{equation}
+y=X\beta + Zu+e,
+\end{equation}
+with $E[u]=0$, $E[e]=0$ and 
+\begin{equation}
+Var \begin{bmatrix} u \\ e \end{bmatrix} = \begin{bmatrix}
+G & 0 \\ 0 & R \end{bmatrix}.
+\end{equation}
+
+
+## REML
+REML has the assumption that 
+\begin{align}
+E[y] &= X\beta \\
+Var[y] &= ZGZ^\top+R. 
+\end{align}
+Then it calculates the BLUP in the following way that
+\begin{align}
+X^\top R^{-1}X\hat{\beta} + X^\top R^{-1}Z\hat{u} &= X^\top R^{-1} y \\
+Z^\top R^{-1} X\hat{\beta} + (Z^\top R^{-1} Z +G^{-1})\hat{u} &= Z^\top R^{-1} y
+\end{align}
+which, further with $V = ZGZ^\top + R$, are
+\begin{align}
+\hat{\beta} &= (X^\top V^{-1}X)^{-1} X^\top V^{-1}y\\
+\hat{u} &= (Z^\top R^{-1} Z+G^{-1})^{-1}Z^\top R^{-1}(I - X(X^\top V^{-1}X)^{-1}X^\top V^{-1})y \\ 
+&= GZ^\top V^{-1}(I - X(X^\top V^{-1}X)^{-1}X^\top V^{-1})y
+\end{align}
+
+
+## Bayesian
+
+Alternatively, Bayesian analysis uses
+\begin{align}
+E[y] &= X\beta + Zu \\
+Var[y] &= R. 
+\end{align}
+It is different from maximum likelihood approaches, Bayesian approaches treat $u$ as model parameters in the same manner as $\beta$ rather than assuming it is part of the error term. In this way, the uncertainty in its estimates can be naturally evaluated \citep{Burkner2017brms}. 
+
+Then the Bayesian inference will be
+\begin{equation}
+p(\theta\mid y) \propto p(y\mid\theta)\pi(\theta),
+\end{equation}
+which is also called the marginal posterior distribution. The distribution of $p(\theta\mid y)$ is the ``Bayesian inference'' of the parameter because all information about $\theta$ is contained in the distribution. Then, by taking natural logarithm on the posterior, for multivariate Gaussian distribution, we will have
+\begin{equation}
+L(\theta) \propto -\frac{1}{2} (y-X\beta-Zu)^\top R^{-1}(y-X\beta-Zu) -\frac{1}{2}\ln\det R  + \ln \pi(\theta),
+\end{equation}
+
+
+
+
+
+
+
+
