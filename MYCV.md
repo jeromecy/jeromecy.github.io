@@ -42,18 +42,11 @@ Chinese Quarterly Journal of Mathematics, 2012, 27(1):110-116
 University of Shanghai for Science and Technology, Vol.32, No.5, 2010.
 
 
-
 **Manuscripts in preparation**
 
 - Z. Cao., S. Rakshit. Bayesian Inference of Spatially Correlated Random Parameters for On-farm Experiment.
 - F. Evans, Z. Cao, S. Cook. Analysis of data from large of on-farm experiments using Bayesian latent
 Gaussian models.
-- M. Ashworth, R.L. Rocha, R. Devlin, R. Smith, Z. Cao. The interaction between wheat (Triticum aestivum)
-establishment timing and pre-emergent herbicides choice on annual ryegrass (Lolium rigidum Gaud.) growth
-and competition.
-- M. Ashworth, R.L. Rocha, R. Devlin, R. Smith, Z. Cao. The interaction between seeding rate and row spacing of hybrid and open pollinated canola (Brassica napus) varieties on wild radish (Raphanus raphanistrum) growth and seed production.
-- M. Ashworth, R.L. Rocha, R. Devlin, R. Smith, Z. Cao. The interaction between seeding rate and seed size of hybrid and open pollinated canola (Brassica napus) varieties on annual ryegrass (Lolium rigidum) growth and competition.
-- M. Ashworth, R.L. Rocha, R. Devlin, R. Smith, Z. Cao. The contribution of nitrogen fertilizer timing and placement in reducing the growth and seed production of ryegrass (Lolium rigidum Gaudin) in competition with wheat (Triticum aestivum L.).
 - Z. Cao, M. Lee. Assessing accuracy of imputation using different SNP panel densities.
 
 
@@ -74,6 +67,11 @@ Weighted Values.
 
 **Project reports**
 
+- M. Ashworth, R.L. Rocha, R. Devlin, R. Smith, Z. Cao. The interaction between wheat (Triticum aestivum) establishment timing and pre-emergent herbicides choice on annual ryegrass (Lolium rigidum Gaud.) growth and competition.
+- M. Ashworth, R.L. Rocha, R. Devlin, R. Smith, Z. Cao. The interaction between seeding rate and row spacing of hybrid and open pollinated canola (Brassica napus) varieties on wild radish (Raphanus raphanistrum) growth and seed production.
+- M. Ashworth, R.L. Rocha, R. Devlin, R. Smith, Z. Cao. The interaction between seeding rate and seed size of hybrid and open pollinated canola (Brassica napus) varieties on annual ryegrass (Lolium rigidum) growth and competition.
+- M. Ashworth, R.L. Rocha, R. Devlin, R. Smith, Z. Cao. The contribution of nitrogen fertilizer timing and placement in reducing the growth and seed production of ryegrass (Lolium rigidum Gaudin) in competition with wheat (Triticum aestivum L.).
+
 - Low weed seed bank persistence under sustained integrated weed management, 2019. Collaboration with
 Dr Mike Ashworth from Australian Herbicide Resistance Initiative (AHRI).
 - Wodjil Workout – Rise of the pH, 2019. Collaboration with TekAg.
@@ -81,19 +79,20 @@ Dr Mike Ashworth from Australian Herbicide Resistance Initiative (AHRI).
 Dr Mike Ashworth.
 - Crop competition for weed control and maintenance of crop yield, 2020. Collaboration with Dr Mike Ashworth.
 - Investigating Susceptibility of Plant breeds to Fungal Disease. Collaboration with Prof Michael Francki from the Department of Primary Industries and Regional Development.
-- National Phenology Initiative 2020. Collaboration with NPI Team, Animal Plant and Soil Sciences, School
-of Life Sciences, La Trobe University.
+- National Phenology Initiative 2020. Collaboration with NPI Team, Animal Plant and Soil Sciences, School of Life Sciences, La Trobe University.
 
 
 **Shinyapp**
 
-The *Yield Response Curves (YRC) project (DAW00245)* was a national collaboration initiated by the Grains Research and Development Corporation to deliver quantitative information on wheat and barley variety yield response to disease, as mediated by variety resistance. The main project outputs describe the relationships between yield and disease (yield response curves) for a range of resistance classes under a range of disease pressures. The project prioritised regionally important pathogens.
+- The *Yield Response Curves (YRC) project (DAW00245)* was a national collaboration initiated by the Grains Research and Development Corporation to deliver quantitative information on wheat and barley variety yield response to disease, as mediated by variety resistance. The main project outputs describe the relationships between yield and disease (yield response curves) for a range of resistance classes under a range of disease pressures. The project prioritised regionally important pathogens.
 
 This site has been designed to enable access to a comprehensive series of experiments, conducted throughout the course of the project, in the form of multi-environment trial (MET) analysed results summaries presented using `ShinyR` data visualisation. Results by disease can be viewed at a high level and also drilled down into further detail, as required by the user. The visualisation tools enable users to compare analysed results dynamically for ease of interpretation and to export the depicted relationships in the form of screen shots of graphs or tables.
 
 *The project partners included Department of Primary Industries and Regional Development Western Australia; Department of Agriculture and Fisheries, Queensland; Agriculture Victoria, Victoria; Department of Primary Industries, New South Wales.*
 
 The APP is at [https://zhanglong.shinyapps.io/Demo/](https://zhanglong.shinyapps.io/Demo)
+
+- *Crop Protection Analytics System*. This APP is jointly developed by CCDM and SAGI West. It enables rapid and consistent analysis of the economics associated with disease impacts
 
 
 **R-package**
