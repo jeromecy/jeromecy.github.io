@@ -1,6 +1,7 @@
-I"�4<p>I am working as a statistician/biometrician at SAGI West (Statistics for the Australian Grains Industry – Western region)/Curtin University.</p>
+I"�8<p>I am working as a statistician/biometrician at SAGI West (Statistics for the Australian Grains Industry – Western region)/Curtin University.</p>
 
-<h2 id="education">Education</h2>
+<h3 id="education">Education</h3>
+<hr />
 
 <ul>
   <li>
@@ -27,9 +28,10 @@
   </li>
 </ul>
 
-<h2 id="academic-output">Academic output</h2>
-<p><strong>Publications</strong></p>
+<h3 id="academic-output">Academic output</h3>
+<hr />
 
+<h4 id="publications">Publications</h4>
 <ul>
   <li>S. Rakshit, et al, Novel approach to the analysis of spatially-varying treatment effects in on-farm experiments, Field Crops Research, June, 2020. <a href="https://doi.org/10.1016/j.fcr.2020.107783">DOI:10.1016/j.fcr.2020.107783</a></li>
   <li>M. Shankar, et al, Targeting improved partial resistance using yield-loss response curves for foliar diseases of wheat, GRDC updates, 2020. <a href="https://grdc.com.au/resources-and-publications/grdc-update-papers/tab-content/grdc-update-papers/2020/02/targeting-improved-partial-resistance-using-yield-loss-response-curves-for-foliar-diseases-of-wheat">Link to webpage</a></li>
@@ -42,23 +44,35 @@ Chinese Quarterly Journal of Mathematics, 2012, 27(1):110-116</li>
 University of Shanghai for Science and Technology, Vol.32, No.5, 2010.</li>
 </ul>
 
-<p><strong>Manuscripts in preparation</strong></p>
-
+<h4 id="manuscripts-in-preparation">Manuscripts in preparation</h4>
 <ul>
   <li>Z. Cao., S. Rakshit. Bayesian Inference of Spatially Correlated Random Parameters for On-farm Experiment.</li>
   <li>F. Evans, Z. Cao, S. Cook. Analysis of data from large of on-farm experiments using Bayesian latent
 Gaussian models.</li>
-  <li>M. Ashworth, R.L. Rocha, R. Devlin, R. Smith, Z. Cao. The interaction between wheat (Triticum aestivum)
-establishment timing and pre-emergent herbicides choice on annual ryegrass (Lolium rigidum Gaud.) growth
-and competition.</li>
-  <li>M. Ashworth, R.L. Rocha, R. Devlin, R. Smith, Z. Cao. The interaction between seeding rate and row spacing of hybrid and open pollinated canola (Brassica napus) varieties on wild radish (Raphanus raphanistrum) growth and seed production.</li>
-  <li>M. Ashworth, R.L. Rocha, R. Devlin, R. Smith, Z. Cao. The interaction between seeding rate and seed size of hybrid and open pollinated canola (Brassica napus) varieties on annual ryegrass (Lolium rigidum) growth and competition.</li>
-  <li>M. Ashworth, R.L. Rocha, R. Devlin, R. Smith, Z. Cao. The contribution of nitrogen fertilizer timing and placement in reducing the growth and seed production of ryegrass (Lolium rigidum Gaudin) in competition with wheat (Triticum aestivum L.).</li>
   <li>Z. Cao, M. Lee. Assessing accuracy of imputation using different SNP panel densities.</li>
 </ul>
 
-<p><strong>Conferences and Seminars</strong></p>
+<h4 id="project-reports-and-manuscripts">Project reports and manuscripts</h4>
+<ul>
+  <li>M. Ashworth, R.L. Rocha, R. Devlin, R. Smith, Z. Cao. The interaction between wheat (Triticum aestivum) establishment timing and pre-emergent herbicides choice on annual ryegrass (Lolium rigidum Gaud.) growth and competition.</li>
+  <li>M. Ashworth, R.L. Rocha, R. Devlin, R. Smith, Z. Cao. The interaction between seeding rate and row spacing of hybrid and open pollinated canola (Brassica napus) varieties on wild radish (Raphanus raphanistrum) growth and seed production.</li>
+  <li>M. Ashworth, R.L. Rocha, R. Devlin, R. Smith, Z. Cao. The interaction between seeding rate and seed size of hybrid and open pollinated canola (Brassica napus) varieties on annual ryegrass (Lolium rigidum) growth and competition.</li>
+  <li>M. Ashworth, R.L. Rocha, R. Devlin, R. Smith, Z. Cao. The contribution of nitrogen fertilizer timing and placement in reducing the growth and seed production of ryegrass (Lolium rigidum Gaudin) in competition with wheat (Triticum aestivum L.).</li>
+</ul>
 
+<h4 id="project-reports">Project reports</h4>
+<ul>
+  <li>Low weed seed bank persistence under sustained integrated weed management, 2019. Collaboration with
+Dr Mike Ashworth from Australian Herbicide Resistance Initiative (AHRI).</li>
+  <li>Wodjil Workout – Rise of the pH, 2019. Collaboration with TekAg.</li>
+  <li>Low weed seed bank persistence under sustained integrated weed management, 2019. Collaboration with
+Dr Mike Ashworth.</li>
+  <li>Crop competition for weed control and maintenance of crop yield, 2020. Collaboration with Dr Mike Ashworth.</li>
+  <li>Investigating Susceptibility of Plant breeds to Fungal Disease. Collaboration with Prof Michael Francki from the Department of Primary Industries and Regional Development.</li>
+  <li>National Phenology Initiative 2020. Collaboration with NPI Team, Animal Plant and Soil Sciences, School of Life Sciences, La Trobe University.</li>
+</ul>
+
+<h4 id="conferences-and-seminars">Conferences and seminars</h4>
 <ul>
   <li>SAGI Symposium, Sep 2020, On-farm Strip Trials: going beyond small plot experiments</li>
   <li>IBS Dec 2019, Adelaide, Model selection and principle of parsimony in statistical modelling in agriculture.</li>
@@ -73,29 +87,33 @@ and competition.</li>
 Weighted Values.</li>
 </ul>
 
-<p><strong>Project reports</strong></p>
+<h4 id="shinyapp">Shinyapp</h4>
 
+<h5 id="1-yield-response-curves-yrc-project">1. Yield Response Curves (YRC) project</h5>
 <ul>
-  <li>Low weed seed bank persistence under sustained integrated weed management, 2019. Collaboration with
-Dr Mike Ashworth from Australian Herbicide Resistance Initiative (AHRI).</li>
-  <li>Wodjil Workout – Rise of the pH, 2019. Collaboration with TekAg.</li>
-  <li>Low weed seed bank persistence under sustained integrated weed management, 2019. Collaboration with
-Dr Mike Ashworth.</li>
-  <li>Crop competition for weed control and maintenance of crop yield, 2020. Collaboration with Dr Mike Ashworth.</li>
-  <li>Investigating Susceptibility of Plant breeds to Fungal Disease. Collaboration with Prof Michael Francki from the Department of Primary Industries and Regional Development.</li>
-  <li>National Phenology Initiative 2020. Collaboration with NPI Team, Animal Plant and Soil Sciences, School
-of Life Sciences, La Trobe University.</li>
+  <li>
+    <p>The <em>Yield Response Curves (YRC) project (DAW00245)</em> was a national collaboration initiated by the Grains Research and Development Corporation to deliver quantitative information on wheat and barley variety yield response to disease, as mediated by variety resistance. The main project outputs describe the relationships between yield and disease (yield response curves) for a range of resistance classes under a range of disease pressures. The project prioritised regionally important pathogens.</p>
+  </li>
+  <li>
+    <p>This site has been designed to enable access to a comprehensive series of experiments, conducted throughout the course of the project, in the form of multi-environment trial (MET) analysed results summaries presented using <code class="language-plaintext highlighter-rouge">ShinyR</code> data visualisation. Results by disease can be viewed at a high level and also drilled down into further detail, as required by the user. The visualisation tools enable users to compare analysed results dynamically for ease of interpretation and to export the depicted relationships in the form of screen shots of graphs or tables.</p>
+  </li>
+  <li>
+    <p><em>The project partners included Department of Primary Industries and Regional Development Western Australia; Department of Agriculture and Fisheries, Queensland; Agriculture Victoria, Victoria; Department of Primary Industries, New South Wales.</em></p>
+  </li>
+  <li>
+    <p>The APP is at <a href="https://zhanglong.shinyapps.io/Demo">https://zhanglong.shinyapps.io/Demo/</a></p>
+  </li>
 </ul>
 
-<p><strong>Shinyapp</strong></p>
-
-<p>The <em>Yield Response Curves (YRC) project (DAW00245)</em> was a national collaboration initiated by the Grains Research and Development Corporation to deliver quantitative information on wheat and barley variety yield response to disease, as mediated by variety resistance. The main project outputs describe the relationships between yield and disease (yield response curves) for a range of resistance classes under a range of disease pressures. The project prioritised regionally important pathogens.</p>
-
-<p>This site has been designed to enable access to a comprehensive series of experiments, conducted throughout the course of the project, in the form of multi-environment trial (MET) analysed results summaries presented using <code class="language-plaintext highlighter-rouge">ShinyR</code> data visualisation. Results by disease can be viewed at a high level and also drilled down into further detail, as required by the user. The visualisation tools enable users to compare analysed results dynamically for ease of interpretation and to export the depicted relationships in the form of screen shots of graphs or tables.</p>
-
-<p><em>The project partners included Department of Primary Industries and Regional Development Western Australia; Department of Agriculture and Fisheries, Queensland; Agriculture Victoria, Victoria; Department of Primary Industries, New South Wales.</em></p>
-
-<p>The APP is at <a href="https://zhanglong.shinyapps.io/Demo">https://zhanglong.shinyapps.io/Demo/</a></p>
+<h5 id="2-crop-protection-analytics-system">2. Crop Protection Analytics System</h5>
+<ul>
+  <li>
+    <p>The <em>Crop Protection Analytics System</em>. This APP is jointly developed by CCDM and SAGI West. It enables rapid and consistent analysis of the economics associated with disease impacts.</p>
+  </li>
+  <li>
+    <p>The App is written with a few packages, including <code class="language-plaintext highlighter-rouge">shinydashboard</code>, <code class="language-plaintext highlighter-rouge">shinyWidgets</code>, <code class="language-plaintext highlighter-rouge">highcharter</code>, etc. It is not open to public until further decision.</p>
+  </li>
+</ul>
 
 <p><strong>R-package</strong></p>
 
@@ -103,7 +121,8 @@ of Life Sciences, La Trobe University.</li>
   <li><code class="language-plaintext highlighter-rouge">V-Spline</code>. Adaptive V-spline and the Bayesian estimates. Refer to <a href="https://github.com/jeromecy/VSplinePackage">Github repository</a>.</li>
 </ul>
 
-<h2 id="work-experience">Work experience</h2>
+<h3 id="work-experience">Work experience</h3>
+<hr />
 
 <ul>
   <li>
