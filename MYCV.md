@@ -32,8 +32,8 @@ I am working as a statistician/biometrician at SAGI West (Statistics for the Aus
 
 
 #### Publications
-- Cao, Z.; Bryant, D.; Molteno, T.C.A.; Fox, C.; Parry, M. V-Spline: An Adaptive Smoothing Spline for Trajectory Reconstruction. Sensors, 2021, 21, 3215. [DOI:10.3390/s21093215](https://doi.org/10.3390/s21093215)
-- Cao, Z.; Stefanova, K.; Gibberd, M.; Rakshit, S. Bayesian Inference of Spatially Correlated Random Parameters for On-farm Experiment. Preprint, 2021.
+- Z. Cao, D. Bryant, T. Molteno, C. Fox, M. Parry. V-Spline: An Adaptive Smoothing Spline for Trajectory Reconstruction. Sensors, 2021, 21, 3215. [DOI:10.3390/s21093215](https://doi.org/10.3390/s21093215)
+- Z. Cao, K. Stefanova, M. Gibberd, S. Rakshit. Bayesian Inference of Spatially Correlated Random Parameters for On-farm Experiment. Preprint, 2021.
 - S. Rakshit, et al, Novel approach to the analysis of spatially-varying treatment effects in on-farm experiments, Field Crops Research, June, 2020. [DOI:10.1016/j.fcr.2020.107783](https://doi.org/10.1016/j.fcr.2020.107783)
 - M. Shankar, et al, Targeting improved partial resistance using yield-loss response curves for foliar diseases of wheat, GRDC updates, 2020. [Link to webpage](https://grdc.com.au/resources-and-publications/grdc-update-papers/tab-content/grdc-update-papers/2020/02/targeting-improved-partial-resistance-using-yield-loss-response-curves-for-foliar-diseases-of-wheat)
 - Z. Cao, D. Bryant, M. Parry. Adaptive Sequential MCMC for Combined State and Parameter Estimation, 2018.  [arXiv:1803.07734](https://arxiv.org/abs/1803.07734)
@@ -46,7 +46,6 @@ University of Shanghai for Science and Technology, Vol.32, No.5, 2010.
 
 
 #### Manuscripts in preparation
-- Z. Cao., S. Rakshit. Bayesian Inference of Spatially Correlated Random Parameters for On-farm Experiment.
 - F. Evans, Z. Cao, S. Cook. Analysis of data from large of on-farm experiments using Bayesian latent
 Gaussian models.
 - Z. Cao, M. Lee. Assessing accuracy of imputation using different SNP panel densities.
