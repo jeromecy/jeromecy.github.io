@@ -10,7 +10,7 @@ lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
-
+comments: true
 disqus: zcao
 google_analytics: dbyll
 title: Zhanglong Cao
