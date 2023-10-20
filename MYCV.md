@@ -32,6 +32,9 @@ I am working as a statistician/biometrician at SAGI West (Statistics for the Aus
 
 
 #### Publications
+- Stefanova, K.T., Brown, J., Grose, A., Cao, Z., Chen, K., Gibberd, M. and Rakshit, S., (2023). "Statistical analysis of comparative experiments based on large strip on-farm trials. " Field Crops Research. DOI: https://doi.org/10.1016/j.fcr.2023.108945
+- Olita, H. T., Sung, B., Hooper, B., Cao, Z., Lopez-Ruiz, F., & Gibberd, M. (2023) "The socio-economic impact of fungicide resistance in West Australia's Wheatbelt." Advances in Agronomy. DOI: https://doi.org/10.1016/bs.agron.2023.03.005
+- Phong, W. N., Sung, B., Cao, Z., Gibberd, M., Dykes, G. A., Payne, A. D., & Coorey, R. (2022). "Impact of different processing techniques on the key volatile profile, sensory, and consumer acceptance of black truffle (Tuber melanosporum Vittadini)." Journal of Food Science. DOI: https://doi.org/10.1111/1750-3841.16275
 - Z. Cao, K. Stefanova, M. Gibberd, S. Rakshit. Bayesian Inference of Spatially Correlated Random Parameters for On-farm Experiment. Field Crops Research, February, 2022.
 - Z. Cao, D. Bryant, T. Molteno, C. Fox, M. Parry. V-Spline: An Adaptive Smoothing Spline for Trajectory Reconstruction. Sensors, 2021, 21, 3215. [DOI:10.3390/s21093215](https://doi.org/10.3390/s21093215)
 - S. Rakshit, et al, Novel approach to the analysis of spatially-varying treatment effects in on-farm experiments, Field Crops Research, June, 2020. [DOI:10.1016/j.fcr.2020.107783](https://doi.org/10.1016/j.fcr.2020.107783)
@@ -44,10 +47,6 @@ Chinese Quarterly Journal of Mathematics, 2012, 27(1):110-116
 - Z. Cao, X.L. Wang. Meromorphic Functions Sharing Two Sets with Weighted Value of One, Journal of the
 University of Shanghai for Science and Technology, Vol.32, No.5, 2010.
 
-
-#### Manuscripts in preparation
-- F. Evans, Z. Cao, S. Cook. Analysis of data from large of on-farm experiments using Bayesian latent Gaussian models.
-- Z. Cao, M. Lee. Assessing accuracy of imputation using different SNP panel densities.
 
 #### Project reports and manuscripts
 - M. Ashworth, R.L. Rocha, R. Devlin, R. Smith, Z. Cao. The interaction between wheat (Triticum aestivum) establishment timing and pre-emergent herbicides choice on annual ryegrass (Lolium rigidum Gaud.) growth and competition.
@@ -67,6 +66,7 @@ Dr Mike Ashworth.
 
 
 #### Conferences and seminars
+- Applied Statistics Conference, Inverloch, Dec 2022, Optimal design for OFE: systematic or randomised? 
 - SAGI Symposium, Sep 2020, On-farm Strip Trials: going beyond small plot experiments
 - IBS Dec 2019, Adelaide, Model selection and principle of parsimony in statistical modelling in agriculture.
 - SAGI Symposium, May 2019, Rottenest, Early Career Statistician.
