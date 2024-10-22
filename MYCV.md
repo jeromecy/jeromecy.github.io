@@ -32,6 +32,8 @@ I am working as a statistician/biometrician at SAGI West (Statistics for the Aus
 
 
 #### Publications
+- Z. Cao, J. Brown, M. Gibberd, J. Easton, S. Rakshit. "Optimal design for on-farm strip trials—systematic or randomised?" Field Crops Research, 318, 109594, 2024. DOI: https://doi.org/10.1016/j.fcr.2024.109594
+- T. Olita, Z. Cao, M. Gibberd. "Economic analysis of crop protection strategies: comparing the value of increased fungicide inputs and crop genetic improvement in managing Ascochyta blight in Australian chickpeas." Pest Management Science. DOI: https://doi.org/10.1002/ps.8319
 - Stefanova, K.T., Brown, J., Grose, A., Cao, Z., Chen, K., Gibberd, M. and Rakshit, S., (2023). "Statistical analysis of comparative experiments based on large strip on-farm trials. " Field Crops Research. DOI: https://doi.org/10.1016/j.fcr.2023.108945
 - Olita, H. T., Sung, B., Hooper, B., Cao, Z., Lopez-Ruiz, F., & Gibberd, M. (2023) "The socio-economic impact of fungicide resistance in West Australia's Wheatbelt." Advances in Agronomy. DOI: https://doi.org/10.1016/bs.agron.2023.03.005
 - Phong, W. N., Sung, B., Cao, Z., Gibberd, M., Dykes, G. A., Payne, A. D., & Coorey, R. (2022). "Impact of different processing techniques on the key volatile profile, sensory, and consumer acceptance of black truffle (Tuber melanosporum Vittadini)." Journal of Food Science. DOI: https://doi.org/10.1111/1750-3841.16275
@@ -48,25 +50,12 @@ Chinese Quarterly Journal of Mathematics, 2012, 27(1):110-116
 University of Shanghai for Science and Technology, Vol.32, No.5, 2010.
 
 
-#### Project reports and manuscripts
-- M. Ashworth, R.L. Rocha, R. Devlin, R. Smith, Z. Cao. The interaction between wheat (Triticum aestivum) establishment timing and pre-emergent herbicides choice on annual ryegrass (Lolium rigidum Gaud.) growth and competition.
-- M. Ashworth, R.L. Rocha, R. Devlin, R. Smith, Z. Cao. The interaction between seeding rate and row spacing of hybrid and open pollinated canola (Brassica napus) varieties on wild radish (Raphanus raphanistrum) growth and seed production.
-- M. Ashworth, R.L. Rocha, R. Devlin, R. Smith, Z. Cao. The interaction between seeding rate and seed size of hybrid and open pollinated canola (Brassica napus) varieties on annual ryegrass (Lolium rigidum) growth and competition.
-- M. Ashworth, R.L. Rocha, R. Devlin, R. Smith, Z. Cao. The contribution of nitrogen fertilizer timing and placement in reducing the growth and seed production of ryegrass (Lolium rigidum Gaudin) in competition with wheat (Triticum aestivum L.).
-
-#### Project reports
-- Low weed seed bank persistence under sustained integrated weed management, 2019. Collaboration with
-Dr Mike Ashworth from Australian Herbicide Resistance Initiative (AHRI).
-- Wodjil Workout – Rise of the pH, 2019. Collaboration with TekAg.
-- Low weed seed bank persistence under sustained integrated weed management, 2019. Collaboration with
-Dr Mike Ashworth.
-- Crop competition for weed control and maintenance of crop yield, 2020. Collaboration with Dr Mike Ashworth.
-- Investigating Susceptibility of Plant breeds to Fungal Disease. Collaboration with Prof Michael Francki from the Department of Primary Industries and Regional Development.
-- National Phenology Initiative 2020. Collaboration with NPI Team, Animal Plant and Soil Sciences, School of Life Sciences, La Trobe University.
-
-
 #### Conferences and seminars
-- Applied Statistics Conference, Inverloch, Dec 2022, Optimal design for OFE: systematic or randomised? 
+- Australian Applied Statistics Conference, Rottenest, Sep, 2024, Case Studies in Advanced Analysis of Large Strip On-farm Experiments
+- AAGI Mini-Symposium, Aug, 2024, A Bayesian Workflow for Spatially Correlated Random Effects in On-farm Experiment
+- Pawsey Centre, May, 2024, Analytics Innovations in On-farm Experiments
+- Australian Applied Statistics Conference, Inverloch, Dec 2022, Optimal design for OFE: systematic or randomised? 
+- StatsPD@Waite Nov, 2022, A Bayesian Workflow for Spatially Correlated Random Effects in On-farm Experiment
 - SAGI Symposium, Sep 2020, On-farm Strip Trials: going beyond small plot experiments
 - IBS Dec 2019, Adelaide, Model selection and principle of parsimony in statistical modelling in agriculture.
 - SAGI Symposium, May 2019, Rottenest, Early Career Statistician.
@@ -76,8 +65,7 @@ Dr Mike Ashworth.
 - NZMASP, Nov 2016, Queenstown (Member of Organizing Committee), Going Online with GPS Data.
 - Seminar, May 2016, Dunedin, Spline-based Approach to Infer Farm Vehicle Trajectories.
 - NZMASP, Nov 2015, Roturora, Spline-based Approach to Infer Farm Vehicle Trajectories.
-- NZMASP, Nov 2014, Auckland, Uniqueness of Meromorphic Function with Its *k*-th Derivative Sharing Two
-Weighted Values.
+- NZMASP, Nov 2014, Auckland, Uniqueness of Meromorphic Function with Its *k*-th Derivative Sharing Two Weighted Values.
 
 
 
@@ -98,6 +86,11 @@ Weighted Values.
 * The App is written with a few packages, including `shinydashboard`, `shinyWidgets`, `highcharter`, etc. It is not open to public until further decision.
 
 
+##### 3. GRDC Disease and Pest Impact Overview
+
+* A visualisation tool of disease and pest impact on crop yield and profits.
+
+
 **R-package**
 
 - `V-Spline`. Adaptive V-spline and the Bayesian estimates. Refer to [Github repository](https://github.com/jeromecy/VSplinePackage).
@@ -106,10 +99,18 @@ Weighted Values.
 
 ### Work experience
 ----------
+- July 2022 --- present
+:   **AAGI (Analytics of Australian Grains Industries), Curtin University, Perth, Australia**
+:   *Research Fellow (Full time)*
 
-- Nov 2018 --- present
+:   - **Biometrician**: Collaborate closely with agronomists and plant breeders to provide expert advice on experimental design and statistical analysis, ensuring robust and scientifically valid results.
+:   - **Statistician**: Drive research initiatives by developing and implementing innovative statistical methodologies and algorithms to address complex challenges in agricultural studies.
+:   - **Research & Publications**: Publish findings in top-tier journals and present at prestigious conferences, contributing to the advancement of statistical applications in agriculture.
+:   - **Supervision**: Mentor and supervise Higher Degree by Research (HDR) students, guiding them in their research projects and professional development.
+
+- Nov 2018 --- June 2022
 :   **SAGI West, Curtin University, Perth, Australia**
-:   *Research Associate (Full time)*,
+:   *Research Associate (Full time)*
 :   - Biometrician: Work closely with agronomists and plant breeders. Advise and consult with research and advisory staff on the experimental design and statistical analysis of experiments.
 :   - Statistician: Contribute to research output. Develop cutting-edge statistical methodology and algorithms.
 :   - Publish/exhibit in high quality journals/outlets.
