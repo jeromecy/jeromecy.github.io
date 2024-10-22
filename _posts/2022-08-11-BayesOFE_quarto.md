@@ -7,4 +7,4 @@ categories: Work
 
 Check out the embedded Quarto HTML file below:
 
-<iframe src="/_posts/2022-08-11-BayesOFE_quarto.html" width="100%" height="600px"></iframe>
+<iframe src="/assets/quarto/2022-08-11-BayesOFE_quarto.html" width="100%" height="600px"></iframe>
