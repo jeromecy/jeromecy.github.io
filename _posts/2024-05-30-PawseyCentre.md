@@ -9,6 +9,6 @@ This is the 5-minute presentation that I gave to GRDC western panel and growers 
 
 ## Title: Analytics Innovations in On-farm Experiments
 
-<img src="/assets/media/2024_Pawsey_Cao.jpg" alt="Presentation Image" width="600" />
+<img src="/assets/media/2024-Pawsey-Cao.jpg" alt="Presentation Image" width="600" />
 
 <a href="//JeromeCY.github.io/PDF/2024-05-30-PawseyOFE.pdf" target="_blank">PDF.</a>
