@@ -69,13 +69,14 @@ article {
     line-height: 1.8;
 }
 
-/* Post title styling */
+/* Blog main title styling (front matter title) */
 .page-header {
+    font-size: 36px; /* Larger font size for the main blog title */
+    color: #e74c3c; /* Red color for main title */
     font-family: 'Ubuntu', sans-serif;
-    color: #e74c3c;
-    font-size: 32px;
-    margin-bottom: 20px;
+    font-weight: bold;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 /* Sub-headings */
@@ -155,7 +156,7 @@ a.button:hover {
     }
     
     .page-header {
-        font-size: 28px;
+        font-size: 32px;
     }
     
     h2 {
