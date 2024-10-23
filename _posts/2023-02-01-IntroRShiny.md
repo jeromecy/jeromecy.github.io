@@ -7,7 +7,7 @@ categories: Workshop
 
 It's a workshop provided to introduce participants to RShiny, a powerful web application framework for R. During this workshop, attendees will learn how to create interactive web applications that can visualize data and facilitate user input.
 
-## Workshop Overview
+#### Workshop Overview
 
 The workshop will cover the following key topics:
 
@@ -18,11 +18,11 @@ The workshop will cover the following key topics:
 - **Data Visualization**: Using libraries like ggplot2 to create dynamic plots within Shiny apps.
 - **Deployment**: Overview of how to deploy Shiny apps to shinyapps.io or a local server.
 
-## Target Audience
+#### Target Audience
 
 This workshop is aimed at R users who want to enhance their data analysis skills by creating interactive web applications. No prior experience with Shiny is required, but a basic understanding of R programming is recommended.
 
-## Objectives
+#### Objectives
 
 By the end of the workshop, participants will be able to:
 
@@ -31,7 +31,7 @@ By the end of the workshop, participants will be able to:
 - Implement interactive features to enhance user experience.
 - Deploy their applications for public access.
 
-## Resources
+#### Resources
 
 Participants will be provided with:
 
