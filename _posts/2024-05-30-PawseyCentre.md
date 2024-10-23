@@ -7,7 +7,7 @@ categories: Presentation
 
 This is the 5-minute presentation that I gave to GRDC western panel and growers at Pawsey Centre..
 
-## Title: Analytics Innovations in On-farm Experiments
+### Analytics Innovations in On-farm Experiments
 
 <img src="/assets/media/2024-Pawsey-Cao.jpg" alt="Presentation Image" width="600" />
 
