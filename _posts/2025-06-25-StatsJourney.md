@@ -13,7 +13,7 @@ I created this platform because I believe statistics should be accessible to eve
 
 It is under development for more functions and features.
 
-### Website: https://www.statsjourney.com
+### Website: StatsJourney[https://www.statsjourney.com]
 
 ### Features:
 - 📊 Interactive visualisations

@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Zhanglong
+title: Zhanglong Cao
 permalink: /CV/
 ---
 
-I am working as a statistician/biometrician at SAGI West (Statistics for the Australian Grains Industry – Western region)/Curtin University.
+I am a Research Fellow in the Curtin Biometry and Agricultural Data Analytics (CBADA) team, specialising in the development and application of advanced statistical methods—including linear mixed models, spatial analysis, Bayesian inference, and neural networks—to address real-world challenges in agricultural science. My role has been primarily service-oriented (0.8 FTE dedicated to service, support and consulting), and I have consistently delivered high-impact research outputs, including peer-reviewed publications, R packages, and decision-support tools. I have led statistical design and analysis for over 50 GRDC-funded and industry-partnered projects (total value >$43 Million), and co-developed scalable frameworks now embedded in national agricultural programs.
 
 
 
@@ -69,7 +69,7 @@ University of Shanghai for Science and Technology, Vol.32, No.5, 2010.
 
 
 
-#### Shinyapp
+#### ShinyApps
 
 ##### 1. Yield Response Curves (YRC) project
 * The *Yield Response Curves (YRC) project (DAW00245)* was a national collaboration initiated by the Grains Research and Development Corporation to deliver quantitative information on wheat and barley variety yield response to disease, as mediated by variety resistance. The main project outputs describe the relationships between yield and disease (yield response curves) for a range of resistance classes under a range of disease pressures. The project prioritised regionally important pathogens.
@@ -166,3 +166,5 @@ Programming skills
 - `Julia` (new)
 
 Here is my project [Github repository](https://github.com/jeromecy).
+
+
