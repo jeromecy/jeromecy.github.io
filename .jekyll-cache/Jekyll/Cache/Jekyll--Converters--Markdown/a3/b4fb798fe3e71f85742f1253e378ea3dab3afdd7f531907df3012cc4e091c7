@@ -1,0 +1,190 @@
+I"<h1 id="research-projects--applications">Research Projects &amp; Applications</h1>
+
+<p>Here you’ll find an overview of my key research projects, interactive applications, and tools that I’ve developed to advance statistical methodology in agricultural science.</p>
+
+<h2 id="-interactive-applications">🌾 Interactive Applications</h2>
+
+<h3 id="yield-response-curves-yrc-project">Yield Response Curves (YRC) Project</h3>
+<p><strong>Status</strong>: Active | <strong>Link</strong>: <a href="https://zhanglong.shinyapps.io/Demo/">Live Application</a></p>
+
+<p>A comprehensive analysis platform for wheat and barley variety yield responses to disease pressure. This national collaboration with GRDC delivers quantitative information on crop resistance and yield relationships.</p>
+
+<p><strong>Key Features:</strong></p>
+<ul>
+  <li>Multi-environment trial (MET) analysis results</li>
+  <li>Dynamic visualization tools for disease comparison</li>
+  <li>Export capabilities for graphs and tables</li>
+  <li>Regional pathogen prioritization</li>
+</ul>
+
+<p><strong>Partners</strong>: Department of Primary Industries and Regional Development WA, Department of Agriculture and Fisheries QLD, Agriculture Victoria, Department of Primary Industries NSW</p>
+
+<hr />
+
+<h3 id="crop-protection-analytics-system">Crop Protection Analytics System</h3>
+<p><strong>Status</strong>: Internal Development</p>
+
+<p>Jointly developed with CCDM and SAGI West, this system enables rapid and consistent analysis of disease impact economics.</p>
+
+<p><strong>Technologies</strong>: <code class="language-plaintext highlighter-rouge">shinydashboard</code>, <code class="language-plaintext highlighter-rouge">shinyWidgets</code>, <code class="language-plaintext highlighter-rouge">highcharter</code></p>
+
+<hr />
+
+<h3 id="grdc-disease-and-pest-impact-overview">GRDC Disease and Pest Impact Overview</h3>
+<p><strong>Status</strong>: Active</p>
+
+<p>A visualization tool for understanding disease and pest impact on crop yield and profits, supporting agricultural decision-making.</p>
+
+<hr />
+
+<h2 id="-r-packages">📦 R Packages</h2>
+
+<h3 id="v-spline-package">V-Spline Package</h3>
+<p><strong>GitHub</strong>: <a href="https://github.com/jeromecy/VSplinePackage">Repository</a></p>
+
+<p>An adaptive V-spline implementation with Bayesian estimates for trajectory reconstruction from noisy GPS data.</p>
+
+<p><strong>Features:</strong></p>
+<ul>
+  <li>Adaptive smoothing splines</li>
+  <li>Bayesian parameter estimation</li>
+  <li>GPS trajectory analysis</li>
+  <li>Real-time processing capabilities</li>
+</ul>
+
+<hr />
+
+<h2 id="-research-initiatives">🔬 Research Initiatives</h2>
+
+<h3 id="on-farm-strip-trials-optimization">On-Farm Strip Trials Optimization</h3>
+<p><strong>Timeline</strong>: 2020-2024 | <strong>Funding</strong>: GRDC</p>
+
+<p><strong>Research Question</strong>: Systematic vs. randomized design for on-farm experiments</p>
+
+<p><strong>Key Findings:</strong></p>
+<ul>
+  <li>Systematic designs show superior efficiency in certain conditions</li>
+  <li>Spatial correlation modeling improves trial precision</li>
+  <li>Bayesian approaches provide robust uncertainty quantification</li>
+</ul>
+
+<p><strong>Publications:</strong></p>
+<ul>
+  <li>“Optimal design for on-farm strip trials—systematic or randomised?” Field Crops Research (2024)</li>
+  <li>“Bayesian Inference of Spatially Correlated Random Parameters” Field Crops Research (2022)</li>
+</ul>
+
+<hr />
+
+<h3 id="bayesian-workflow-for-agricultural-data">Bayesian Workflow for Agricultural Data</h3>
+<p><strong>Timeline</strong>: 2018-Present</p>
+
+<p>Developing comprehensive Bayesian workflows for complex agricultural datasets, including:</p>
+
+<ul>
+  <li>Spatially correlated random effects modeling</li>
+  <li>MCMC diagnostics and convergence assessment</li>
+  <li>Prior specification and sensitivity analysis</li>
+  <li>Posterior predictive checking</li>
+</ul>
+
+<p><strong>Applications:</strong></p>
+<ul>
+  <li>Crop yield prediction</li>
+  <li>Disease resistance assessment</li>
+  <li>Environmental impact analysis</li>
+</ul>
+
+<hr />
+
+<h3 id="economic-analysis-of-crop-protection">Economic Analysis of Crop Protection</h3>
+<p><strong>Timeline</strong>: 2022-2024</p>
+
+<p>Quantifying the economic value of different crop protection strategies, including:</p>
+
+<ul>
+  <li>Fungicide resistance impact assessment</li>
+  <li>Genetic improvement vs. chemical control comparison</li>
+  <li>Risk-benefit analysis for agricultural decisions</li>
+</ul>
+
+<p><strong>Publications:</strong></p>
+<ul>
+  <li>“Economic analysis of crop protection strategies” Pest Management Science (2024)</li>
+  <li>“Socio-economic impact of fungicide resistance” Advances in Agronomy (2023)</li>
+</ul>
+
+<hr />
+
+<h2 id="-educational-initiatives">🎓 Educational Initiatives</h2>
+
+<h3 id="stats-journey-platform">Stats Journey Platform</h3>
+<p><strong>Status</strong>: Under Development | <strong>Website</strong>: <a href="https://www.statsjourney.com">Stats Journey</a></p>
+
+<p>An interactive learning platform for statistics and data science education.</p>
+
+<p><strong>Features:</strong></p>
+<ul>
+  <li>Interactive visualizations</li>
+  <li>Real-time calculations</li>
+  <li>Comprehensive coverage from basic stats to machine learning</li>
+  <li>Modern web technologies (React, TypeScript, Tailwind CSS)</li>
+</ul>
+
+<p><strong>Mission</strong>: Making statistics accessible through intuitive visualizations and real-time simulations.</p>
+
+<hr />
+
+<h2 id="-statistical-methodologies">📊 Statistical Methodologies</h2>
+
+<h3 id="adaptive-sequential-mcmc">Adaptive Sequential MCMC</h3>
+<p><strong>Application</strong>: Combined state and parameter estimation for complex systems</p>
+
+<p><strong>Advantages:</strong></p>
+<ul>
+  <li>Improved convergence properties</li>
+  <li>Efficient sampling for high-dimensional problems</li>
+  <li>Real-time parameter updates</li>
+</ul>
+
+<h3 id="spatial-analysis-framework">Spatial Analysis Framework</h3>
+<p><strong>Application</strong>: Agricultural field trials and environmental monitoring</p>
+
+<p><strong>Components:</strong></p>
+<ul>
+  <li>Geostatistical modeling</li>
+  <li>Spatial correlation structures</li>
+  <li>Kriging and interpolation methods</li>
+  <li>Uncertainty quantification</li>
+</ul>
+
+<h3 id="experimental-design-optimization">Experimental Design Optimization</h3>
+<p><strong>Application</strong>: Agricultural trials and industrial experiments</p>
+
+<p><strong>Methods:</strong></p>
+<ul>
+  <li>Optimal design theory</li>
+  <li>Computer-generated designs</li>
+  <li>Response surface methodology</li>
+  <li>Robust design strategies</li>
+</ul>
+
+<hr />
+
+<h2 id="-collaboration-opportunities">🤝 Collaboration Opportunities</h2>
+
+<p>I’m always interested in new research collaborations and partnerships. Current areas of interest include:</p>
+
+<ul>
+  <li><strong>Machine Learning in Agriculture</strong>: Integrating ML with traditional statistical methods</li>
+  <li><strong>High-Performance Computing</strong>: Scaling statistical analyses for big data</li>
+  <li><strong>Open Source Development</strong>: Contributing to the statistical software ecosystem</li>
+  <li><strong>Industry Partnerships</strong>: Applied statistical solutions for agricultural challenges</li>
+</ul>
+
+<p><strong>Get in Touch</strong>: If you’re interested in collaborating on any of these areas or have a specific project in mind, please reach out via <a href="mailto:cao.zhanglong@gmail.com">email</a> or <a href="https://linkedin.com/in/zhanglong-cao-72208487">LinkedIn</a>.</p>
+
+<hr />
+
+<p><em>“The best statistical analysis is one that provides actionable insights for real-world decision making.”</em></p>
+:ET

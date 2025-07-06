@@ -1,0 +1,57 @@
+---
+layout: default
+---
+<style>
+/* Simple homepage layout that bypasses Bootstrap grid issues */
+.homepage-content {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 20px !important;
+    position: static !important;
+    float: none !important;
+    clear: both !important;
+    height: auto !important;
+    overflow: visible !important;
+    z-index: 9999 !important;
+    background: rgba(255, 0, 0, 0.1) !important;
+}
+
+.homepage-content article {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    width: 100% !important;
+    margin-bottom: 30px !important;
+    padding: 15px !important;
+    border: 1px solid #ddd !important;
+    background: rgba(0, 255, 0, 0.1) !important;
+}
+
+.homepage-content article * {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    background: rgba(0, 0, 255, 0.1) !important;
+}
+
+.homepage-content h2 {
+    margin-top: 0 !important;
+    color: #333 !important;
+}
+
+.homepage-content a {
+    color: #007bff !important;
+    text-decoration: none !important;
+}
+
+.homepage-content a:hover {
+    text-decoration: underline !important;
+}
+</style>
+
+<div class="homepage-content">
+  {{ content }}
+</div> 

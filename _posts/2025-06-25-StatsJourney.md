@@ -2,7 +2,9 @@
 layout: post
 title:  Launching Stats Journey – A Statistics Learning Platform
 date:   2025-06-28 00:00:00 +0800
-categories: Project
+categories: [Project, Education, Statistics]
+tags: [interactive-learning, statistics, web-development, react]
+excerpt: "Introducing Stats Journey, an interactive learning platform for statistics and data science education built with modern web technologies."
 ---
 
 I'm excited to share a new project I've been working on — **Stats Journey**, an interactive learning platform for statistics and data science!

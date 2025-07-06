@@ -1,0 +1,8 @@
+I"�<p>This is the presentation that I gave on 5th December at IBS 2019 Adelaide.</p>
+
+<h3 id="title-model-selection-and-principle-of-parsimony-in-statistical-modelling-in-agriculture">Title: Model selection and principle of parsimony in statistical modelling in agriculture</h3>
+
+<p>Abstract: Model selection is an important issue in biostatistical, psychological and agricultural studies. Root mean squared error (RMSE), Akaike’s information criterion (AIC), Bayesian information criterion (BIC) and their relatives are commonly used as selection criteria for goodness-of-fit of statistical models. However, there is no robust technique that can be applied in every aspect of parameter estimation and model selection. Sometimes, the winning model is “cursed”, while the best model based on the selection criteria leads to over-fitting in practice. Goodness-of-fit must be balanced against model complexity to avoid over-fitting issues. We discuss the trap in model selection and the principle of parsimony, and present a weighted neighbouring cross-validation method. The latter will be illustrated on agricultural experimental data set.</p>
+
+<p><a href="//JeromeCY.github.io/PDF/2019-IBS2019.pdf" target="_blank">PDF.</a></p>
+:ET

@@ -1,8 +1,0 @@
-I"¿<p>A seminar at the Department of Maths &amp; Stats, University of Otago, in July 2018.</p>
-
-<h2 id="title-adaptive-sequential-mcmc-for-combined-state-and-parameters--estimation">Title: Adaptive Sequential MCMC for Combined State and Parameters  Estimation</h2>
-
-<p>Abstract: Most algorithms for combined state and parameter estimation in state space models either estimate the states and parameters by incorporating the parameters in the state space, or marginalize out the parameters through sufficient statistics. In the case of a linear state space model and starting with a joint distribution over states, observations and parameters, we implement an MCMC sampler with two phases. In the learning phase, a self-tuning sampler is used to learn the parameter mean and covariance structure. In the estimation phase, the parameter mean and covariance structure informs the proposal mechanism and is also used in a delayed-acceptance algorithm, which greatly improves sampling efficiency. Information on the resulting state of the system is given by a Gaussian mixture. In on-line mode, the algorithm is adaptive and uses a sliding window approach by cutting off historical data to accelerate sampling speed and to maintain appropriate acceptance rates. We apply the algorithm to joint state and parameter estimation in the case of irregularly sampled GPS time series data.</p>
-
-<p><a href="//JeromeCY.github.io/PDF/2018-July-19-Seminar.pdf" target="_blank">PDF.</a></p>
-:ET

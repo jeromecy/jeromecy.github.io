@@ -144,6 +144,129 @@ article.home h4 a:hover {
 
 
 
+/* Home Page Content Visibility Fix */
+.homepage-content {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 20px !important;
+    position: static !important;
+    float: none !important;
+    clear: both !important;
+    height: auto !important;
+    overflow: visible !important;
+    z-index: 9999 !important;
+}
+
+.homepage-content article {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    width: 100% !important;
+    margin-bottom: 30px !important;
+    padding: 20px !important;
+    border: 1px solid #e1e8ed !important;
+    border-radius: 8px !important;
+    background: #ffffff !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1) !important;
+    transition: all 0.3s ease !important;
+}
+
+.homepage-content article:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15) !important;
+    transform: translateY(-2px) !important;
+}
+
+.homepage-content article * {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+.homepage-content .post-date {
+    color: #8899a6 !important;
+    font-size: 14px !important;
+    margin-bottom: 10px !important;
+    font-weight: 500 !important;
+}
+
+.homepage-content h2 {
+    margin: 0 0 15px 0 !important;
+    color: #292f33 !important;
+    font-size: 24px !important;
+    font-weight: 700 !important;
+    line-height: 1.3 !important;
+}
+
+.homepage-content h2 a {
+    color: #1da1f2 !important;
+    text-decoration: none !important;
+    transition: color 0.3s ease !important;
+}
+
+.homepage-content h2 a:hover {
+    color: #0d8bd9 !important;
+    text-decoration: underline !important;
+}
+
+.homepage-content .post-content {
+    color: #66757f !important;
+    line-height: 1.6 !important;
+    font-size: 16px !important;
+}
+
+.homepage-content .post-content p {
+    margin-bottom: 15px !important;
+}
+
+.homepage-content .pager {
+    text-align: center !important;
+    margin-top: 40px !important;
+    padding-top: 30px !important;
+    border-top: 2px solid #e1e8ed !important;
+}
+
+.homepage-content .pager a {
+    color: #1da1f2 !important;
+    text-decoration: none !important;
+    margin: 0 15px !important;
+    padding: 8px 16px !important;
+    border: 1px solid #1da1f2 !important;
+    border-radius: 20px !important;
+    transition: all 0.3s ease !important;
+}
+
+.homepage-content .pager a:hover {
+    background: #1da1f2 !important;
+    color: white !important;
+}
+
+.homepage-content .pager span {
+    color: #8899a6 !important;
+    font-size: 14px !important;
+}
+
+/* Ensure sidebar is visible */
+.sidebar {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .homepage-content article {
+        margin-bottom: 20px !important;
+        padding: 15px !important;
+    }
+    
+    .homepage-content h2 {
+        font-size: 20px !important;
+    }
+}
+
 /* Home Page Heading Customization */
 article.home h1 {
     font-size: 42px; /* Larger font size for main title */
@@ -197,7 +320,125 @@ article.home h6 {
 /* Additional styling for links in headings */
 article.home h1 a, 
 article.home h2 a, 
-article.home h3 a, 
+article.home h3 a,
+
+/* Enhanced search styling */
+.search-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  transition: border-color 0.3s ease;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #f2756a;
+  box-shadow: 0 0 5px rgba(242, 117, 106, 0.3);
+}
+
+/* Enhanced about page styling */
+.about-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.about-header img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+  border: 4px solid #f2756a;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.about-section {
+  margin-bottom: 30px;
+  padding: 20px;
+  background: #fafafa;
+  border-radius: 8px;
+  border-left: 4px solid #f2756a;
+}
+
+.about-section h2 {
+  color: #2c3e50;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+/* Enhanced project cards */
+.project-card {
+  background: white;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.project-status {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.status-active {
+  background: #27ae60;
+  color: white;
+}
+
+.status-development {
+  background: #f39c12;
+  color: white;
+}
+
+.status-completed {
+  background: #3498db;
+  color: white;
+}
+
+/* Enhanced navigation */
+.navbar-nav > li > a {
+  transition: color 0.3s ease;
+}
+
+.navbar-nav > li > a:hover {
+  color: #f2756a !important;
+}
+
+/* Enhanced footer */
+footer {
+  margin-top: 40px;
+  padding: 20px 0;
+  border-top: 1px solid #eee;
+  text-align: center;
+  color: #666;
+}
+
+footer a {
+  color: #f2756a;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #e74c3c;
+  text-decoration: underline;
+} 
 article.home h4 a, 
 article.home h5 a, 
 article.home h6 a {
@@ -264,4 +505,60 @@ footer {
 
 ul.dropdown-menu>li>a>i.fa {
     width: 1.3em;
+}
+
+/* Fix for Bootstrap responsive grid issues - ONLY for homepage */
+/* Target the main content area that contains article.home */
+body .container .row .col-sm-9.col-sm-offset-3 {
+    /* Only apply fixes when article.home is present */
+}
+
+/* Only apply to homepage articles */
+body .container .row .col-sm-9.col-sm-offset-3 article.home {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    width: 100% !important;
+    background: rgba(0, 255, 0, 0.2) !important; /* Green background for debugging */
+    position: static !important;
+    float: none !important;
+    clear: both !important;
+    height: auto !important;
+    overflow: visible !important;
+    z-index: 9999 !important;
+}
+
+/* Only apply to homepage content - target the container that has article.home */
+body .container .row .col-sm-9.col-sm-offset-3 article.home * {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    background: rgba(0, 0, 255, 0.1) !important; /* Blue background for debugging */
+}
+
+/* Remove the broad rules that were affecting all pages */
+.col-sm-9.col-sm-offset-3 {
+    /* Remove the broad rules that were causing overlap on other pages */
+}
+
+/* Override Bootstrap responsive classes that might be hiding content - only for homepage */
+body .container .row .col-sm-9.col-sm-offset-3 article.home .hidden-xs,
+body .container .row .col-sm-9.col-sm-offset-3 article.home .hidden-sm,
+body .container .row .col-sm-9.col-sm-offset-3 article.home .hidden-md,
+body .container .row .col-sm-9.col-sm-offset-3 article.home .hidden-lg {
+    display: block !important;
+    visibility: visible !important;
+}
+
+/* Ensure content is visible on all screen sizes - only for homepage */
+@media (max-width: 767px) {
+    body .container .row .col-sm-9.col-sm-offset-3 article.home {
+        display: block !important;
+        width: 100% !important;
+    }
+    
+    body .container .row .col-sm-9.col-sm-offset-3 article.home * {
+        display: block !important;
+        visibility: visible !important;
+    }
 }

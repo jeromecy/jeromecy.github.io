@@ -1,0 +1,189 @@
+I"j<h1 id="get-in-touch">Get in Touch</h1>
+
+<p>I’m always interested in new research collaborations, speaking opportunities, and discussions about statistical methodology in agriculture. Feel free to reach out!</p>
+
+<h2 id="-contact-form">📧 Contact Form</h2>
+
+<div class="contact-form">
+  <form action="https://formspree.io/f/your-form-id" method="POST" class="contact-form">
+    <div class="form-group">
+      <label for="name">Name *</label>
+      <input type="text" id="name" name="name" required="" class="form-control" />
+    </div>
+    
+    <div class="form-group">
+      <label for="email">Email *</label>
+      <input type="email" id="email" name="email" required="" class="form-control" />
+    </div>
+    
+    <div class="form-group">
+      <label for="subject">Subject</label>
+      <select id="subject" name="subject" class="form-control">
+        <option value="">Select a topic...</option>
+        <option value="research-collaboration">Research Collaboration</option>
+        <option value="speaking-opportunity">Speaking Opportunity</option>
+        <option value="student-supervision">Student Supervision</option>
+        <option value="consultation">Statistical Consultation</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+    
+    <div class="form-group">
+      <label for="message">Message *</label>
+      <textarea id="message" name="message" rows="6" required="" class="form-control" placeholder="Please describe your inquiry..."></textarea>
+    </div>
+    
+    <button type="submit" class="btn btn-primary">Send Message</button>
+  </form>
+</div>
+
+<h2 id="-direct-contact">📍 Direct Contact</h2>
+
+<h3 id="email">Email</h3>
+<ul>
+  <li><strong>Primary</strong>: <a href="mailto:cao.zhanglong@gmail.com">cao.zhanglong@gmail.com</a></li>
+  <li><strong>Work</strong>: <a href="mailto:zhanglong.cao@curtin.edu.au">zhanglong.cao@curtin.edu.au</a></li>
+</ul>
+
+<h3 id="professional-profiles">Professional Profiles</h3>
+<ul>
+  <li><strong>GitHub</strong>: <a href="https://github.com/jeromecy">jeromecy</a></li>
+  <li><strong>LinkedIn</strong>: <a href="https://linkedin.com/in/zhanglong-cao-72208487">zhanglong-cao-72208487</a></li>
+  <li><strong>ResearchGate</strong>: <a href="https://www.researchgate.net/profile/Zhanglong-Cao">Zhanglong Cao</a></li>
+</ul>
+
+<h3 id="office-location">Office Location</h3>
+<p><strong>Curtin University</strong><br />
+Perth, Western Australia<br />
+Australia</p>
+
+<h2 id="-collaboration-areas">🤝 Collaboration Areas</h2>
+
+<p>I’m particularly interested in collaborations involving:</p>
+
+<h3 id="research-projects">Research Projects</h3>
+<ul>
+  <li><strong>Agricultural Statistics</strong>: Field trials, experimental design, spatial analysis</li>
+  <li><strong>Bayesian Methods</strong>: MCMC, hierarchical modeling, uncertainty quantification</li>
+  <li><strong>Machine Learning</strong>: Integration with traditional statistical methods</li>
+  <li><strong>Software Development</strong>: R packages, Shiny applications, reproducible research</li>
+</ul>
+
+<h3 id="speaking--teaching">Speaking &amp; Teaching</h3>
+<ul>
+  <li><strong>Conference Presentations</strong>: Statistical methodology, agricultural applications</li>
+  <li><strong>Workshops</strong>: R programming, experimental design, Bayesian statistics</li>
+  <li><strong>Guest Lectures</strong>: University courses in statistics and data science</li>
+  <li><strong>Industry Training</strong>: Applied statistics for agricultural professionals</li>
+</ul>
+
+<h3 id="student-supervision">Student Supervision</h3>
+<ul>
+  <li><strong>PhD Students</strong>: Statistical methodology, agricultural applications</li>
+  <li><strong>Master’s Students</strong>: Data analysis, experimental design</li>
+  <li><strong>Honours Projects</strong>: Applied statistics, research methodology</li>
+</ul>
+
+<h2 id="-availability">📅 Availability</h2>
+
+<p>I’m generally available for:</p>
+<ul>
+  <li><strong>Research collaborations</strong> throughout the year</li>
+  <li><strong>Conference presentations</strong> with advance notice</li>
+  <li><strong>Workshop delivery</strong> during academic terms</li>
+  <li><strong>Student supervision</strong> for qualified candidates</li>
+</ul>
+
+<h2 id="-professional-services">💼 Professional Services</h2>
+
+<h3 id="statistical-consulting">Statistical Consulting</h3>
+<ul>
+  <li><strong>Experimental Design</strong>: Optimal design for agricultural trials</li>
+  <li><strong>Data Analysis</strong>: Linear mixed models, Bayesian inference, spatial analysis</li>
+  <li><strong>Software Development</strong>: R packages, interactive applications</li>
+  <li><strong>Report Writing</strong>: Statistical methodology, results interpretation</li>
+</ul>
+
+<h3 id="industry-partnerships">Industry Partnerships</h3>
+<ul>
+  <li><strong>Agricultural Research</strong>: Field trials, crop modeling, disease analysis</li>
+  <li><strong>Data Science</strong>: Machine learning integration, predictive modeling</li>
+  <li><strong>Software Solutions</strong>: Custom statistical applications, data visualization</li>
+</ul>
+
+<hr />
+
+<p><em>“The best collaborations start with a simple conversation. Don’t hesitate to reach out!”</em></p>
+
+<style>
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.form-control {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: #f2756a;
+  box-shadow: 0 0 5px rgba(242, 117, 106, 0.3);
+}
+
+.btn-primary {
+  background: #f2756a;
+  border: none;
+  padding: 12px 30px;
+  font-size: 16px;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: #e74c3c;
+}
+
+.contact-info {
+  margin-top: 40px;
+  padding: 20px;
+  background: #fafafa;
+  border-radius: 8px;
+}
+
+.contact-info h3 {
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+.contact-info a {
+  color: #f2756a;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  color: #e74c3c;
+  text-decoration: underline;
+}
+</style>
+
+:ET

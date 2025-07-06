@@ -2,11 +2,27 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>{{ page.title }}</title>
+	<title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
 	{% if page.description %}
 	<meta name="description" content="{{ page.description }}">
+	{% else %}
+	<meta name="description" content="Dr. Zhanglong Cao's personal blog on statistics, agricultural data analytics, and research in biometry.">
 	{% endif %}
 	<meta name="author" content="{{ site.author.name }}">
+	
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+	<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+	<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}Dr. Zhanglong Cao's personal blog on statistics, agricultural data analytics, and research in biometry.{% endif %}">
+	<meta property="og:image" content="{{ site.url }}/assets/ico/apple-touch-icon-144-precomposed.png">
+
+	<!-- Twitter -->
+	<meta property="twitter:card" content="summary_large_image">
+	<meta property="twitter:url" content="{{ site.url }}{{ page.url }}">
+	<meta property="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+	<meta property="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}Dr. Zhanglong Cao's personal blog on statistics, agricultural data analytics, and research in biometry.{% endif %}">
+	<meta property="twitter:image" content="{{ site.url }}/assets/ico/apple-touch-icon-144-precomposed.png">
 
 	<!-- Enable responsive viewport -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,13 +38,11 @@
 	<link href="{{ site.BASE_PATH }}/assets/resources/syntax/syntax.css" rel="stylesheet">
 	<link href="{{ site.BASE_PATH }}/assets/css/style.css" rel="stylesheet">
 
-	<!-- Le fav and touch icons -->
-	<!-- Update these with your own images
-	<link rel="shortcut icon" href="images/favicon.ico">
-	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
-	-->
+	<!-- Favicon and touch icons -->
+	<link rel="shortcut icon" href="{{ site.BASE_PATH }}/assets/ico/favicon.png">
+	<link rel="apple-touch-icon" href="{{ site.BASE_PATH }}/assets/ico/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="{{ site.BASE_PATH }}/assets/ico/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="{{ site.BASE_PATH }}/assets/ico/apple-touch-icon-114-precomposed.png">
 
 	<link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.BASE_PATH }}/feed.xml">
 </head>
@@ -70,12 +84,12 @@
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav">
 				<li class="active"><a href="{{ site.BASE_PATH }}/">Home</a></li>
-		<!--		<li><a href="{{ site.BASE_PATH}}/{{ site.tags_path }}">Tags</a></li>
-				<li><a href="{{ site.BASE_PATH}}/Reading">Reading</a></li>
-				<li><a href="{{ site.BASE_PATH}}/Working">Working</a></li> -->
+				<li><a href="{{ site.BASE_PATH}}/About">About</a></li>
+				<li><a href="{{ site.BASE_PATH}}/Projects">Projects</a></li>
+				<li><a href="{{ site.BASE_PATH}}/search">Search</a></li>
 				<li><a href="{{ site.BASE_PATH}}/{{ site.categories_path }}">Categories</a></li>
-<!--			<li><a href="//JeromeCY.github.io/PDF/Zhanglong_CV.pdf">About Me</a></li> -->
-				<li><a href="{{ site.BASE_PATH}}/CV">About Me</a></li>
+				<li><a href="{{ site.BASE_PATH}}/CV">CV</a></li>
+				<li><a href="{{ site.BASE_PATH}}/contact">Contact</a></li>
 			</ul>
 		</div><!-- /.navbar-collapse -->
 	</nav>
@@ -87,12 +101,12 @@
 		</button>
 		<ul class="dropdown-menu" role="menu">
 			<li><a href="{{ site.BASE_PATH}}/"><i class="fa fa-home"></i>Home</a></li>
-	<!--		<li><a href="{{ site.BASE_PATH}}/{{ site.tags_path }}"><i class="fa fa-tags"></i>Tags</a></li>
-			<li><a href="{{ site.BASE_PATH}}/Reading"><i class="fa fa-tags"></i>Reading</a></li>
-			<li><a href="{{ site.BASE_PATH}}/Working"><i class="fa fa-tags"></i>Working</a></li> -->
+			<li><a href="{{ site.BASE_PATH}}/About"><i class="fa fa-user"></i>About</a></li>
+			<li><a href="{{ site.BASE_PATH}}/Projects"><i class="fa fa-code"></i>Projects</a></li>
+			<li><a href="{{ site.BASE_PATH}}/search"><i class="fa fa-search"></i>Search</a></li>
 			<li><a href="{{ site.BASE_PATH}}/{{ site.categories_path }}"><i class="fa fa-folder"></i>Categories</a></li>
-	<!--		<li><a href="//JeromeCY.github.io/PDF/Zhanglong_CV.pdf"><i class="fa fa-folder"></i>About Me</a></li> -->
-			<li><a href="{{ site.BASE_PATH}}/CV"><i class="fa fa-tags"></i>About Me</a></li>
+			<li><a href="{{ site.BASE_PATH}}/CV"><i class="fa fa-file-text"></i>CV</a></li>
+			<li><a href="{{ site.BASE_PATH}}/contact"><i class="fa fa-envelope"></i>Contact</a></li>
 			<li class="divider"></li>
 			<li><a href="#"><i class="fa fa-arrow-up"></i>Top of Page</a></li>
 		</ul>

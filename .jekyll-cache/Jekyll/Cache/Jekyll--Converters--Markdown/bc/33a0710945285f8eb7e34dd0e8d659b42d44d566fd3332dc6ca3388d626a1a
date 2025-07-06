@@ -1,0 +1,8 @@
+I"V<p>This is the presentation that I gave on 4th September at AASC 2024 Rottnest Island.</p>
+
+<h3 id="case-studies-in-advanced-analysis-of-large-strip-on-farm-experiments">Case Studies in Advanced Analysis of Large Strip On-farm Experiments</h3>
+
+<p>Abstract: On-farm experiments (OFE) are gaining attention among farmers and agronomists for testing various research questions on real farms. The Analytics for the Australian Grains Industry (AAGI) has developed several techniques for analysing OFE data. Geographically Weighted Regression (GWR) and the multi-environment trial (MET) technique, which partitions paddocks into pseudo-environments (PEs), have proven effective. Additionally, we have explored the potential of the Generalised Additive Model (GAM) for handling temporal and spatial variability, given its flexibility in accommodating non-linear variables. In this presentation, we will demonstrate case studies using these techniques to analyse OFE data and compare the outcomes of different approaches.</p>
+
+<p><a href="//JeromeCY.github.io/PDF/2024-AASC_OFE_Work.pdf" target="_blank">PDF.</a></p>
+:ET

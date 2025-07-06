@@ -1,2 +1,0 @@
-I"<p>Recently, I encountered a problem with using PSIS and Pareto k for model diagnostics and selection. Some models have good posterior predictive checking performance but a few terrible Pareto k values. And sometimes, a model with more high k values might be misspecified.</p>
-:ET
