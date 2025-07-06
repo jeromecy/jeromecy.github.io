@@ -1,4 +1,29 @@
-_config.yml
-_site/*
+# Jekyll build files
+_site/
+.jekyll-cache/
+.jekyll-metadata
+
+# OS generated files
 *Thumbs.db
-Gemfile.lock
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
+
+# Keep Gemfile.lock for consistent builds
+# Gemfile.lock
