@@ -7,7 +7,7 @@ description: "Dr. Zhanglong Cao - Research Fellow in Biometry & Agricultural Dat
 
 <div class="hero">
   <h1>About Me</h1>
-  <p>Research Fellow in Biometry & Agricultural Data Analytics at Curtin University</p>
+  <p>Research Fellow in Curtin Biometry & Agricultural Data Analytics</p>
 </div>
 
 <div class="about-container">
@@ -16,7 +16,7 @@ description: "Dr. Zhanglong Cao - Research Fellow in Biometry & Agricultural Dat
       <img src="//www.gravatar.com/avatar/{{site.author.email_md5}}?s=200" class="profile-image" alt="Dr. Zhanglong Cao" />
       <div class="profile-info">
         <h2>Dr. Zhanglong Cao</h2>
-        <p class="profile-title">Research Fellow in Biometry & Agricultural Data Analytics</p>
+        <p class="profile-title">Research Fellow in Curtin Biometry & Agricultural Data Analytics</p>
         <p class="profile-institution"><strong>Curtin University, Perth, Australia</strong></p>
       </div>
     </div>
