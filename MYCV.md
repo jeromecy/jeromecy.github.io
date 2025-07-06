@@ -5,7 +5,7 @@ permalink: /cv/
 
 <div class="hero">
   <h1>Curriculum Vitae</h1>
-  <p>Dr. Zhanglong Cao - Agricultural Statistician & Data Scientist</p>
+  <p>Dr. Zhanglong Cao - Statistician & Bayesian & Data Scientist</p>
 </div>
 
 <div class="cv-container">
@@ -16,34 +16,28 @@ permalink: /cv/
     </div>
     
     <div class="education-grid">
-      <div class="education-card current">
-        <div class="education-date">2018 - Present</div>
+      <div class="education-card">
+        <div class="education-date">Sep 2014 - Aug 2018</div>
         <div class="education-content">
-          <h3>PhD in Agricultural Statistics</h3>
-          <div class="institution">Curtin University, Perth, Australia</div>
-          <div class="thesis">Thesis: "Optimal Design for On-Farm Experiments: Systematic vs Randomised Approaches"</div>
-          <ul class="role-details">
-            <li>Developed novel methodologies for on-farm experimental design</li>
-            <li>Applied geographically weighted regression techniques to agricultural data</li>
-            <li>Created R packages for statistical analysis and experimental design</li>
-          </ul>
+          <h3>PhD, Statistics</h3>
+          <div class="institution">University of Otago (Dunedin, New Zealand)</div>
+          <div class="thesis">Thesis title: Inference and Characterization of Planar Trajectories</div>
         </div>
       </div>
       
       <div class="education-card">
-        <div class="education-date">2014 - 2018</div>
+        <div class="education-date">Sep 2008 - Mar 2011</div>
         <div class="education-content">
-          <h3>Master of Science in Statistics</h3>
-          <div class="institution">University of Auckland, New Zealand</div>
-          <div class="thesis">Thesis: "Bayesian Methods in Agricultural Research"</div>
+          <h3>Master in Science, Complex Analysis</h3>
+          <div class="institution">University of Shanghai for Science and Technology (Shanghai, China)</div>
         </div>
       </div>
       
       <div class="education-card">
-        <div class="education-date">2010 - 2014</div>
+        <div class="education-date">Sep 2003 - Jun 2007</div>
         <div class="education-content">
-          <h3>Bachelor of Science in Mathematics</h3>
-          <div class="institution">University of Auckland, New Zealand</div>
+          <h3>Bachelor in Science, Mathematics and Applied Mathematics</h3>
+          <div class="institution">Jiangsu Normal University (Xuzhou, China)</div>
         </div>
       </div>
     </div>
@@ -60,15 +54,51 @@ permalink: /cv/
         <h3>Publications</h3>
         <div class="publications-list">
           <div class="publication-item">
-            <p><strong>Cao, Z.</strong>, Brown, J., Gibberd, M., Easton, J., Rakshit, S. "Optimal design for on-farm strip trials—systematic or randomised?" Field Crops Research, 318, 109594, 2024. <a href="https://doi.org/10.1016/j.fcr.2024.109594" target="_blank">DOI:10.1016/j.fcr.2024.109594</a></p>
+            <p><strong>Olita, T., Sung, B., Sharma, A., Cao, Z., Mapulanga-Hulston, J., Gibberd, M.</strong> (2025). Fungicide Resistance Management in West Australia's Wheatbelt. Scientific Data, 12(1), 502. <a href="https://doi.org/10.1038/s41597-025-04840-0" target="_blank">DOI:10.1038/s41597-025-04840-0</a></p>
           </div>
           
           <div class="publication-item">
-            <p><strong>Cao, Z.</strong>, Brown, J., Gibberd, M. "Bayesian approaches to on-farm experimentation: A case study in Western Australia." Agricultural Systems, 2023. <a href="#" target="_blank">DOI:10.1016/j.agsy.2023.103456</a></p>
+            <p><strong>Cao, Z., Brown, J., Gibberd, M., Easton, J., Rakshit, S.</strong> (2024). Optimal design for on-farm strip trials—systematic or randomised? Field Crops Research, 318, 109594. <a href="https://doi.org/10.1016/j.fcr.2024.109594" target="_blank">DOI:10.1016/j.fcr.2024.109594</a></p>
           </div>
           
           <div class="publication-item">
-            <p><strong>Cao, Z.</strong>, Easton, J., Rakshit, S. "Geographically weighted regression for agricultural yield prediction." Precision Agriculture, 2023. <a href="#" target="_blank">DOI:10.1007/s11119-023-09989-2</a></p>
+            <p><strong>Olita, T., Cao, Z., Gibberd, M.</strong> (2024). Economic analysis of crop protection strategies: Comparing the value of increased fungicide inputs and crop genetic improvement in managing Ascochyta Blight in Australian Chickpeas. Pest Management Science. <a href="https://doi.org/10.1002/ps.8319" target="_blank">DOI:10.1002/ps.8319</a></p>
+          </div>
+          
+          <div class="publication-item">
+            <p><strong>Stefanova, K.T., Brown, J., Grose, A., Cao, Z., Chen, K., Gibberd, M., Rakshit, S.</strong> (2023). Statistical analysis of comparative experiments based on large strip on-farm trials. Field Crops Research, 297, 108945. <a href="https://doi.org/10.1016/j.fcr.2023.108945" target="_blank">DOI:10.1016/j.fcr.2023.108945</a></p>
+          </div>
+          
+          <div class="publication-item">
+            <p><strong>Olitaa, H. T., Sunga, B., Hoopera, B., Cao, Z., Lopez-Ruiza, F., Gibberda, M.</strong> (2023). The socio-economic impact of fungicide resistance in West Australia's Wheatbelt. Advances in Agronomy, 180, 1. <a href="https://doi.org/10.1016/bs.agron.2023.03.005" target="_blank">DOI:10.1016/bs.agron.2023.03.005</a></p>
+          </div>
+          
+          <div class="publication-item">
+            <p><strong>Phong, W. N., Sung, B., Cao, Z., Gibberd, M., Dykes, G. A., Payne, A. D., Coorey, R.</strong> (2022). Impact of different processing techniques on the key volatile profile, sensory, and consumer acceptance of black truffle (Tuber melanosporum Vittadini). Journal of Food Science, 00, 1–14. <a href="https://doi.org/10.1111/1750-3841.16275" target="_blank">DOI:10.1111/1750-3841.16275</a></p>
+          </div>
+          
+          <div class="publication-item">
+            <p><strong>Cao, Z., Stefanova, K., Gibberd, M., Rakshit, S.</strong> (2022). Bayesian inference of spatially correlated random parameters for on-farm experiment. Field Crops Research, 281, 108477. <a href="https://doi.org/10.1016/j.fcr.2022.108477" target="_blank">DOI:10.1016/j.fcr.2022.108477</a></p>
+          </div>
+          
+          <div class="publication-item">
+            <p><strong>Cao, Z., Bryant, D., Molteno, T. C., Fox, C., Parry, M.</strong> (2021). V-spline: An adaptive smoothing spline for trajectory reconstruction. Sensors, 21(9), 3215. <a href="https://doi.org/10.3390/s21093215" target="_blank">DOI:10.3390/s21093215</a></p>
+          </div>
+          
+          <div class="publication-item">
+            <p><strong>Rakshit, S., Baddeley, A., Stefanova, K., Reeves, K., Chen, K., Cao, Z., Evans, F., Gibberd, M.</strong> (2020). Novel approach to the analysis of spatially-varying treatment effects in on-farm experiments. Field Crops Research, 255, 107783. <a href="https://doi.org/10.1016/j.fcr.2020.107783" target="_blank">DOI:10.1016/j.fcr.2020.107783</a></p>
+          </div>
+          
+          <div class="publication-item">
+            <p><strong>Shankar, M., et al.</strong> (2020). Targeting improved partial resistance using yield-loss response curves for foliar diseases of wheat. GRDC Updates.</p>
+          </div>
+          
+          <div class="publication-item">
+            <p><strong>Cao, Z., Bryant, D., Parry, M.</strong> (2018). Adaptive Sequential MCMC for Combined State and Parameter Estimation. arXiv preprint:1803.07734.</p>
+          </div>
+          
+          <div class="publication-item">
+            <p><strong>Cao, Z., Bryant, D., Parry, M.</strong> (2018). V-Splines and Bayes Estimate. arXiv preprint:1803.07645.</p>
           </div>
         </div>
       </div>
@@ -77,21 +107,51 @@ permalink: /cv/
         <h3>Conference Presentations</h3>
         <div class="conferences-list">
           <div class="conference-item">
-            <div class="conference-date">December 2024</div>
+            <div class="conference-date">September 2024</div>
+            <div class="conference-name">Australian Applied Statistics Conference, Rottenest</div>
+            <div class="conference-title">Case Studies in Advanced Analysis of Large Strip On-farm Experiments</div>
+          </div>
+          
+          <div class="conference-item">
+            <div class="conference-date">August 2024</div>
+            <div class="conference-name">AAGI Mini-Symposium</div>
+            <div class="conference-title">A Bayesian Workflow for Spatially Correlated Random Effects in On-farm Experiment</div>
+          </div>
+          
+          <div class="conference-item">
+            <div class="conference-date">May 2024</div>
+            <div class="conference-name">Pawsey Centre</div>
+            <div class="conference-title">Analytics Innovations in On-farm Experiments</div>
+          </div>
+          
+          <div class="conference-item">
+            <div class="conference-date">December 2022</div>
             <div class="conference-name">Australian Applied Statistics Conference, Inverloch</div>
             <div class="conference-title">Optimal design for OFE: systematic or randomised?</div>
           </div>
           
           <div class="conference-item">
-            <div class="conference-date">November 2023</div>
-            <div class="conference-name">International Biometric Conference, Melbourne</div>
-            <div class="conference-title">Bayesian methods in on-farm experimentation</div>
+            <div class="conference-date">November 2022</div>
+            <div class="conference-name">StatsPD@Waite</div>
+            <div class="conference-title">A Bayesian Workflow for Spatially Correlated Random Effects in On-farm Experiment</div>
           </div>
           
           <div class="conference-item">
-            <div class="conference-date">July 2022</div>
-            <div class="conference-name">World Congress of Soil Science, Glasgow</div>
-            <div class="conference-title">Spatial analysis techniques for agricultural data</div>
+            <div class="conference-date">September 2020</div>
+            <div class="conference-name">SAGI Symposium</div>
+            <div class="conference-title">On-farm Strip Trials: going beyond small plot experiments</div>
+          </div>
+          
+          <div class="conference-item">
+            <div class="conference-date">December 2019</div>
+            <div class="conference-name">IBS, Adelaide</div>
+            <div class="conference-title">Model selection and principle of parsimony in statistical modelling in agriculture</div>
+          </div>
+          
+          <div class="conference-item">
+            <div class="conference-date">May 2019</div>
+            <div class="conference-name">SAGI Symposium, Rottenest</div>
+            <div class="conference-title">Early Career Statistician</div>
           </div>
         </div>
       </div>
@@ -136,15 +196,9 @@ permalink: /cv/
     <div class="r-package-section">
       <h3>R Packages</h3>
       <div class="package-card">
-        <h4>agriOFE</h4>
-        <p>Package for optimal design of on-farm experiments with systematic and randomised approaches.</p>
-        <a href="#" target="_blank">CRAN Link</a>
-      </div>
-      
-      <div class="package-card">
-        <h4>bayesAgri</h4>
-        <p>Bayesian analysis tools specifically designed for agricultural research and experimentation.</p>
-        <a href="#" target="_blank">GitHub Repository</a>
+        <h4>V-Spline</h4>
+        <p>Adaptive V-spline and the Bayesian estimates.</p>
+        <a href="https://github.com/jeromecy/VSplinePackage" target="_blank">GitHub Repository</a>
       </div>
     </div>
   </section>
