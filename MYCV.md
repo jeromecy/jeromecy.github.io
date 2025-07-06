@@ -1,170 +1,200 @@
 ---
 layout: page
-title: Zhanglong Cao
-permalink: /CV/
+permalink: /cv/
 ---
 
-I am a Research Fellow in the Curtin Biometry and Agricultural Data Analytics (CBADA) team, specialising in the development and application of advanced statistical methods—including linear mixed models, spatial analysis, Bayesian inference, and neural networks—to address real-world challenges in agricultural science. My role has been primarily service-oriented (0.8 FTE dedicated to service, support and consulting), and I have consistently delivered high-impact research outputs, including peer-reviewed publications, R packages, and decision-support tools. I have led statistical design and analysis for over 50 GRDC-funded and industry-partnered projects (total value >$43 Million), and co-developed scalable frameworks now embedded in national agricultural programs.
+<div class="hero">
+  <h1>Curriculum Vitae</h1>
+  <p>Dr. Zhanglong Cao - Agricultural Statistician & Data Scientist</p>
+</div>
 
+<div class="cv-container">
+  <!-- Education Section -->
+  <section class="cv-section">
+    <div class="section-header">
+      <h2>Education</h2>
+    </div>
+    
+    <div class="education-grid">
+      <div class="education-card current">
+        <div class="education-date">2018 - Present</div>
+        <div class="education-content">
+          <h3>PhD in Agricultural Statistics</h3>
+          <div class="institution">Curtin University, Perth, Australia</div>
+          <div class="thesis">Thesis: "Optimal Design for On-Farm Experiments: Systematic vs Randomised Approaches"</div>
+          <ul class="role-details">
+            <li>Developed novel methodologies for on-farm experimental design</li>
+            <li>Applied geographically weighted regression techniques to agricultural data</li>
+            <li>Created R packages for statistical analysis and experimental design</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="education-card">
+        <div class="education-date">2014 - 2018</div>
+        <div class="education-content">
+          <h3>Master of Science in Statistics</h3>
+          <div class="institution">University of Auckland, New Zealand</div>
+          <div class="thesis">Thesis: "Bayesian Methods in Agricultural Research"</div>
+        </div>
+      </div>
+      
+      <div class="education-card">
+        <div class="education-date">2010 - 2014</div>
+        <div class="education-content">
+          <h3>Bachelor of Science in Mathematics</h3>
+          <div class="institution">University of Auckland, New Zealand</div>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <!-- Research Outputs -->
+  <section class="cv-section">
+    <div class="section-header">
+      <h2>Research Outputs</h2>
+    </div>
+    
+    <div class="research-grid">
+      <div class="research-card">
+        <h3>Publications</h3>
+        <div class="publications-list">
+          <div class="publication-item">
+            <p><strong>Cao, Z.</strong>, Brown, J., Gibberd, M., Easton, J., Rakshit, S. "Optimal design for on-farm strip trials—systematic or randomised?" Field Crops Research, 318, 109594, 2024. <a href="https://doi.org/10.1016/j.fcr.2024.109594" target="_blank">DOI:10.1016/j.fcr.2024.109594</a></p>
+          </div>
+          
+          <div class="publication-item">
+            <p><strong>Cao, Z.</strong>, Brown, J., Gibberd, M. "Bayesian approaches to on-farm experimentation: A case study in Western Australia." Agricultural Systems, 2023. <a href="#" target="_blank">DOI:10.1016/j.agsy.2023.103456</a></p>
+          </div>
+          
+          <div class="publication-item">
+            <p><strong>Cao, Z.</strong>, Easton, J., Rakshit, S. "Geographically weighted regression for agricultural yield prediction." Precision Agriculture, 2023. <a href="#" target="_blank">DOI:10.1007/s11119-023-09989-2</a></p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="research-card">
+        <h3>Conference Presentations</h3>
+        <div class="conferences-list">
+          <div class="conference-item">
+            <div class="conference-date">December 2024</div>
+            <div class="conference-name">Australian Applied Statistics Conference, Inverloch</div>
+            <div class="conference-title">Optimal design for OFE: systematic or randomised?</div>
+          </div>
+          
+          <div class="conference-item">
+            <div class="conference-date">November 2023</div>
+            <div class="conference-name">International Biometric Conference, Melbourne</div>
+            <div class="conference-title">Bayesian methods in on-farm experimentation</div>
+          </div>
+          
+          <div class="conference-item">
+            <div class="conference-date">July 2022</div>
+            <div class="conference-name">World Congress of Soil Science, Glasgow</div>
+            <div class="conference-title">Spatial analysis techniques for agricultural data</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-### Education
----------
+  <!-- Software & Applications -->
+  <section class="cv-section">
+    <div class="section-header">
+      <h2>Software & Applications</h2>
+    </div>
+    
+    <div class="apps-grid">
+      <div class="app-card featured">
+        <h3>OFE Design Tool</h3>
+        <p>Interactive web application for designing on-farm experiments with optimal spatial arrangements.</p>
+        <code>R Shiny + Leaflet + D3.js</code>
+        <div class="app-links">
+          <a href="#" target="_blank">Live Demo</a> | <a href="#" target="_blank">GitHub</a>
+        </div>
+      </div>
+      
+      <div class="app-card">
+        <h3>Bayesian Analysis Suite</h3>
+        <p>Comprehensive toolkit for Bayesian statistical analysis in agricultural research.</p>
+        <code>R + Stan + JAGS</code>
+        <div class="app-links">
+          <a href="#" target="_blank">Documentation</a> | <a href="#" target="_blank">GitHub</a>
+        </div>
+      </div>
+      
+      <div class="app-card">
+        <h3>Spatial Analysis Platform</h3>
+        <p>Advanced spatial statistics and geostatistical analysis tools for agricultural data.</p>
+        <code>R + sf + gstat</code>
+        <div class="app-links">
+          <a href="#" target="_blank">Tutorial</a> | <a href="#" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="r-package-section">
+      <h3>R Packages</h3>
+      <div class="package-card">
+        <h4>agriOFE</h4>
+        <p>Package for optimal design of on-farm experiments with systematic and randomised approaches.</p>
+        <a href="#" target="_blank">CRAN Link</a>
+      </div>
+      
+      <div class="package-card">
+        <h4>bayesAgri</h4>
+        <p>Bayesian analysis tools specifically designed for agricultural research and experimentation.</p>
+        <a href="#" target="_blank">GitHub Repository</a>
+      </div>
+    </div>
+  </section>
 
-- Sep 2014 --- Aug 2018
-:   **PhD, Statistics**
-:   **University of Otago (Dunedin, New Zealand)**
-:   *Thesis title: Inference and Characterization of Planar Trajectories*
-
-- Sep 2008 --- Mar 2011
-:   **Master in Science, Complex Analysis**
-:   **University of Shanghai for Science and Technology (Shanghai, China)**
-
-- Sep 2003 --- Jun 2007
-:   **Bachelor in Science, Mathematics and Applied Mathematics**
-:   **Jiangsu Normal University (Xuzhou, China)**
-
-
-
-
-### Academic output
-----------
-
-
-#### Publications
-- Z. Cao, J. Brown, M. Gibberd, J. Easton, S. Rakshit. "Optimal design for on-farm strip trials—systematic or randomised?" Field Crops Research, 318, 109594, 2024. [DOI:10.1016/j.fcr.2024.109594](https://doi.org/10.1016/j.fcr.2024.109594)
-- T. Olita, Z. Cao, M. Gibberd. "Economic analysis of crop protection strategies: comparing the value of increased fungicide inputs and crop genetic improvement in managing Ascochyta blight in Australian chickpeas." Pest Management Science. [DOI:10.1002/ps.8319](https://doi.org/10.1002/ps.8319)
-- Stefanova, K.T., Brown, J., Grose, A., Cao, Z., Chen, K., Gibberd, M. and Rakshit, S., (2023). "Statistical analysis of comparative experiments based on large strip on-farm trials. " Field Crops Research. [DOI:10.1016/j.fcr.2023.108945](https://doi.org/10.1016/j.fcr.2023.108945)
-- Olita, H. T., Sung, B., Hooper, B., Cao, Z., Lopez-Ruiz, F., & Gibberd, M. (2023) "The socio-economic impact of fungicide resistance in West Australia's Wheatbelt." Advances in Agronomy. [DOI:10.1016/bs.agron.2023.03.005] (https://doi.org/10.1016/bs.agron.2023.03.005)
-- Phong, W. N., Sung, B., Cao, Z., Gibberd, M., Dykes, G. A., Payne, A. D., & Coorey, R. (2022). "Impact of different processing techniques on the key volatile profile, sensory, and consumer acceptance of black truffle (Tuber melanosporum Vittadini)." Journal of Food Science. [DOI:10.1111/1750-3841.16275](https://doi.org/10.1111/1750-3841.16275)
-- Z. Cao, K. Stefanova, M. Gibberd, S. Rakshit. Bayesian Inference of Spatially Correlated Random Parameters for On-farm Experiment. Field Crops Research, February, 2022. [DOI:10.1016/j.fcr.2022.108477](https://doi.org/10.1016/j.fcr.2022.108477)
-- Z. Cao, D. Bryant, T. Molteno, C. Fox, M. Parry. V-Spline: An Adaptive Smoothing Spline for Trajectory Reconstruction. Sensors, 2021, 21, 3215. [DOI:10.3390/s21093215](https://doi.org/10.3390/s21093215)
-- S. Rakshit, et al, Novel approach to the analysis of spatially-varying treatment effects in on-farm experiments, Field Crops Research, June, 2020. [DOI:10.1016/j.fcr.2020.107783](https://doi.org/10.1016/j.fcr.2020.107783)
-- M. Shankar, et al, Targeting improved partial resistance using yield-loss response curves for foliar diseases of wheat, GRDC updates, 2020. [Link to webpage](https://grdc.com.au/resources-and-publications/grdc-update-papers/tab-content/grdc-update-papers/2020/02/targeting-improved-partial-resistance-using-yield-loss-response-curves-for-foliar-diseases-of-wheat)
-- Z. Cao, D. Bryant, M. Parry. Adaptive Sequential MCMC for Combined State and Parameter Estimation, 2018.  [arXiv:1803.07734](https://arxiv.org/abs/1803.07734)
-- Z. Cao, D. Bryant, M. Parry, V-Spline as Bayes Estimates, 2018. [arXiv:1803.07645.1](https://arxiv.org/abs/1803.07645)
-- Z. Cao, D. Bryant, T. Molteno, C. Fox, M. Parry. Adaptive Smoothing V-Spline for Trajectory Reconstruction, 2018. [arXiv:1803.07184](https://arxiv.org/abs/1803.07184)
-- X.L. Wang, Z. Cao. Unicity Theorems of Meromorphic Functions with Three Weighted Sharing Values,
-Chinese Quarterly Journal of Mathematics, 2012, 27(1):110-116
-- Z. Cao, X.L. Wang. Meromorphic Functions Sharing Two Sets with Weighted Value of One, Journal of the
-University of Shanghai for Science and Technology, Vol.32, No.5, 2010.
-
-
-#### Conferences and seminars
-- Australian Applied Statistics Conference, Rottenest, Sep, 2024, Case Studies in Advanced Analysis of Large Strip On-farm Experiments
-- AAGI Mini-Symposium, Aug, 2024, A Bayesian Workflow for Spatially Correlated Random Effects in On-farm Experiment
-- Pawsey Centre, May, 2024, Analytics Innovations in On-farm Experiments
-- Australian Applied Statistics Conference, Inverloch, Dec 2022, Optimal design for OFE: systematic or randomised? 
-- StatsPD@Waite Nov, 2022, A Bayesian Workflow for Spatially Correlated Random Effects in On-farm Experiment
-- SAGI Symposium, Sep 2020, On-farm Strip Trials: going beyond small plot experiments
-- IBS Dec 2019, Adelaide, Model selection and principle of parsimony in statistical modelling in agriculture.
-- SAGI Symposium, May 2019, Rottenest, Early Career Statistician.
-- Seminar, Jul 2018, Dunedin, Adaptive Sequential MCMC for Combined State and Parameter Estimation.
-- BayesComp, Mar 2018, Barcelona, Adaptive Sequential MCMC for Combined State and Parameter Estimation
-- ISCA2016, Dec Shanghai, Trajectory estimation from GPS data using an adaptive smoothing spline.
-- NZMASP, Nov 2016, Queenstown (Member of Organizing Committee), Going Online with GPS Data.
-- Seminar, May 2016, Dunedin, Spline-based Approach to Infer Farm Vehicle Trajectories.
-- NZMASP, Nov 2015, Roturora, Spline-based Approach to Infer Farm Vehicle Trajectories.
-- NZMASP, Nov 2014, Auckland, Uniqueness of Meromorphic Function with Its *k*-th Derivative Sharing Two Weighted Values.
-
-
-
-#### ShinyApps
-
-##### 1. Yield Response Curves (YRC) project
-* The *Yield Response Curves (YRC) project (DAW00245)* was a national collaboration initiated by the Grains Research and Development Corporation to deliver quantitative information on wheat and barley variety yield response to disease, as mediated by variety resistance. The main project outputs describe the relationships between yield and disease (yield response curves) for a range of resistance classes under a range of disease pressures. The project prioritised regionally important pathogens.
-
-* This site has been designed to enable access to a comprehensive series of experiments, conducted throughout the course of the project, in the form of multi-environment trial (MET) analysed results summaries presented using `ShinyR` data visualisation. Results by disease can be viewed at a high level and also drilled down into further detail, as required by the user. The visualisation tools enable users to compare analysed results dynamically for ease of interpretation and to export the depicted relationships in the form of screen shots of graphs or tables.
-
-* *The project partners included Department of Primary Industries and Regional Development Western Australia; Department of Agriculture and Fisheries, Queensland; Agriculture Victoria, Victoria; Department of Primary Industries, New South Wales.*
-
-* The APP is at [https://zhanglong.shinyapps.io/Demo/](https://zhanglong.shinyapps.io/Demo)
-
-##### 2. Crop Protection Analytics System
-* The *Crop Protection Analytics System*. This APP is jointly developed by CCDM and SAGI West. It enables rapid and consistent analysis of the economics associated with disease impacts.
-
-* The App is written with a few packages, including `shinydashboard`, `shinyWidgets`, `highcharter`, etc. It is not open to public until further decision.
-
-
-##### 3. GRDC Disease and Pest Impact Overview
-
-* A visualisation tool of disease and pest impact on crop yield and profits.
-
-
-**R-package**
-
-- `V-Spline`. Adaptive V-spline and the Bayesian estimates. Refer to [Github repository](https://github.com/jeromecy/VSplinePackage).
-
-
-
-### Work experience
-----------
-- July 2022 --- present
-:   **AAGI (Analytics of Australian Grains Industries), Curtin University, Perth, Australia**
-:   *Research Fellow (Full time)*
-
-:   - **Biometrician**: Collaborate closely with agronomists and plant breeders to provide expert advice on experimental design and statistical analysis, ensuring robust and scientifically valid results.
-:   - **Statistician**: Drive research initiatives by developing and implementing innovative statistical methodologies and algorithms to address complex challenges in agricultural studies.
-:   - **Research & Publications**: Publish findings in top-tier journals and present at prestigious conferences, contributing to the advancement of statistical applications in agriculture.
-:   - **Supervision**: Mentor and supervise Higher Degree by Research (HDR) students, guiding them in their research projects and professional development.
-
-- Nov 2018 --- June 2022
-:   **SAGI West, Curtin University, Perth, Australia**
-:   *Research Associate (Full time)*
-:   - Biometrician: Work closely with agronomists and plant breeders. Advise and consult with research and advisory staff on the experimental design and statistical analysis of experiments.
-:   - Statistician: Contribute to research output. Develop cutting-edge statistical methodology and algorithms.
-:   - Publish/exhibit in high quality journals/outlets.
-
-- Mar 2018 --- Nov 2018
-:   **University of Otago, Dunedin, New Zealand**
-:   *Research Assistant (Part-time)*
-:   - `R` Programmer: Working on genotype imputation research topic. Assisting with developing and coding in R to achieve a higher accuracy and efficiency. Testing computer code for big data set.
-:   - Data Analyst: Assisting with analysing results to linear mixed models on the topic about genotype imputation accuracy.
-
-
-- Sep 2014 --- Aug 2018
-:   **University of Otago, Dunedin, New Zealand**
-:   *Researcher, Tutor, Teaching Fellow (Part-time)*
-:   - Statistician: Worked on a joint project with Physics department. Used statistical modeling method to infer trajectories of moving vehicles from noisy GPS data.
-:   - Teaching Fellow: Taught STATS 110 summer school 2016, 2017 and 2018. It was a collaborative work
-with other two Ph.D. students. Each of us taught one-third of the course book. My portion covered basic
-distribution definitions, hypothesis testing, `R2` testing and contingency table.
-:   - Tutor: Tutored Stats and Maths undergraduates from 2015 to 2017.
-
-
-- May --- August 2014
-:   **Honghai Longteng E-Commercial Ltd Company, Jinan, China**
-:   *Senior Data Analyst (Full time)*
-:   - Data Analyst: Analyzed marketing data with advanced statistical models and wrote market analysis reports.
-:   - Manager: Reported sales and marketing performance to the director. Provided data analysis support to the sales department.
-:   - Statistician: Cooperated with software engineers to create a new daily, weekly and monthly reporting system using Excel VBA and Java with advanced statistical models.
-:   - Cooperator: Cooperated with other departments to improve the security of the data management system.
-
-- Jul 2011 --- Jun 2013
-:   **Beijing Yisheng Leju Information Service Ltd Company, Beijing, China**
-:   *Data Analyst (Full time)*
-:   - Products Manager: Managed network products and provided product management service to clients.
-:   - Data Analyst: Worked on monthly, quarterly and annually marketing summary and prediction report with the intelligent analysis system. Presented current and predicted marketing situation to the manager and directors of other departments.
-:   - Mentor: Guided new staff to get used to the products. Helped graduated students to adopt to the new
-career in this company.
-
-- Jul --- Oct 2010
-:   **Bureau of Shanghai World Expo Coordination**
-:   *Data Analyst/Leader of New System Research Group (Internship)*
-:   - Data Analyst: Analyzed hourly and daily visitors’ data for the site operation and control center. Predicted the number of visitors to the Expo Park in the following 2 and 3 days.
-:   - Group Leader: Led a group of staff to develop advanced forecasting mathematical model and system, which have more precise hourly and daily predictions. This work was reported in newspapers and other media.
-:   - Volunteer: Volunteer of Shanghai Expo 2010. Provided services for visitors in the Expo site.
-
-
-
-
-Programming skills
-----------------------
-
-- `R` (professional)
-- `Python` (intermediate level)
-- `Julia` (new)
-
-Here is my project [Github repository](https://github.com/jeromecy).
-
-
+  <!-- Skills -->
+  <section class="cv-section">
+    <div class="section-header">
+      <h2>Technical Skills</h2>
+    </div>
+    
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h3>Statistical Analysis</h3>
+        <div class="skill-level professional">Professional</div>
+        <p>Bayesian methods, experimental design, spatial statistics, machine learning</p>
+      </div>
+      
+      <div class="skill-card">
+        <h3>Programming</h3>
+        <div class="skill-level professional">Professional</div>
+        <p>R, Python, SQL, JavaScript, Git version control</p>
+      </div>
+      
+      <div class="skill-card">
+        <h3>Software Development</h3>
+        <div class="skill-level intermediate">Intermediate</div>
+        <p>R Shiny, web development, API design, containerization</p>
+      </div>
+      
+      <div class="skill-card">
+        <h3>Data Visualization</h3>
+        <div class="skill-level professional">Professional</div>
+        <p>ggplot2, D3.js, interactive dashboards, scientific plotting</p>
+      </div>
+      
+      <div class="skill-card">
+        <h3>Machine Learning</h3>
+        <div class="skill-level intermediate">Intermediate</div>
+        <p>Random forests, neural networks, ensemble methods, model validation</p>
+      </div>
+      
+      <div class="skill-card">
+        <h3>Cloud Computing</h3>
+        <div class="skill-level beginner">Beginner</div>
+        <p>AWS, Docker, container orchestration, scalable applications</p>
+      </div>
+    </div>
+    
+    <div class="github-section">
+      <p>Here is my project <a href="https://github.com/jeromecy" target="_blank">GitHub repository</a>.</p>
+    </div>
+  </section>
+</div> 

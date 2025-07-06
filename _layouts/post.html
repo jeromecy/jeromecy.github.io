@@ -1,7 +1,289 @@
 ---
 layout: default
 ---
-{% include post.html %}
+
+<div class="post-hero">
+  <h1>{{ page.title }}</h1>
+  <div class="post-meta">
+    <time datetime="{{ page.date | date_to_xmlschema }}">
+      {{ page.date | date: "%B %d, %Y" }}
+    </time>
+    {% if page.categories %}
+    <span class="tag">{{ page.categories | first }}</span>
+    {% endif %}
+  </div>
+  {% if page.tags %}
+  <div class="post-tags">
+    {% for tag in page.tags %}
+    <span class="tag">{{ tag }}</span>
+    {% endfor %}
+  </div>
+  {% endif %}
+</div>
+
+<div class="post-container">
+  <article class="post-content">
+    <div class="post-body">
+      {{ content }}
+    </div>
+
+    <footer class="post-footer">
+      <div class="post-navigation">
+        {% if page.previous %}
+        <a href="{{ page.previous.url }}" class="btn btn-secondary">
+          ← {{ page.previous.title }}
+        </a>
+        {% endif %}
+        {% if page.next %}
+        <a href="{{ page.next.url }}" class="btn btn-secondary">
+          {{ page.next.title }} →
+        </a>
+        {% endif %}
+      </div>
+    </footer>
+  </article>
+</div>
+
+<style>
+/* Post Hero */
+.post-hero {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding: 2rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 20px;
+  margin: -2rem -2rem 3rem -2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.post-hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="50" cy="50" r="1" fill="white" opacity="0.1"/></pattern></defs><rect width="100" height="100" fill="url(%23grain)"/></svg>');
+  opacity: 0.3;
+}
+
+.post-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  font-weight: 800;
+  position: relative;
+  z-index: 1;
+  line-height: 1.2;
+}
+
+.post-meta {
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  position: relative;
+  z-index: 1;
+}
+
+.post-tags {
+  margin-top: 1.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.post-tags .tag {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Post Container */
+.post-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.post-content {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 3rem;
+  box-shadow: 0 10px 32px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(226, 232, 240, 0.8);
+  animation: slideInUp 0.6s ease-out;
+}
+
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.post-body {
+  line-height: 1.8;
+  font-size: 1.2rem;
+  color: #2d3748;
+}
+
+.post-body h1 {
+  font-size: 2.5rem;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  color: #1a202c;
+  font-weight: 700;
+}
+
+.post-body h2 {
+  font-size: 2rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  color: #1a202c;
+  font-weight: 700;
+  border-bottom: 2px solid rgba(102, 126, 234, 0.2);
+  padding-bottom: 0.5rem;
+}
+
+.post-body h3 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #2d3748;
+  font-weight: 600;
+}
+
+.post-body h4 {
+  font-size: 1.25rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  color: #2d3748;
+  font-weight: 600;
+}
+
+.post-body p {
+  margin-bottom: 1.5rem;
+  color: #4a5568;
+  font-size: 1.1rem;
+}
+
+.post-body ul, .post-body ol {
+  margin-bottom: 1.5rem;
+  padding-left: 2rem;
+  color: #4a5568;
+}
+
+.post-body li {
+  margin-bottom: 0.75rem;
+  font-size: 1.1rem;
+}
+
+.post-body blockquote {
+  border-left: 4px solid #667eea;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  font-style: italic;
+  color: #4a5568;
+  background: rgba(102, 126, 234, 0.05);
+  border-radius: 0 12px 12px 0;
+  font-size: 1.1rem;
+}
+
+.post-body img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin: 2rem 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.post-body img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.post-body code {
+  background: rgba(102, 126, 234, 0.1);
+  color: #2d3748;
+  padding: 0.2rem 0.4rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+}
+
+.post-body pre {
+  background: linear-gradient(135deg, #1a202c 0%, #2d3748 100%);
+  color: #f7fafc;
+  padding: 1.5rem;
+  border-radius: 12px;
+  overflow-x: auto;
+  margin: 2rem 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.post-body pre code {
+  background: none;
+  color: inherit;
+  padding: 0;
+}
+
+.post-footer {
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 2px solid rgba(102, 126, 234, 0.1);
+}
+
+.post-navigation {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.post-navigation .btn {
+  flex: 1;
+  text-align: center;
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .post-hero {
+    margin: -1rem -1rem 2rem -1rem;
+    padding: 1.5rem;
+  }
+  
+  .post-hero h1 {
+    font-size: 2.25rem;
+  }
+  
+  .post-content {
+    padding: 2rem;
+    margin: 1rem;
+  }
+  
+  .post-body {
+    font-size: 1.1rem;
+  }
+  
+  .post-body h1 {
+    font-size: 2rem;
+  }
+  
+  .post-body h2 {
+    font-size: 1.75rem;
+  }
+  
+  .post-navigation {
+    flex-direction: column;
+  }
+}
+</style>
 
 {% if site.disqus and page.comments %}
     {% include disqus.html %}

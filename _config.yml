@@ -1,52 +1,60 @@
-# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
-
-paginate: 10 # pagination based on number of posts
-paginate_path: "page:num"
-exclude: ["README.md"] # files to exclude
-highlighter: rouge
-markdown: kramdown
-
-lsi: false
-excerpt_separator: "\n\n"
-incremental: false
-
-comments: true
-disqus: zcao
-google_analytics: dbyll
+# Jekyll Configuration
 title: Zhanglong Cao
-location: Perth, WA
+description: Statistics, Agricultural Data Analytics, and Research in Biometry
+url: "https://jeromecy.github.io"
+baseurl: ""
 
-defaults:
-  -
-    scope:
-      path: "" # empty string for all files
-    values:
-      title: # ZCAO's SPACE
-
-description: This is my homepage for sharing knowledge and experience.
+# Author information
 author:
   name: Dr. Zhanglong Cao
   github: jeromecy
   twitter: JeromeCY
   linkedin: zhanglong-cao-72208487
   email: cao.zhanglong@gmail.com
-#  pinterest: asd123
   bio: Statistician, Biometrician
   email_md5: 9f00102e0a362e3a92ccefd0d35c6e5d
 
-rss_path: feed.xml
-categories_path: categories.html
-tags_path: tags.html
+# Build settings
+markdown: kramdown
+highlighter: rouge
+excerpt_separator: "\n\n"
+incremental: false
 
-# set it as url of an image
-# sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
-
-BASE_PATH:
-
+# Plugins
 plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
   - jekyll-paginate
 
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /:collection/:title/
 
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+# Exclude files
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Kramdown settings
 kramdown:
   input: GFM
   hard_wrap: false
@@ -56,3 +64,19 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
+
+# Description
+description: This is my homepage for sharing knowledge and experience.
+
+
+
+# RSS and category paths
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+# set it as url of an image
+# sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
+
+# BASE_PATH
+BASE_PATH:

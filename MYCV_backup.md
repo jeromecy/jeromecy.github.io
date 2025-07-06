@@ -103,7 +103,7 @@ University of Shanghai for Science and Technology, Vol.32, No.5, 2010.
 :   **AAGI (Analytics of Australian Grains Industries), Curtin University, Perth, Australia**
 :   *Research Fellow (Full time)*
 
-:   - **Biometrician**: Collaborate closely with agronomists and plant breeders to provide expert advice on experimental design and statistical analysis, ensuring robust and scientifically valid results.
+   - **Biometrician**: Collaborate closely with agronomists and plant breeders to provide expert advice on experimental design and statistical analysis, ensuring robust and scientifically valid results.
 :   - **Statistician**: Drive research initiatives by developing and implementing innovative statistical methodologies and algorithms to address complex challenges in agricultural studies.
 :   - **Research & Publications**: Publish findings in top-tier journals and present at prestigious conferences, contributing to the advancement of statistical applications in agriculture.
 :   - **Supervision**: Mentor and supervise Higher Degree by Research (HDR) students, guiding them in their research projects and professional development.
@@ -111,7 +111,7 @@ University of Shanghai for Science and Technology, Vol.32, No.5, 2010.
 - Nov 2018 --- June 2022
 :   **SAGI West, Curtin University, Perth, Australia**
 :   *Research Associate (Full time)*
-:   - Biometrician: Work closely with agronomists and plant breeders. Advise and consult with research and advisory staff on the experimental design and statistical analysis of experiments.
+   - Biometrician: Work closely with agronomists and plant breeders. Advise and consult with research and advisory staff on the experimental design and statistical analysis of experiments.
 :   - Statistician: Contribute to research output. Develop cutting-edge statistical methodology and algorithms.
 :   - Publish/exhibit in high quality journals/outlets.
 
