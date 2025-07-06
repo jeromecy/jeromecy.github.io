@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /Projects/
+permalink: /projects/
 ---
 
 <div class="hero">

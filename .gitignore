@@ -27,3 +27,5 @@ ehthumbs.db
 
 # Keep Gemfile.lock for consistent builds
 # Gemfile.lock
+.jekyll-cache
+.jekyll-cache

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /About/
+permalink: /about/
 description: "Dr. Zhanglong Cao - Research Fellow in Biometry & Agricultural Data Analytics at Curtin University. Expert in Bayesian statistics, experimental design, and agricultural applications."
 ---
 

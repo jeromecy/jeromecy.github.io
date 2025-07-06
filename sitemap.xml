@@ -7,19 +7,19 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>{{ site.url }}/About/</loc>
+    <loc>{{ site.url }}/about/</loc>
     <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>{{ site.url }}/Projects/</loc>
+    <loc>{{ site.url }}/projects/</loc>
     <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>{{ site.url }}/CV/</loc>
+    <loc>{{ site.url }}/cv/</loc>
     <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
