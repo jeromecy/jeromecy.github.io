@@ -32,6 +32,33 @@
     
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+        <!-- Structured Data for Featured Tools -->
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "SoftwareApplication",
+                    "name": "Journal Suggester",
+                    "applicationCategory": "Research",
+                    "operatingSystem": "Any",
+                    "description": "Web app that recommends suitable academic journals by analysing manuscript title & abstract using semantic similarity and domain heuristics.",
+                    "url": "https://journalsuggester.com/",
+                    "creator": {"@type": "Person", "name": "{{ site.author.name }}"}
+                },
+                {
+                    "@type": "SoftwareApplication",
+                    "name": "Stats Journey",
+                    "applicationCategory": "Education",
+                    "operatingSystem": "Any",
+                    "description": "Interactive visual explanations of fundamental statistics concepts (sampling, inference, Bayesian updating, design).",
+                    "url": "https://statsjourney.com/",
+                    "creator": {"@type": "Person", "name": "{{ site.author.name }}"}
+                }
+            ]
+        }
+        </script>
 </head>
 <body>
     <!-- Navigation -->

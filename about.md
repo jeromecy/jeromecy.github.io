@@ -2,12 +2,12 @@
 layout: page
 title: About
 permalink: /about/
-description: "Dr. Zhanglong Cao - Research Fellow in Biometry & Agricultural Data Analytics at Curtin University. Expert in Bayesian statistics, experimental design, and agricultural applications."
+description: "Dr. Zhanglong Cao - Lecturer in Statistics (EECMS, Curtin University). Bayesian methods, experimental design, spatial & agricultural analytics."
 ---
 
 <div class="hero">
   <h1>About Me</h1>
-  <p>Research Fellow in Curtin Biometry & Agricultural Data Analytics</p>
+  <p>Lecturer in Statistics (since 18 Aug 2025), EECMS, Curtin University</p>
 </div>
 
 <div class="about-container">
@@ -16,14 +16,43 @@ description: "Dr. Zhanglong Cao - Research Fellow in Biometry & Agricultural Dat
       <img src="//www.gravatar.com/avatar/{{site.author.email_md5}}?s=200" class="profile-image" alt="Dr. Zhanglong Cao" />
       <div class="profile-info">
         <h2>Dr. Zhanglong Cao</h2>
-        <p class="profile-title">Research Fellow in Curtin Biometry & Agricultural Data Analytics</p>
+  <p class="profile-title">Lecturer in Statistics (EECMS) • formerly Research Fellow (CBADA)</p>
         <p class="profile-institution"><strong>Curtin University, Perth, Australia</strong></p>
       </div>
     </div>
     
     <div class="overview-section">
-      <h3>Professional Overview</h3>
-      <p>I am a statistician and biometrician specializing in advanced statistical methods for agricultural applications. Currently working as a Research Fellow in the Curtin Biometry and Agricultural Data Analytics (CBADA) team, I focus on developing and applying cutting-edge statistical methodologies to solve real-world challenges in agricultural science.</p>
+  <h3>Professional Overview</h3>
+      <p>I am a statistician and biometrician focusing on Bayesian methods, experimental design, spatial modeling, and applied agricultural analytics. Since <strong>18 Aug 2025</strong> I serve as a <strong>Lecturer in Statistics</strong> in the School of Electrical Engineering, Computing and Mathematical Sciences (EECMS) at Curtin University, combining teaching, supervision, and applied research. My recent work includes decision-support tools, optimal design for on-farm experimentation, and translating modern methods for growers and industry partners. Previously I was a <strong>Research Fellow</strong> in the Curtin Biometry & Agricultural Data Analytics (CBADA) team, contributing to large multi-institutional GRDC projects and methodological development.</p>
+    </div>
+  </div>
+
+  <!-- Appointments / Roles Timeline -->
+  <section class="about-section">
+    <div class="section-header">
+      <h2>Academic & Research Appointments</h2>
+    </div>
+    <div class="appointments-timeline">
+      <div class="appointment current">
+        <div class="appointment-dates">Aug 2025 – Present</div>
+        <div class="appointment-role">Lecturer in Statistics, EECMS</div>
+        <div class="appointment-org">Curtin University</div>
+        <ul class="appointment-points">
+          <li>Teaching statistical methodology & applied analytics</li>
+          <li>Supervising HDR / honours projects in Bayesian & spatial stats</li>
+          <li>Extending on-farm experimental design frameworks</li>
+        </ul>
+      </div>
+      <div class="appointment past">
+        <div class="appointment-dates">(Prior to Aug 2025)</div>
+        <div class="appointment-role">Research Fellow, Biometry & Agricultural Data Analytics (CBADA)</div>
+        <div class="appointment-org">Curtin University</div>
+        <ul class="appointment-points">
+          <li>Led statistical components in multi-site GRDC projects</li>
+          <li>Developed optimal strip / on-farm trial design workflows</li>
+          <li>Built interactive analysis & decision-support Shiny tools</li>
+        </ul>
+      </div>
     </div>
     </div>
   
