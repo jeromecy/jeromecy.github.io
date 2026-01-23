@@ -8,7 +8,7 @@ tags: [iOS, PromptlySocial, AI, Social Media]
 Hey everyone! I just launched a new iOS app called **PromptlySocial** that I think you'll find useful if you're struggling with what to post on social media.
 
 <p align="center">
-  <img src="{{ site.baseurl }}/assets/images/promptlysocial-logo.png" alt="PromptlySocial Logo" width="200"/>
+  <img src="{{ site.baseurl }}/assets/images/promptlysocial_logo.png" alt="PromptlySocial Logo" width="200"/>
 </p>
 
 ## What does it do?

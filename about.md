@@ -54,7 +54,7 @@ description: "Dr. Zhanglong Cao - Lecturer in Statistics (EECMS, Curtin Universi
         </ul>
       </div>
     </div>
-    </div>
+  </section>
   
   <!-- Research Expertise Section -->
   <section class="about-section">
