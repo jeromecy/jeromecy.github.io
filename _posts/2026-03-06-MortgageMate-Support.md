@@ -5,6 +5,7 @@ date: 2026-03-06
 categories: [Apps, iOS, Finance]
 tags: [mobile-app, mortgage, finance, support, FAQ]
 description: "Support page and frequently asked questions for Mortgage Mate — the data-driven home loan simulator for Australian buyers."
+math: true
 ---
 
 # Mortgage Mate — Support & FAQ 🏡
@@ -80,10 +81,10 @@ The dual-trajectory chart runs this computation across the full loan term, with 
 The Stress-O-Meter displays your debt-to-income (DTI) ratio and assigns it a visual stress zone:
 
 | Zone | Character | Meaning |
-|---|---|---|
-| Chilling | Relaxed pose | Low DTI — repayments are manageable |
-| Jogging | Active pose | Moderate DTI — keep an eye on rates |
-| Lifting | Straining pose | High DTI — consider stress scenarios carefully |
+| :--------- | :------------- | :--------------------------------------- |
+| Chilling   | Relaxed pose   | Low DTI — repayments are manageable      |
+| Jogging    | Active pose    | Moderate DTI — keep an eye on rates      |
+| Lifting    | Straining pose | High DTI — consider stress scenarios carefully |
 
 The +1% / +2% / +3% rate rise simulation shows how your monthly repayment changes if rates increase, so you can assess your buffer before committing.
 

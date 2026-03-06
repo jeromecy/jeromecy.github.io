@@ -5,6 +5,7 @@ date: 2026-03-06
 categories: [Apps, iOS, Finance]
 tags: [mobile-app, mortgage, finance, statistics, Australia, home-loan]
 description: "A data-driven personal finance simulator for Australian home buyers — built by a statistician, not a banker."
+math: true
 ---
 
 # Mortgage Mate 🏡
