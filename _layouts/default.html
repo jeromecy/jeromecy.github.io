@@ -131,18 +131,17 @@
     <!-- JavaScript -->
     <script src="/assets/js/main.js"></script>
 
-    <!-- MathJax (only loaded on pages with math: true) -->
-    {% if page.math %}
+    <!-- MathJax 3 -->
     <script>
       MathJax = {
         tex: {
-          inlineMath: [['$', '$']],
-          displayMath: [['$$', '$$']]
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]']],
+          processEscapes: true
         },
         svg: { fontCache: 'global' }
       };
     </script>
     <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
-    {% endif %}
 </body>
 </html> 
