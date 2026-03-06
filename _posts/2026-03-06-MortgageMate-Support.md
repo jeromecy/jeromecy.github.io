@@ -95,6 +95,8 @@ The +1% / +2% / +3% rate rise simulation shows how your monthly repayment change
 
 No. All calculations run entirely on your device. No data — income, loan amount, expenses, or any other input — is transmitted to any server. There is no account, no login, and no analytics.
 
+See the full [Privacy Policy]({{ site.baseurl }}/mortgage-mate/privacy/) for details.
+
 ---
 
 ## Known Limitations

@@ -105,6 +105,8 @@ Mortgage Mate is completely private:
 - **No ads, no subscriptions**
 - All calculations run entirely on your device
 
+Read the full [Privacy Policy]({{ site.baseurl }}/mortgage-mate/privacy/).
+
 ---
 
 ## Disclaimer
