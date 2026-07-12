@@ -1,14 +1,57 @@
 ---
 layout: page
 permalink: /cv/
+description: "CV of Dr. Zhanglong Cao — Lecturer in Statistics (EECMS, Curtin University). Bayesian methods, experimental design, on-farm experimentation, teaching and supervision."
 ---
 
 <div class="hero">
   <h1>Curriculum Vitae</h1>
-  <p>Dr. Zhanglong Cao - Statistician & Bayesian & Data Scientist</p>
+  <p>Dr. Zhanglong Cao — Lecturer in Statistics · Bayesian & Spatial Methods · Agricultural Data Analytics</p>
 </div>
 
 <div class="cv-container">
+
+  <!-- Academic Appointments -->
+  <section class="cv-section">
+    <div class="section-header">
+      <h2>Academic Appointments</h2>
+    </div>
+
+    <div class="appointments-timeline">
+      <div class="appointment current">
+        <div class="appointment-dates">Aug 2025 – Present</div>
+        <div class="appointment-role">Lecturer in Statistics</div>
+        <div class="appointment-org">School of Electrical Engineering, Computing and Mathematical Sciences (EECMS), Curtin University</div>
+        <ul class="appointment-points">
+          <li>Unit coordinator for STAT2001 (Semester 1, 2026) and STAT2004 Analytics for Observational Data (Semester 2, 2026)</li>
+          <li>Supervision of PhD, honours, and master's project students in Bayesian, spatial, and applied statistics</li>
+          <li>Leading statistical research in the GRDC on-farm experimentation (OFE) research portfolio</li>
+        </ul>
+      </div>
+
+      <div class="appointment past">
+        <div class="appointment-dates">Nov 2018 – Aug 2025</div>
+        <div class="appointment-role">Research Fellow / Research Associate (Biometrician)</div>
+        <div class="appointment-org">SAGI West → Curtin Biometry & Agricultural Data Analytics (CBADA), Curtin University</div>
+        <ul class="appointment-points">
+          <li>Led statistical components of large multi-institutional GRDC projects</li>
+          <li>Developed optimal design and spatial analysis methodology for on-farm strip trials</li>
+          <li>Built interactive decision-support and analysis tools for growers and industry partners</li>
+        </ul>
+      </div>
+
+      <div class="appointment past">
+        <div class="appointment-dates">Sep 2014 – Nov 2018</div>
+        <div class="appointment-role">Researcher, Tutor & Teaching Fellow</div>
+        <div class="appointment-org">University of Otago, Dunedin, New Zealand</div>
+        <ul class="appointment-points">
+          <li>Statistical modelling of vehicle trajectories from noisy GPS data (joint project with Physics)</li>
+          <li>Taught STATS 110 summer school (2016–2018); tutored statistics and mathematics undergraduates</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
   <!-- Education Section -->
   <section class="cv-section">
     <div class="section-header">
@@ -43,6 +86,106 @@ permalink: /cv/
     </div>
   </section>
 
+  <!-- Research Projects & Collaborations -->
+  <section class="cv-section">
+    <div class="section-header">
+      <h2>Current Research Projects & Collaborations</h2>
+    </div>
+
+    <div class="activities-grid">
+      <div class="activity-card">
+        <h3>GRDC On-Farm Experimentation Portfolio (OFE 2C)</h3>
+        <p>Statistical lead on the GRDC research portfolio for on-farm experimentation; Milestone 3 achieved (2026). Design, spatial analysis, and simulation evaluation of large strip trials.</p>
+      </div>
+      <div class="activity-card">
+        <h3>OFE Simulation & Modelling Methods</h3>
+        <p>Simulation studies comparing trial designs and analysis methods (GWR, LMM, GAM, Gaussian processes) for on-farm experiments, with Curtin and industry collaborators.</p>
+      </div>
+      <div class="activity-card">
+        <h3>Bayesian Ordinal Models for Crop Development</h3>
+        <p>Bayesian cumulative logit models for growth-scale (Zadoks) and disease-severity data from Western Australian field trials, in collaboration with the Facey Group and DPIRD colleagues.</p>
+      </div>
+      <div class="activity-card">
+        <h3>Weed Control & Crop Protection Analytics (AHRI)</h3>
+        <p>Statistical analysis for Australian Herbicide Resistance Initiative studies, including long-term no-till (WANTFA) and pasture–crop rotation trials, with UWA collaborators.</p>
+      </div>
+      <div class="activity-card">
+        <h3>Economics of Crop Protection & Genetic Improvement</h3>
+        <p>Meta-analysis and economic modelling of fungicide inputs and crop genetic improvement with Curtin collaborators; data and genetic-improvement papers submitted in 2026.</p>
+      </div>
+      <div class="activity-card">
+        <h3>CSIRO Industry PhD Program</h3>
+        <p>Co-supervision and industry engagement under the CSIRO Industry PhD program with CSIRO and Australian Grain Technologies (AGT).</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Teaching & Supervision -->
+  <section class="cv-section">
+    <div class="section-header">
+      <h2>Teaching & Supervision</h2>
+    </div>
+
+    <div class="research-grid">
+      <div class="research-card">
+        <h3>Teaching</h3>
+        <div class="conferences-list">
+          <div class="conference-item">
+            <div class="conference-date">Semester 1, 2026</div>
+            <div class="conference-name">Curtin University</div>
+            <div class="conference-title">STAT2001 — Unit Coordinator</div>
+          </div>
+          <div class="conference-item">
+            <div class="conference-date">Semester 2, 2026</div>
+            <div class="conference-name">Curtin University</div>
+            <div class="conference-title">STAT2004 Analytics for Observational Data — Unit Coordinator</div>
+          </div>
+          <div class="conference-item">
+            <div class="conference-date">Nov 2026</div>
+            <div class="conference-name">Yanshan University (China)</div>
+            <div class="conference-title">Principles of Statistics — Unit Coordinator</div>
+          </div>
+          <div class="conference-item">
+            <div class="conference-date">2016 – 2018</div>
+            <div class="conference-name">University of Otago</div>
+            <div class="conference-title">STATS 110 Summer School — Teaching Fellow</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="research-card">
+        <h3>Supervision</h3>
+        <div class="conferences-list">
+          <div class="conference-item">
+            <div class="conference-date">Ongoing</div>
+            <div class="conference-name">PhD Co-supervision</div>
+            <div class="conference-title">PhD candidate (MPhil upgraded to PhD) in on-farm experimentation statistics; a second PhD candidate commencing in 2026</div>
+          </div>
+          <div class="conference-item">
+            <div class="conference-date">Ongoing</div>
+            <div class="conference-name">Honours Co-supervision</div>
+            <div class="conference-title">One-year honours project in actuarial science</div>
+          </div>
+          <div class="conference-item">
+            <div class="conference-date">2026 (Completed)</div>
+            <div class="conference-name">Master's Project Supervision (COMP6019)</div>
+            <div class="conference-title">Two master's computing project students, co-supervised with Curtin colleagues</div>
+          </div>
+          <div class="conference-item">
+            <div class="conference-date">2026 (Completed)</div>
+            <div class="conference-name">Student Team Project (ICTE3002/5001, Human Computer Interface)</div>
+            <div class="conference-title">Supervised a student team building a mobile calendar & scheduling app</div>
+          </div>
+          <div class="conference-item">
+            <div class="conference-date">2026</div>
+            <div class="conference-name">Honours Examination</div>
+            <div class="conference-title">External examiner for an honours thesis (review report provided)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Research Outputs -->
   <section class="cv-section">
     <div class="section-header">
@@ -52,6 +195,25 @@ permalink: /cv/
     <div class="research-grid">
       <div class="research-card">
         <h3>Publications</h3>
+
+        <!-- TODO: replace the entries below with full citations once papers are published -->
+        <h4 style="margin:1rem 0 0.5rem;">In Press / Under Review (2026)</h4>
+        <div class="publications-list">
+          <div class="publication-item">
+            <p><strong>Ashworth, M., et al. (incl. Cao, Z.)</strong> Crop protection and weed competition study (AHRI). <em>Crop Protection</em> — accepted, 2026.</p>
+          </div>
+          <div class="publication-item">
+            <p><strong>Ashworth, M., et al. (incl. Cao, Z.)</strong> Companion crop protection study (AHRI). <em>Crop Protection</em> — under review.</p>
+          </div>
+          <div class="publication-item">
+            <p><strong>Ashworth, M., et al. (incl. Cao, Z.)</strong> Weed management study (AHRI). <em>Crop & Pasture Science</em> — in revision.</p>
+          </div>
+          <div class="publication-item">
+            <p><strong>Olita, T., et al. (incl. Cao, Z.)</strong> Crop genetic improvement analysis. Submitted, June 2026.</p>
+          </div>
+        </div>
+
+        <h4 style="margin:1.5rem 0 0.5rem;">Published</h4>
         <div class="publications-list">
           <div class="publication-item">
             <p><strong>Olita, T., Sung, B., Sharma, A., Cao, Z., Mapulanga-Hulston, J., Gibberd, M.</strong> (2025). Fungicide Resistance Management in West Australia's Wheatbelt. Scientific Data, 12(1), 502. <a href="https://doi.org/10.1038/s41597-025-04840-0" target="_blank">DOI:10.1038/s41597-025-04840-0</a></p>
@@ -104,8 +266,26 @@ permalink: /cv/
       </div>
       
       <div class="research-card">
-        <h3>Conference Presentations</h3>
+        <h3>Conference Presentations & Invited Seminars</h3>
         <div class="conferences-list">
+          <div class="conference-item">
+            <div class="conference-date">December 2025</div>
+            <div class="conference-name">Australian Statistical Conference (ASC), Perth</div>
+            <div class="conference-title">Design and Spatial Analysis of On-Farm Strip Trials: From Principles to Simulation Evaluations</div>
+          </div>
+
+          <div class="conference-item">
+            <div class="conference-date">November 2025</div>
+            <div class="conference-name">International Biometric Society (IBS) Meeting, Canberra</div>
+            <div class="conference-title">Bayesian Ordinal Regression for Crop Development and Disease Assessment</div>
+          </div>
+
+          <div class="conference-item">
+            <div class="conference-date">October 2025</div>
+            <div class="conference-name">Australian National University (ANU) Seminar Series</div>
+            <div class="conference-title">Design and Spatial Analysis of On-Farm Strip Trials</div>
+          </div>
+
           <div class="conference-item">
             <div class="conference-date">September 2024</div>
             <div class="conference-name">Australian Applied Statistics Conference, Rottenest</div>
@@ -158,6 +338,40 @@ permalink: /cv/
     </div>
   </section>
 
+  <!-- Professional Service & Engagement -->
+  <section class="cv-section">
+    <div class="section-header">
+      <h2>Professional Service & Engagement</h2>
+    </div>
+
+    <div class="activities-grid">
+      <div class="activity-card">
+        <h3>Professional Societies</h3>
+        <p>International Biometric Society Australasian Region (IBS-AR) committee member and Young Statisticians organising committee. International Society of Precision Agriculture — OFE community member and Australia representative.</p>
+      </div>
+      <div class="activity-card">
+        <h3>Peer Review</h3>
+        <p>Reviewer for <em>Spatial Statistics</em> and the <em>Journal of Agricultural Science</em> (2026), among others.</p>
+      </div>
+      <div class="activity-card">
+        <h3>Mentoring</h3>
+        <p>Mentor in the NZSA–Australia early-career mentoring program (one-year program, 2026). Short-term mentor for the WA Government Student Startup and Innovation Challenge 2026 — mentored a school team selected as Grand Finalists.</p>
+      </div>
+      <div class="activity-card">
+        <h3>Assessment Panels</h3>
+        <p>Curtin Scholarship Assessment Panel (2026, assessed 11 applicants) and Wheatley Family Foundation Scholarship assessment. Invited assessor for IBS-AR scholarships (2026).</p>
+      </div>
+      <div class="activity-card">
+        <h3>Competitions & Outreach</h3>
+        <p>Contributor to the Simon Marais Mathematics Competition. Curtin Open Day volunteer and developer of the interactive "Data to Decision" demo (2026).</p>
+      </div>
+      <div class="activity-card">
+        <h3>Workshops</h3>
+        <p>EECMS–CCDM Collaborative Workshop (March 2026), fostering cross-school collaboration in agricultural data analytics.</p>
+      </div>
+    </div>
+  </section>
+
   <!-- Software & Applications -->
   <section class="cv-section">
     <div class="section-header">
@@ -166,29 +380,38 @@ permalink: /cv/
     
     <div class="apps-grid">
       <div class="app-card featured">
-        <h3>OFE Design Tool</h3>
-        <p>Interactive web application for designing on-farm experiments with optimal spatial arrangements.</p>
-        <code>R Shiny + Leaflet + D3.js</code>
+        <h3>Journal Suggester</h3>
+        <p>Web app recommending suitable journals for a manuscript from its title & abstract using semantic similarity and domain heuristics.</p>
+        <code>Python + SciBERT + Web</code>
         <div class="app-links">
-          <a href="#" target="_blank">Live Demo</a> | <a href="#" target="_blank">GitHub</a>
+          <a href="https://journalsuggester.com/" target="_blank">journalsuggester.com</a>
         </div>
       </div>
-      
+
       <div class="app-card">
-        <h3>Bayesian Analysis Suite</h3>
-        <p>Comprehensive toolkit for Bayesian statistical analysis in agricultural research.</p>
-        <code>R + Stan + JAGS</code>
+        <h3>Stats Journey</h3>
+        <p>Interactive learning platform with visual explanations of statistical concepts, from sampling to Bayesian inference.</p>
+        <code>React + TypeScript</code>
         <div class="app-links">
-          <a href="#" target="_blank">Documentation</a> | <a href="#" target="_blank">GitHub</a>
+          <a href="https://www.statsjourney.com" target="_blank">statsjourney.com</a>
         </div>
       </div>
-      
+
       <div class="app-card">
-        <h3>Spatial Analysis Platform</h3>
-        <p>Advanced spatial statistics and geostatistical analysis tools for agricultural data.</p>
-        <code>R + sf + gstat</code>
+        <h3>Data to Decision (Open Day Demo)</h3>
+        <p>Game-based web experience teaching data-driven decision making, built for Curtin Open Day 2026.</p>
+        <code>Web App</code>
         <div class="app-links">
-          <a href="#" target="_blank">Tutorial</a> | <a href="#" target="_blank">GitHub</a>
+          <a href="https://stat-opt-demo.netlify.app/" target="_blank">Live Demo</a>
+        </div>
+      </div>
+
+      <div class="app-card">
+        <h3>MenuMate · AI点菜助手</h3>
+        <p>AI-powered menu scanner giving personalised dining recommendations; supports 8 languages.</p>
+        <code>iOS + AI</code>
+        <div class="app-links">
+          <a href="https://apps.apple.com/app/ai%E7%82%B9%E8%8F%9C%E5%8A%A9%E6%89%8B-menumate/id6758619316" target="_blank">App Store</a>
         </div>
       </div>
     </div>
@@ -251,4 +474,4 @@ permalink: /cv/
       <p>Here is my project <a href="https://github.com/jeromecy" target="_blank">GitHub repository</a>.</p>
     </div>
   </section>
-</div> 
+</div>
