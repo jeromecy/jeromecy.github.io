@@ -1,0 +1,32 @@
+---
+title: "CPAS is Now a Website: croppas.com"
+date: 2026-07-06
+categories: [Apps, Web, Research, Agriculture]
+description: "The Crop Protection Analytics System (CPAS) has moved from an R Shiny app to a standalone website — estimating the economic value of disease management in Australian broadacre cropping."
+---
+
+I'm happy to share that the **Crop Protection Analytics System (CPAS)** now lives at its own home on the web: **[croppas.com](https://croppas.com/)** 🎉
+
+## 🌾 What is CPAS?
+
+CPAS estimates the **economic value of disease management** in Australian broadacre cropping — quantifying production value lost to disease and quality downgrade, and the benefit of managing it, across **GRDC agro-ecological zones, crops, and seasons**.
+
+Instead of anecdotal estimates, CPAS puts numbers on questions growers and industry ask all the time:
+
+- How much production value is lost to a disease in a given zone and season?
+- How much of that loss comes from **quality downgrade** rather than yield alone?
+- What is the **economic benefit of managing** the disease, compared with leaving it untreated?
+
+## 🔄 From R Shiny to a Standalone Website
+
+CPAS started life as an internal **R Shiny** application, jointly developed with CCDM and SAGI West colleagues for rapid and consistent analysis of disease impact economics.
+
+Shiny was a great environment for prototyping the analytics, but a hosted Shiny app comes with trade-offs — a running R server, session limits, and slower cold starts. Converting it to a standalone website removes those constraints: it loads fast, scales easily, and doesn't need an R process behind every visitor.
+
+The conversion went more smoothly than I expected — and it's been running reliably since launch.
+
+## 🚀 Try It
+
+Visit **[croppas.com](https://croppas.com/)** and explore disease impact estimates by zone, crop, and season.
+
+Feedback is very welcome — especially from agronomists, pathologists, and growers who'd like to see additional crops, diseases, or scenarios covered.

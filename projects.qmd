@@ -25,9 +25,11 @@ A comprehensive analysis platform for wheat and barley variety yield responses t
 
 [🌐 Live Application](https://zhanglong.shinyapps.io/Demo/){.btn .btn-primary}
 
-### Crop Protection Analytics System
+### Crop Protection Analytics System (CPAS)
 
-Jointly developed with CCDM and SAGI West, this system enables rapid and consistent analysis of disease impact economics. Built with `shinydashboard`, `shinyWidgets`, and `highcharter`.
+Jointly developed with CCDM and SAGI West, CPAS estimates the economic value of disease management in Australian broadacre cropping — quantifying production value lost to disease and quality downgrade, and the benefit of managing it, across GRDC agro-ecological zones, crops, and seasons. Originally an R Shiny app, now converted to a standalone website.
+
+[🌐 croppas.com](https://croppas.com/){.btn .btn-primary}
 
 ### GRDC Disease and Pest Impact Overview
 
