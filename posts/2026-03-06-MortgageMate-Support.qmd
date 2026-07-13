@@ -4,6 +4,7 @@ date: 2026-03-06
 categories: ["Apps", "iOS", "Finance"]
 description: "Support page and frequently asked questions for Mortgage Mate — the data-driven home loan simulator for Australian buyers."
 aliases: ["/posts/MortgageMate-Support/"]
+image: /assets/images/mortgagemate_logo.png
 ---
 
 # Mortgage Mate — Support & FAQ 🏡

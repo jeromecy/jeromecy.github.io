@@ -3,6 +3,7 @@ title: "Migrating My Blog from Jekyll to Quarto"
 date: 2026-07-13
 categories: [Quarto, Web, Blogging]
 description: "This site now runs on Quarto — no more Ruby, one toolchain for posts, slides, and CV, and every old URL still works."
+image: /assets/images/quarto_migration_cover.svg
 ---
 
 This website has a new engine! After years on Jekyll, the whole site — posts, projects, CV, everything — now runs on [Quarto](https://quarto.org).

@@ -1,5 +1,6 @@
 ---
 title: "Curriculum Vitae"
+subtitle: "Dr. Zhanglong Cao — Statistician · Bayesian & Spatial Methods · Agricultural Data Analytics"
 description: "CV of Dr. Zhanglong Cao — Lecturer in Statistics (EECMS, Curtin University). Bayesian methods, experimental design, on-farm experimentation, teaching and supervision."
 toc: true
 toc-depth: 2
@@ -7,11 +8,6 @@ aliases:
   - /cv/
 ---
 
-::: {.hero-banner}
-# Curriculum Vitae {.unnumbered}
-
-Dr. Zhanglong Cao — Lecturer in Statistics · Bayesian & Spatial Methods · Agricultural Data Analytics
-:::
 
 ## Academic Appointments
 

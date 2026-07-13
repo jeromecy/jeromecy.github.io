@@ -153,3 +153,48 @@ $code-block-bg: #1f2733;
     }
   }
 }
+
+// Academic-style page title block (inner pages)
+#title-block-header {
+  margin-bottom: 2rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 3px solid rgba(45, 212, 191, 0.4);
+
+  .subtitle {
+    color: #94a3b8;
+    font-size: 1.05rem;
+    margin-top: 0.35rem;
+  }
+}
+
+// Tool card screenshots
+.tool-shot img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 0.5rem;
+  border: 1px solid #2d3748;
+  margin-bottom: 0.5rem;
+}
+
+.tool-shot {
+  margin: 0 0 0.5rem;
+}
+
+// About page portrait
+.about-photo img {
+  width: 190px;
+  border-radius: 0.75rem;
+  float: right;
+  margin: 0 0 1rem 1.5rem;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 768px) {
+  .about-photo img {
+    float: none;
+    display: block;
+    margin: 0 auto 1.25rem;
+  }
+}

@@ -4,6 +4,7 @@ date: 2026-03-06
 categories: ["Apps", "iOS", "Finance"]
 description: "A data-driven personal finance simulator for Australian home buyers — built by a statistician, not a banker."
 aliases: ["/posts/MortgageMate/"]
+image: /assets/images/mortgagemate_logo.png
 ---
 
 # Mortgage Mate 🏡

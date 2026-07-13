@@ -1,15 +1,13 @@
 ---
 title: "About Me"
+subtitle: "Lecturer in Statistics (since Aug 2025) · EECMS, Curtin University"
 description: "Dr. Zhanglong Cao — Lecturer in Statistics (EECMS, Curtin University). Bayesian methods, experimental design, spatial & agricultural analytics."
 aliases:
   - /about/
 ---
 
-::: {.hero-banner}
-# About Me {.unnumbered}
 
-Lecturer in Statistics (since 18 Aug 2025), EECMS, Curtin University
-:::
+![](assets/images/Zhanglong.png){.about-photo fig-alt="Dr. Zhanglong Cao"}
 
 ## Professional Overview
 

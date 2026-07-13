@@ -3,6 +3,7 @@ title: "PromptlySocial: My New iOS App for Social Media Posts"
 date: 2026-01-23
 categories: ["App Development", "AI"]
 aliases: ["/posts/PromptlySocial-App/"]
+image: /assets/images/promptlysocial_logo.png
 ---
 
 Hey everyone! I just launched a new iOS app called **PromptlySocial** that I think you'll find useful if you're struggling with what to post on social media.

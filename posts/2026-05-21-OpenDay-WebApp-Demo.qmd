@@ -4,6 +4,7 @@ date: 2026-05-21
 categories: ["Apps", "Web", "Demo"]
 description: "A showcase of my open-day web app demo for interactive, data-driven exploration."
 aliases: ["/posts/OpenDay-WebApp-Demo/"]
+image: /assets/images/openday.png
 ---
 
 # Open Day Web App Demo

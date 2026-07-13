@@ -3,6 +3,7 @@ title: "CPAS is Now a Website: croppas.com"
 date: 2026-07-06
 categories: [Apps, Web, Research, Agriculture]
 description: "The Crop Protection Analytics System (CPAS) has moved from an R Shiny app to a standalone website — estimating the economic value of disease management in Australian broadacre cropping."
+image: /assets/images/cpas_homepage.png
 ---
 
 I'm happy to share that the **Crop Protection Analytics System (CPAS)** now lives at its own home on the web: **[croppas.com](https://croppas.com/)** 🎉

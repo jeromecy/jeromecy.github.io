@@ -13,7 +13,7 @@ listing:
   categories: true
   sort-ui: [date, title]
   filter-ui: true
-  fields: [date, title, description, categories, reading-time]
+  fields: [image, date, title, description, categories, reading-time]
   page-size: 15
 ---
 

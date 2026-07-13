@@ -1,16 +1,14 @@
 ---
 title: "Get in Touch"
+subtitle: "Research collaborations, speaking, supervision, and consulting"
 description: "Contact Dr. Zhanglong Cao for research collaborations, speaking opportunities, and statistical consultation in agricultural research and data analytics."
 toc: false
 aliases:
   - /contact/
 ---
 
-::: {.hero-banner}
-# Get in Touch {.unnumbered}
-
 I'm always interested in new research collaborations, speaking opportunities, and discussions about statistical methodology in agriculture.
-:::
+
 
 ::: {.grid}
 

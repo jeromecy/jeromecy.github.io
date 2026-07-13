@@ -1,5 +1,6 @@
 ---
 title: "Research Projects & Applications"
+subtitle: "Interactive tools, R packages, and research initiatives in agricultural statistics"
 description: "Interactive tools, R packages, and research initiatives advancing statistical methodology in agricultural science."
 toc: true
 toc-depth: 2
@@ -7,11 +8,6 @@ aliases:
   - /projects/
 ---
 
-::: {.hero-banner}
-# Research Projects & Applications {.unnumbered}
-
-Interactive tools, R packages, and research initiatives advancing statistical methodology in agricultural science
-:::
 
 ## 🌾 Interactive Applications
 
