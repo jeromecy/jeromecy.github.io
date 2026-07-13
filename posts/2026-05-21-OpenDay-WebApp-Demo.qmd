@@ -1,0 +1,69 @@
+---
+title: "Open Day Web App Demo: Turning Data into Interactive Stories"
+date: 2026-05-21
+categories: ["Apps", "Web", "Demo"]
+description: "A showcase of my open-day web app demo for interactive, data-driven exploration."
+aliases: ["/posts/OpenDay-WebApp-Demo/"]
+---
+
+# Open Day Web App Demo
+
+**Data to Decision** is an interactive, game-based web experience showing how statistics and optimisation drive real-world decisions.
+
+Built for Curtin Open Day 2026.
+
+Instead of a traditional webpage or slide deck, this demo is designed as a hands-on experience where visitors make choices, observe outcomes, and improve decisions using data.
+
+---
+
+## What Is This?
+
+This is not a traditional webpage. It is an interactive learning experience that helps visitors understand the journey:
+
+**From guessing -> data -> insight -> optimisation**
+
+Visitors can:
+- make decisions in a simple real-world scenario,
+- see how outcomes change,
+- and learn how data improves decisions.
+
+---
+
+## The Experience
+
+### Run Your Own Ice Cream Shop
+A short interactive game where users:
+- choose what to sell,
+- observe customer behaviour,
+- learn from data,
+- adjust their strategy,
+- and improve performance over time.
+
+### What You Will Learn
+This demo introduces key ideas from statistics and optimisation:
+- data collection,
+- uncertainty,
+- statistical insight,
+- exploration vs exploitation,
+- decision optimisation.
+
+---
+
+## Why This Matters
+
+Statistics is not just mathematics. It is about making better decisions in uncertain environments.
+
+This experience shows how data is used in:
+- business,
+- healthcare,
+- technology,
+- and everyday decision-making.
+
+---
+
+## Try It Yourself
+
+- Website: [https://stat-opt-demo.netlify.app/](https://stat-opt-demo.netlify.app/)
+- GitHub repository: [https://github.com/jeromecy/stat-optim-demo](https://github.com/jeromecy/stat-optim-demo)
+
+Scan the QR code at open day to play on your phone.

@@ -1,0 +1,59 @@
+project:
+  type: website
+  render:
+    - "*.qmd"
+    - "posts/*.qmd"
+  resources:
+    - CNAME
+    - "assets/**"
+    - "PDF/**"
+
+website:
+  title: "Zhanglong Cao"
+  site-url: "https://www.zcao.space"
+  description: "Statistics, agricultural data analytics, Bayesian methods, and interactive tools by Dr. Zhanglong Cao."
+  favicon: assets/images/favicon.ico
+  open-graph: true
+  twitter-card: true
+  navbar:
+    pinned: true
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Posts"
+        href: posts.qmd
+      - text: "Projects"
+        href: projects.qmd
+      - text: "CV"
+        href: cv.qmd
+      - text: "About"
+        href: about.qmd
+      - text: "Contact"
+        href: contact.qmd
+    right:
+      - icon: github
+        href: https://github.com/jeromecy
+        aria-label: GitHub
+      - icon: linkedin
+        href: https://linkedin.com/in/zhanglong-cao-72208487
+        aria-label: LinkedIn
+      - icon: rss
+        href: posts.xml
+        aria-label: RSS
+  page-footer:
+    left: "© 2026 Zhanglong Cao. All rights reserved."
+    right:
+      - icon: github
+        href: https://github.com/jeromecy
+      - icon: linkedin
+        href: https://linkedin.com/in/zhanglong-cao-72208487
+      - icon: envelope
+        href: mailto:cao.zhanglong@gmail.com
+
+format:
+  html:
+    theme: [cosmo, custom.scss]
+    toc: true
+    code-copy: true
+    smooth-scroll: true
+    link-external-newwindow: true

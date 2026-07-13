@@ -1,0 +1,10 @@
+---
+title: "Page Not Found"
+toc: false
+---
+
+Sorry, the page you were looking for doesn't exist or may have moved.
+
+- [🏠 Back to the homepage](index.qmd)
+- [📝 Browse all posts](posts.qmd)
+- [🔍 Use the search icon in the navigation bar]{}

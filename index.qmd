@@ -1,0 +1,74 @@
+---
+title: ""
+page-layout: full
+toc: false
+listing:
+  id: recent-posts
+  contents: posts
+  sort: "date desc"
+  type: grid
+  grid-columns: 3
+  max-items: 6
+  fields: [date, title, description, categories]
+  sort-ui: false
+  filter-ui: false
+---
+
+::: {.hero-banner}
+# Hi, I'm Zhanglong 👋 {.unnumbered}
+
+Lecturer in Statistics at Curtin University (EECMS). I work on Bayesian methods, experimental design, and spatial statistics for agriculture — and I build interactive tools that make data easier to use.
+
+[About Me](about.qmd){.btn .btn-hero-primary} [View CV](cv.qmd){.btn .btn-hero} [Projects](projects.qmd){.btn .btn-hero} [Get in Touch](contact.qmd){.btn .btn-hero}
+:::
+
+## Featured Interactive Tools {.section-title .unnumbered}
+
+[Practical web apps I built to support researchers and students.]{.section-subtitle style="display:block;"}
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4 .tool-card}
+### Open Day Web App Demo
+
+[Play-and-learn decision game]{.tool-tagline}
+
+Data to Decision is a hands-on web demo built for Curtin Open Day 2026. Run a simple ice cream shop, observe outcomes, and learn how statistics and optimisation improve decisions over time.
+
+[Launch live demo →](https://stat-opt-demo.netlify.app/)
+:::
+
+::: {.g-col-12 .g-col-md-4 .tool-card}
+### MenuMate · AI点菜助手
+
+[AI-powered menu scanner]{.tool-tagline}
+
+Snap a photo of any restaurant menu and get instant personalised recommendations based on your dietary goals, allergies, and group size. Supports 8 languages, with 10 free scans a month.
+
+[Download on the App Store →](https://apps.apple.com/app/ai%E7%82%B9%E8%8F%9C%E5%8A%A9%E6%89%8B-menumate/id6758619316)
+:::
+
+::: {.g-col-12 .g-col-md-4 .tool-card}
+### Journal Suggester
+
+[Smart journal recommender]{.tool-tagline}
+
+Paste your manuscript's title and abstract to receive ranked journal suggestions using semantic similarity (SciBERT and domain heuristics), plus scope and metrics context to speed up submission decisions.
+
+[Visit journalsuggester.com →](https://journalsuggester.com/)
+:::
+
+:::
+
+::: {style="text-align: center; margin-top: 1rem;"}
+[More Projects](projects.qmd){.btn .btn-outline-primary}
+:::
+
+## Latest Posts {.section-title .unnumbered}
+
+::: {#recent-posts}
+:::
+
+::: {style="text-align: center; margin-top: 1.5rem;"}
+[View All Posts](posts.qmd){.btn .btn-primary}
+:::

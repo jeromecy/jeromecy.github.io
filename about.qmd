@@ -1,0 +1,72 @@
+---
+title: "About Me"
+description: "Dr. Zhanglong Cao — Lecturer in Statistics (EECMS, Curtin University). Bayesian methods, experimental design, spatial & agricultural analytics."
+aliases:
+  - /about/
+---
+
+::: {.hero-banner}
+# About Me {.unnumbered}
+
+Lecturer in Statistics (since 18 Aug 2025), EECMS, Curtin University
+:::
+
+## Professional Overview
+
+I am a statistician and biometrician focusing on Bayesian methods, experimental design, spatial modelling, and applied agricultural analytics. Since **18 August 2025** I serve as a **Lecturer in Statistics** in the School of Electrical Engineering, Computing and Mathematical Sciences (EECMS) at Curtin University, combining teaching, supervision, and applied research.
+
+My recent work includes decision-support tools, optimal design for on-farm experimentation, and translating modern methods for growers and industry partners. Previously I was a **Research Fellow** in the Curtin Biometry & Agricultural Data Analytics (CBADA) team, contributing to large multi-institutional GRDC projects and methodological development.
+
+## Academic & Research Appointments
+
+**Lecturer in Statistics, EECMS** — Curtin University <br>
+*Aug 2025 – Present*
+
+- Teaching statistical methodology and applied analytics (unit coordinator for STAT2001 and STAT2004)
+- Supervising HDR and honours projects in Bayesian and spatial statistics
+- Extending on-farm experimental design frameworks
+
+**Research Fellow / Research Associate, SAGI West → CBADA** — Curtin University <br>
+*Nov 2018 – Aug 2025*
+
+- Led statistical components in multi-site GRDC projects
+- Developed optimal strip and on-farm trial design workflows
+- Built interactive analysis and decision-support Shiny tools
+
+## Research Expertise
+
+| | |
+|---|---|
+| 📊 **Linear Mixed Models** | Advanced modelling for complex agricultural data |
+| 🔍 **Bayesian Statistics** | Probabilistic inference and uncertainty quantification |
+| 🔄 **MCMC Methods** | Computational methods for complex models |
+| 🧪 **Experimental Design** | Optimal design strategies for agricultural trials |
+| 🌍 **Geostatistics** | Spatial analysis and modelling |
+| 📈 **Smoothing Splines** | Non-parametric regression techniques |
+| 🌾 **Agricultural Statistics** | Real-world applications in crop science |
+| 🚜 **On-Farm Experiments** | Field trial design and analysis |
+
+: {tbl-colwidths="[35,65]"}
+
+## Education
+
+- **PhD in Statistics** (2014–2018), University of Otago, New Zealand
+- **Master of Science in Complex Analysis** (2008–2011), University of Shanghai for Science and Technology
+- **Bachelor of Science in Mathematics** (2003–2007), Jiangsu Normal University
+
+## Impact
+
+During my time with SAGI West / CBADA I contributed to **50+ GRDC-funded projects** worth over **$43 million** in total value, producing peer-reviewed publications, R packages, decision-support tools, and scalable frameworks embedded in national agricultural programs.
+
+## Get in Touch
+
+I'm always interested in:
+
+- **Research collaborations** in agricultural statistics
+- **Speaking opportunities** at conferences and workshops
+- **Student supervision** for statistical methodology projects
+- **Industry partnerships** for applied statistical solutions
+
+Connect via [email](mailto:cao.zhanglong@gmail.com), [GitHub](https://github.com/jeromecy), or [LinkedIn](https://linkedin.com/in/zhanglong-cao-72208487) — or use the [contact form](contact.qmd).
+
+> *"Statistics is the science of learning from data, and I'm passionate about making this learning accessible and impactful for real-world applications."*

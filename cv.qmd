@@ -1,0 +1,139 @@
+---
+title: "Curriculum Vitae"
+description: "CV of Dr. Zhanglong Cao — Lecturer in Statistics (EECMS, Curtin University). Bayesian methods, experimental design, on-farm experimentation, teaching and supervision."
+toc: true
+toc-depth: 2
+aliases:
+  - /cv/
+---
+
+::: {.hero-banner}
+# Curriculum Vitae {.unnumbered}
+
+Dr. Zhanglong Cao — Lecturer in Statistics · Bayesian & Spatial Methods · Agricultural Data Analytics
+:::
+
+## Academic Appointments
+
+::: {.cv-entry}
+[Aug 2025 – Present]{.cv-dates} <br>
+**Lecturer in Statistics** — School of Electrical Engineering, Computing and Mathematical Sciences (EECMS), Curtin University
+
+- Unit coordinator for STAT2001 (Semester 1, 2026) and STAT2004 Analytics for Observational Data (Semester 2, 2026)
+- Supervision of PhD, honours, and master's project students in Bayesian, spatial, and applied statistics
+- Leading statistical research in the GRDC on-farm experimentation (OFE) research portfolio
+:::
+
+::: {.cv-entry}
+[Nov 2018 – Aug 2025]{.cv-dates} <br>
+**Research Fellow / Research Associate (Biometrician)** — SAGI West → Curtin Biometry & Agricultural Data Analytics (CBADA), Curtin University
+
+- Led statistical components of large multi-institutional GRDC projects
+- Developed optimal design and spatial analysis methodology for on-farm strip trials
+- Built interactive decision-support and analysis tools for growers and industry partners
+:::
+
+::: {.cv-entry}
+[Sep 2014 – Nov 2018]{.cv-dates} <br>
+**Researcher, Tutor & Teaching Fellow** — University of Otago, Dunedin, New Zealand
+
+- Statistical modelling of vehicle trajectories from noisy GPS data (joint project with Physics)
+- Taught STATS 110 summer school (2016–2018); tutored statistics and mathematics undergraduates
+:::
+
+## Education
+
+- **PhD, Statistics** (Sep 2014 – Aug 2018), University of Otago, New Zealand.
+  Thesis: *Inference and Characterization of Planar Trajectories*
+- **Master in Science, Complex Analysis** (Sep 2008 – Mar 2011), University of Shanghai for Science and Technology, China
+- **Bachelor in Science, Mathematics and Applied Mathematics** (Sep 2003 – Jun 2007), Jiangsu Normal University, China
+
+## Current Research Projects & Collaborations
+
+- **GRDC On-Farm Experimentation Portfolio (OFE 2C)** — statistical lead; Milestone 3 achieved (2026). Design, spatial analysis, and simulation evaluation of large strip trials.
+- **OFE simulation & modelling methods** — simulation studies comparing trial designs and analysis methods (GWR, LMM, GAM, Gaussian processes) for on-farm experiments.
+- **Bayesian ordinal models for crop development** — cumulative logit models for growth-scale (Zadoks) and disease-severity data from WA field trials, with the Facey Group and DPIRD colleagues.
+- **Weed control & crop protection analytics (AHRI)** — statistical analysis for Australian Herbicide Resistance Initiative studies, including long-term no-till (WANTFA) and pasture–crop rotation trials, with UWA collaborators.
+- **Economics of crop protection & genetic improvement** — meta-analysis and economic modelling of fungicide inputs and crop genetic improvement with Curtin collaborators.
+- **CSIRO Industry PhD Program** — co-supervision and industry engagement with CSIRO and Australian Grain Technologies (AGT).
+
+## Teaching
+
+- **STAT2001** — Unit Coordinator, Curtin University, Semester 1, 2026
+- **STAT2004 Analytics for Observational Data** — Unit Coordinator, Curtin University, Semester 2, 2026
+- **Principles of Statistics** — Unit Coordinator, Yanshan University (China), November 2026
+- **STATS 110 Summer School** — Teaching Fellow, University of Otago, 2016–2018
+
+## Supervision
+
+- **PhD co-supervision** — PhD candidate (MPhil upgraded to PhD) in on-farm experimentation statistics; a second PhD candidate commencing in 2026
+- **Honours co-supervision** — one-year honours project in actuarial science (ongoing)
+- **Master's project supervision (COMP6019)** — two master's computing project students, completed 2026
+- **Student team project (ICTE3002/5001, Human Computer Interface)** — supervised a student team building a mobile calendar & scheduling app, completed 2026
+- **Honours examination** — external examiner for an honours thesis, 2026
+
+## Publications
+
+### In Press / Under Review (2026)
+
+<!-- TODO: replace with full citations once published -->
+
+- **Ashworth, M., et al. (incl. Cao, Z.)** Crop protection and weed competition study (AHRI). *Crop Protection* — accepted, 2026.
+- **Ashworth, M., et al. (incl. Cao, Z.)** Companion crop protection study (AHRI). *Crop Protection* — under review.
+- **Ashworth, M., et al. (incl. Cao, Z.)** Weed management study (AHRI). *Crop & Pasture Science* — in revision.
+- **Olita, T., et al. (incl. Cao, Z.)** Crop genetic improvement analysis — submitted, June 2026.
+
+### Published
+
+- **Olita, T., Sung, B., Sharma, A., Cao, Z., Mapulanga-Hulston, J., Gibberd, M.** (2025). Fungicide Resistance Management in West Australia's Wheatbelt. *Scientific Data*, 12(1), 502. [DOI:10.1038/s41597-025-04840-0](https://doi.org/10.1038/s41597-025-04840-0)
+- **Cao, Z., Brown, J., Gibberd, M., Easton, J., Rakshit, S.** (2024). Optimal design for on-farm strip trials—systematic or randomised? *Field Crops Research*, 318, 109594. [DOI:10.1016/j.fcr.2024.109594](https://doi.org/10.1016/j.fcr.2024.109594)
+- **Olita, T., Cao, Z., Gibberd, M.** (2024). Economic analysis of crop protection strategies: Comparing the value of increased fungicide inputs and crop genetic improvement in managing Ascochyta Blight in Australian Chickpeas. *Pest Management Science*. [DOI:10.1002/ps.8319](https://doi.org/10.1002/ps.8319)
+- **Stefanova, K.T., Brown, J., Grose, A., Cao, Z., Chen, K., Gibberd, M., Rakshit, S.** (2023). Statistical analysis of comparative experiments based on large strip on-farm trials. *Field Crops Research*, 297, 108945. [DOI:10.1016/j.fcr.2023.108945](https://doi.org/10.1016/j.fcr.2023.108945)
+- **Olita, H. T., Sung, B., Hooper, B., Cao, Z., Lopez-Ruiz, F., Gibberd, M.** (2023). The socio-economic impact of fungicide resistance in West Australia's Wheatbelt. *Advances in Agronomy*, 180, 1. [DOI:10.1016/bs.agron.2023.03.005](https://doi.org/10.1016/bs.agron.2023.03.005)
+- **Phong, W. N., Sung, B., Cao, Z., Gibberd, M., Dykes, G. A., Payne, A. D., Coorey, R.** (2022). Impact of different processing techniques on the key volatile profile, sensory, and consumer acceptance of black truffle (Tuber melanosporum Vittadini). *Journal of Food Science*, 00, 1–14. [DOI:10.1111/1750-3841.16275](https://doi.org/10.1111/1750-3841.16275)
+- **Cao, Z., Stefanova, K., Gibberd, M., Rakshit, S.** (2022). Bayesian inference of spatially correlated random parameters for on-farm experiment. *Field Crops Research*, 281, 108477. [DOI:10.1016/j.fcr.2022.108477](https://doi.org/10.1016/j.fcr.2022.108477)
+- **Cao, Z., Bryant, D., Molteno, T. C., Fox, C., Parry, M.** (2021). V-spline: An adaptive smoothing spline for trajectory reconstruction. *Sensors*, 21(9), 3215. [DOI:10.3390/s21093215](https://doi.org/10.3390/s21093215)
+- **Rakshit, S., Baddeley, A., Stefanova, K., Reeves, K., Chen, K., Cao, Z., Evans, F., Gibberd, M.** (2020). Novel approach to the analysis of spatially-varying treatment effects in on-farm experiments. *Field Crops Research*, 255, 107783. [DOI:10.1016/j.fcr.2020.107783](https://doi.org/10.1016/j.fcr.2020.107783)
+- **Shankar, M., et al.** (2020). Targeting improved partial resistance using yield-loss response curves for foliar diseases of wheat. *GRDC Updates*.
+- **Cao, Z., Bryant, D., Parry, M.** (2018). Adaptive Sequential MCMC for Combined State and Parameter Estimation. arXiv preprint: [1803.07734](https://arxiv.org/abs/1803.07734)
+- **Cao, Z., Bryant, D., Parry, M.** (2018). V-Splines and Bayes Estimate. arXiv preprint: [1803.07645](https://arxiv.org/abs/1803.07645)
+
+## Conference Presentations & Invited Seminars
+
+- **December 2025** — Australian Statistical Conference (ASC), Perth: *Design and Spatial Analysis of On-Farm Strip Trials: From Principles to Simulation Evaluations*
+- **November 2025** — International Biometric Society (IBS) Meeting, Canberra: *Bayesian Ordinal Regression for Crop Development and Disease Assessment*
+- **October 2025** — Australian National University (ANU) Seminar Series: *Design and Spatial Analysis of On-Farm Strip Trials*
+- **September 2024** — Australian Applied Statistics Conference, Rottnest: *Case Studies in Advanced Analysis of Large Strip On-farm Experiments*
+- **August 2024** — AAGI Mini-Symposium: *A Bayesian Workflow for Spatially Correlated Random Effects in On-farm Experiment*
+- **May 2024** — Pawsey Centre: *Analytics Innovations in On-farm Experiments*
+- **December 2022** — Australian Applied Statistics Conference, Inverloch: *Optimal design for OFE: systematic or randomised?*
+- **November 2022** — StatsPD@Waite: *A Bayesian Workflow for Spatially Correlated Random Effects in On-farm Experiment*
+- **September 2020** — SAGI Symposium: *On-farm Strip Trials: going beyond small plot experiments*
+- **December 2019** — IBS, Adelaide: *Model selection and principle of parsimony in statistical modelling in agriculture*
+- **May 2019** — SAGI Symposium, Rottnest: *Early Career Statistician*
+
+## Professional Service & Engagement
+
+- **Professional societies** — International Biometric Society Australasian Region (IBS-AR) committee member and Young Statisticians organising committee; International Society of Precision Agriculture — OFE community member and Australia representative
+- **Peer review** — reviewer for *Spatial Statistics* and the *Journal of Agricultural Science* (2026), among others
+- **Mentoring** — mentor in the NZSA–Australia early-career mentoring program (one-year program, 2026); short-term mentor for the WA Government Student Startup and Innovation Challenge 2026 (mentored a school team selected as Grand Finalists)
+- **Assessment panels** — Curtin Scholarship Assessment Panel (2026, assessed 11 applicants); Wheatley Family Foundation Scholarship assessment; invited assessor for IBS-AR scholarships (2026)
+- **Competitions & outreach** — contributor to the Simon Marais Mathematics Competition; Curtin Open Day volunteer and developer of the interactive "Data to Decision" demo (2026)
+- **Workshops** — EECMS–CCDM Collaborative Workshop (March 2026), fostering cross-school collaboration in agricultural data analytics
+
+## Software & Applications
+
+- **[Journal Suggester](https://journalsuggester.com/)** — web app recommending suitable journals for a manuscript from its title & abstract using semantic similarity and domain heuristics
+- **[Stats Journey](https://www.statsjourney.com)** — interactive learning platform with visual explanations of statistical concepts, from sampling to Bayesian inference
+- **[Data to Decision](https://stat-opt-demo.netlify.app/)** — game-based web experience teaching data-driven decision making, built for Curtin Open Day 2026
+- **[MenuMate · AI点菜助手](https://apps.apple.com/app/ai%E7%82%B9%E8%8F%9C%E5%8A%A9%E6%89%8B-menumate/id6758619316)** — AI-powered menu scanner giving personalised dining recommendations (iOS)
+- **[V-Spline](https://github.com/jeromecy/VSplinePackage)** — R package for adaptive V-splines and Bayesian estimates
+
+## Technical Skills
+
+- **Statistical analysis** — Bayesian methods, experimental design, spatial statistics, machine learning
+- **Programming** — R, Python, SQL, JavaScript, Git
+- **Software development** — R Shiny, web development, API design, containerisation
+- **Data visualisation** — ggplot2, D3.js, interactive dashboards, scientific plotting
+
+More projects on [GitHub](https://github.com/jeromecy).

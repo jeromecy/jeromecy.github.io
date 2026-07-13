@@ -1,0 +1,99 @@
+---
+title: "Research Projects & Applications"
+description: "Interactive tools, R packages, and research initiatives advancing statistical methodology in agricultural science."
+toc: true
+toc-depth: 2
+aliases:
+  - /projects/
+---
+
+::: {.hero-banner}
+# Research Projects & Applications {.unnumbered}
+
+Interactive tools, R packages, and research initiatives advancing statistical methodology in agricultural science
+:::
+
+## 🌾 Interactive Applications
+
+### Yield Response Curves (YRC) Project
+
+A comprehensive analysis platform for wheat and barley variety yield responses to disease pressure. This national collaboration with GRDC delivers quantitative information on crop resistance and yield relationships.
+
+**Key features:** multi-environment trial (MET) analysis results, dynamic visualisation tools for disease comparison, export capabilities for graphs and tables, and regional pathogen prioritisation.
+
+**Partners:** DPIRD WA, Department of Agriculture and Fisheries QLD, Agriculture Victoria, DPI NSW.
+
+[🌐 Live Application](https://zhanglong.shinyapps.io/Demo/){.btn .btn-primary}
+
+### Crop Protection Analytics System
+
+Jointly developed with CCDM and SAGI West, this system enables rapid and consistent analysis of disease impact economics. Built with `shinydashboard`, `shinyWidgets`, and `highcharter`.
+
+### GRDC Disease and Pest Impact Overview
+
+A visualisation tool for understanding disease and pest impact on crop yield and profits, supporting agricultural decision-making.
+
+## 📱 Apps & Platforms
+
+### Stats Journey
+
+An interactive learning platform for statistics and data science education — intuitive visualisations, real-time calculations, and coverage from basic stats to machine learning. Built with React, TypeScript, and Tailwind CSS.
+
+[🌐 statsjourney.com](https://www.statsjourney.com){.btn .btn-primary}
+
+### Journal Suggester
+
+Paste a manuscript title and abstract to receive ranked journal suggestions using semantic similarity and domain heuristics.
+
+[🌐 journalsuggester.com](https://journalsuggester.com/){.btn .btn-primary}
+
+### MenuMate · AI点菜助手
+
+AI-powered menu scanner for smarter, healthier dining choices (iOS).
+
+[ App Store](https://apps.apple.com/app/ai%E7%82%B9%E8%8F%9C%E5%8A%A9%E6%89%8B-menumate/id6758619316){.btn .btn-primary}
+
+### Data to Decision (Open Day Demo)
+
+Game-based web experience teaching data-driven decision making, built for Curtin Open Day 2026.
+
+[🌐 Live Demo](https://stat-opt-demo.netlify.app/){.btn .btn-primary}
+
+## 📦 R Packages
+
+### V-Spline Package
+
+An adaptive V-spline implementation with Bayesian estimates for trajectory reconstruction from noisy GPS data — adaptive smoothing splines, Bayesian parameter estimation, and real-time processing capabilities.
+
+[🐙 GitHub Repository](https://github.com/jeromecy/VSplinePackage){.btn .btn-outline-primary}
+
+## 🔬 Research Initiatives
+
+### On-Farm Strip Trials Optimization (2020–2024, GRDC funding)
+
+**Research question:** systematic vs. randomised design for on-farm experiments.
+
+**Key findings:** systematic designs show superior efficiency in certain conditions; spatial correlation modelling improves trial precision; Bayesian approaches provide robust uncertainty quantification.
+
+**Publications:** [Optimal design for on-farm strip trials — systematic or randomised?](https://doi.org/10.1016/j.fcr.2024.109594) *Field Crops Research* (2024); [Bayesian inference of spatially correlated random parameters](https://doi.org/10.1016/j.fcr.2022.108477) *Field Crops Research* (2022).
+
+### Bayesian Workflow for Agricultural Data (2018–present)
+
+Developing comprehensive Bayesian workflows for complex agricultural datasets: spatially correlated random effects modelling, MCMC diagnostics, prior specification and sensitivity analysis, and posterior predictive checking. Applied to crop yield prediction, disease resistance assessment, and environmental impact analysis.
+
+### Economic Analysis of Crop Protection (2022–2024)
+
+Quantifying the economic value of different crop protection strategies: fungicide resistance impact assessment, genetic improvement vs. chemical control comparison, and risk–benefit analysis for agricultural decisions.
+
+**Publications:** [Economic analysis of crop protection strategies](https://doi.org/10.1002/ps.8319) *Pest Management Science* (2024); [Socio-economic impact of fungicide resistance](https://doi.org/10.1016/bs.agron.2023.03.005) *Advances in Agronomy* (2023).
+
+## 🤝 Collaboration Opportunities
+
+I'm always interested in new research collaborations and partnerships. Current areas of interest:
+
+- **🤖 Machine learning in agriculture** — integrating ML with traditional statistical methods
+- **⚡ High-performance computing** — scaling statistical analyses for big data
+- **🔧 Open source development** — contributing to the statistical software ecosystem
+- **🏭 Industry partnerships** — applied statistical solutions for agricultural challenges
+
+**Get in touch:** if you're interested in collaborating on any of these areas, please reach out via [email](mailto:cao.zhanglong@gmail.com) or [LinkedIn](https://linkedin.com/in/zhanglong-cao-72208487).

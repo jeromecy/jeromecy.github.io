@@ -1,0 +1,117 @@
+/*-- scss:defaults --*/
+
+$primary: #667eea;
+$font-family-sans-serif: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+$headings-font-weight: 700;
+$link-color: #5a67d8;
+
+/*-- scss:rules --*/
+
+// Hero banner (homepage and page headers)
+.hero-banner {
+  text-align: center;
+  padding: 3.5rem 2rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #fff;
+  border-radius: 1rem;
+  margin: 1rem 0 2.5rem;
+
+  h1 {
+    color: #fff;
+    font-size: 2.4rem;
+    margin-bottom: 0.75rem;
+    border: none;
+  }
+
+  p {
+    font-size: 1.15rem;
+    max-width: 46rem;
+    margin: 0 auto;
+    opacity: 0.95;
+  }
+
+  .btn {
+    margin: 1.25rem 0.3rem 0;
+  }
+
+  .btn-hero {
+    background: rgba(255, 255, 255, 0.18);
+    border: 1px solid rgba(255, 255, 255, 0.55);
+    color: #fff;
+    font-weight: 600;
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.32);
+      color: #fff;
+    }
+  }
+
+  .btn-hero-primary {
+    background: #fff;
+    color: #5a4a8a;
+    border: 1px solid #fff;
+    font-weight: 600;
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.88);
+    }
+  }
+}
+
+// Feature/tool cards on the homepage
+.tool-card {
+  border: 1px solid #e2e8f0;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  height: 100%;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background: #fff;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 24px rgba(102, 126, 234, 0.15);
+  }
+
+  h3 {
+    margin-top: 0;
+    font-size: 1.2rem;
+  }
+
+  .tool-tagline {
+    color: #5a67d8;
+    font-weight: 600;
+    font-size: 0.95rem;
+  }
+}
+
+// Listing cards
+.quarto-grid-item {
+  border-radius: 0.75rem;
+
+  &:hover {
+    box-shadow: 0 10px 24px rgba(102, 126, 234, 0.15);
+  }
+}
+
+// Section headings on landing pages
+.section-title {
+  text-align: center;
+  margin: 3rem 0 0.5rem;
+}
+
+.section-subtitle {
+  text-align: center;
+  color: #64748b;
+  margin-bottom: 2rem;
+}
+
+// CV page tweaks
+.cv-entry {
+  margin-bottom: 1.25rem;
+
+  .cv-dates {
+    color: #64748b;
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+}

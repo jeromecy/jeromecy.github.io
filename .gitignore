@@ -29,3 +29,9 @@ ehthumbs.db
 # Gemfile.lock
 .jekyll-cache
 .jekyll-cache
+
+# Quarto
+/.quarto/
+/_site/
+
+**/*.quarto_ipynb

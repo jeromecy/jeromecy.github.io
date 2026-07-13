@@ -1,0 +1,22 @@
+---
+title: "Posts"
+description: "Notes on statistics, research, teaching, and side projects."
+page-layout: full
+toc: false
+aliases:
+  - /posts/
+listing:
+  id: all-posts
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: [date, title]
+  filter-ui: true
+  fields: [date, title, description, categories, reading-time]
+  feed: true
+  page-size: 15
+---
+
+::: {#all-posts}
+:::

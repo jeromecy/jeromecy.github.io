@@ -1,94 +1,63 @@
-# Dr. Zhanglong Cao - Personal Academic Blog
+# zcao.space — Personal Website & Blog
 
-Welcome to my personal academic blog showcasing research in agricultural statistics, Bayesian methods, and data analytics.
+Personal website of Dr. Zhanglong Cao — Lecturer in Statistics (EECMS, Curtin University). Research in agricultural statistics, Bayesian methods, and data analytics.
 
-## 🎯 About This Site
+Live at **<https://www.zcao.space>**. Built with [Quarto](https://quarto.org).
 
-This is the personal website of **Dr. Zhanglong Cao**, a Research Fellow in Biometry & Agricultural Data Analytics at Curtin University, Perth, Australia. The site features:
-
-- **Research Publications** - Latest papers and conference presentations
-- **Interactive Tools** - Shiny applications and R packages
-- **Professional Experience** - Academic background and collaborations
-- **Blog Posts** - Technical articles and research insights
-
-## 🛠️ Technical Stack
-
-- **Static Site Generator**: Jekyll
-- **Hosting**: GitHub Pages
-- **Theme**: Custom modern design
-- **Styling**: CSS3 with responsive design
-- **Interactive Elements**: JavaScript for search and navigation
-
-## 📁 Repository Structure
+## Structure
 
 ```
 MyBlog/
-├── _posts/          # Blog posts (Markdown & HTML)
-├── _layouts/        # Jekyll layout templates
-├── _includes/       # Reusable HTML components
-├── assets/          # CSS, JS, images
-├── _config.yml      # Jekyll configuration
-└── pages/           # Static pages (About, CV, etc.)
+├── _quarto.yml      # Site configuration (navbar, theme, resources)
+├── index.qmd        # Homepage (hero, featured tools, latest posts)
+├── posts/           # Blog posts (.qmd), listed on posts.qmd with categories + RSS
+├── about.qmd        # About page
+├── cv.qmd           # Curriculum Vitae
+├── projects.qmd     # Research projects & applications
+├── contact.qmd      # Contact form and details
+├── custom.scss      # Theme customisation on top of the cosmo Bootstrap theme
+├── assets/, PDF/    # Static resources (images, slide decks, PDFs)
+└── .github/workflows/publish.yml   # CI: render + publish to gh-pages
 ```
 
-## 🚀 Local Development
+## Local development
 
-1. **Install Dependencies**:
-   ```bash
-   bundle install
-   ```
-
-2. **Run Local Server**:
-   ```bash
-   bundle exec jekyll serve --livereload
-   ```
-
-3. **View Site**: Open `http://localhost:4000`
-
-## 📝 Adding Content
-
-### New Blog Post
-```bash
-# Create new post in _posts/
-# Format: YYYY-MM-DD-title.md
+```sh
+quarto preview     # live-reloading local server
+quarto render      # build to _site/
 ```
 
-### Update Pages
-- Edit files in root directory (about.md, contact.md, etc.)
-- CSS styling in `assets/css/main.css`
+No Ruby/Jekyll required — the site migrated from Jekyll to Quarto in July 2026.
+Old Jekyll URLs (e.g. `/posts/<title>/`, `/cv/`, `/privacy/`) are preserved via
+Quarto `aliases` redirects.
 
-## 🔧 Configuration
+## Writing a post
 
-Key settings in `_config.yml`:
-- Site title and description
-- Author information
-- Social media links
-- Jekyll plugins
+Create `posts/YYYY-MM-DD-slug.qmd`:
 
-## 📊 Features
+```yaml
+---
+title: "Post Title"
+date: 2026-07-13
+categories: [Statistics, R]
+description: "One-line summary shown in listings."
+---
+```
 
-- **Responsive Design**: Works on all devices
-- **Search Functionality**: Client-side post search
-- **Category/Tag System**: Organized content
-- **Modern UI**: Clean, professional design
-- **Fast Loading**: Optimized for performance
+Markdown, LaTeX math, and executable R/Python code cells are all supported.
 
-## 🤝 Contributing
+## Deployment
 
-This is a personal academic site, but suggestions for improvements are welcome via:
-- GitHub Issues
-- Email: cao.zhanglong@gmail.com
+Pushing to `master` triggers the GitHub Action, which renders the site and
+publishes it to the `gh-pages` branch. GitHub Pages must be configured to serve
+from `gh-pages` (root). The custom domain is set via the `CNAME` resource.
 
-## 📄 License
+## Links
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🔗 Links
-
-- **Live Site**: [jeromecy.github.io](https://jeromecy.github.io)
+- **Live Site**: [www.zcao.space](https://www.zcao.space)
 - **GitHub**: [jeromecy](https://github.com/jeromecy)
 - **LinkedIn**: [zhanglong-cao](https://linkedin.com/in/zhanglong-cao-72208487)
 
----
+## License
 
-*Built with ❤️ using Jekyll and GitHub Pages*
+MIT — see [LICENSE](LICENSE).

@@ -1,0 +1,10 @@
+---
+title: "A Bayesian Workflow for Spatially Correlated Random Effects in On-farm Experiment"
+date: 2022-08-11
+categories: ["Work"]
+aliases: ["/posts/BayesOFE_quarto/"]
+---
+
+Check out the embedded Quarto HTML file below:
+
+<iframe src="/assets/quarto/2022-08-11-BayesOFE_quarto.html" width="100%" height="600px"></iframe>
