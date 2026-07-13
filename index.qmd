@@ -15,13 +15,17 @@ listing:
 ---
 
 ::: {.hero-banner}
-<img src="/assets/images/Zhanglong.png" class="hero-avatar" alt="Dr. Zhanglong Cao"/>
-
+::: {.hero-flex}
+::: {.hero-text}
 # Hi, I'm Zhanglong 👋 {.unnumbered}
 
 Lecturer in Statistics at Curtin University (EECMS). I work on Bayesian methods, experimental design, and spatial statistics for agriculture — and I build interactive tools that make data easier to use.
 
 [About Me](about.qmd){.btn .btn-hero-primary} [View CV](cv.qmd){.btn .btn-hero} [Projects](projects.qmd){.btn .btn-hero} [Get in Touch](contact.qmd){.btn .btn-hero}
+:::
+
+<img src="/assets/images/Zhanglong.png" class="hero-portrait" alt="Dr. Zhanglong Cao"/>
+:::
 :::
 
 ## Featured Interactive Tools {.section-title .unnumbered}
