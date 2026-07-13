@@ -37,9 +37,6 @@ website:
       - icon: linkedin
         href: https://linkedin.com/in/zhanglong-cao-72208487
         aria-label: LinkedIn
-      - icon: rss
-        href: posts.xml
-        aria-label: RSS
   page-footer:
     left: "© 2026 Zhanglong Cao. All rights reserved."
     right:

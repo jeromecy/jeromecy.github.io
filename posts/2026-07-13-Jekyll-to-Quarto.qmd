@@ -1,0 +1,46 @@
+---
+title: "Migrating My Blog from Jekyll to Quarto"
+date: 2026-07-13
+categories: [Quarto, Web, Blogging]
+description: "This site now runs on Quarto — no more Ruby, one toolchain for posts, slides, and CV, and every old URL still works."
+---
+
+This website has a new engine! After years on Jekyll, the whole site — posts, projects, CV, everything — now runs on [Quarto](https://quarto.org).
+
+## 😲 Wait, Quarto builds websites?
+
+I've been using Quarto for a while, but only for presentations — my ANU, IBS, and ASC slide decks were all Quarto revealjs files. What genuinely surprised me is that Quarto is also a full static website generator: blog listings, category filters, site search, sitemaps, and social cards all come built in, configured from a single `_quarto.yml` file.
+
+For someone who lives in R and writes `.qmd` files daily, this means my blog, my slides, and my documents now share **one toolchain**.
+
+## 🤔 Why leave Jekyll?
+
+- **The Ruby toolchain** — my local Jekyll build had been broken for months (system Ruby vs. bundler version mismatch). Quarto is a single binary: `quarto preview` just works.
+- **3,200 lines of hand-written CSS** — my old custom theme needed constant care. Quarto's Bootstrap themes replace almost all of it; my customisation is now ~100 lines of SCSS.
+- **Executable posts** — future posts can include real running R code (brms, simulations, plots) instead of pasted output. That fits how I actually work.
+
+## 🔧 How the migration went
+
+The short version:
+
+1. **Posts** — a small Python script converted all 36 Jekyll posts to `posts/*.qmd`, mapping front matter (title, date, categories) across. A handful of very old posts were raw pandoc HTML; their content was extracted and the math converted back to proper LaTeX syntax.
+2. **URLs preserved** — every old link (like `/posts/Model-Selection/` or `/cv/`) still works, thanks to Quarto's `aliases` front matter, which generates redirect pages automatically.
+3. **Pages** — the About, CV, Projects, and Contact pages were rewritten as clean markdown. Much easier to maintain than the old HTML-heavy versions.
+4. **Deployment** — a GitHub Action renders the site and publishes it to GitHub Pages on every push. No build tools needed on my machine at all.
+
+Writing a new post is now just:
+
+```yaml
+---
+title: "Post Title"
+date: 2026-07-13
+categories: [Statistics, R]
+description: "One-line summary shown in listings."
+---
+```
+
+drop it in `posts/`, push, and it's live.
+
+## ✅ Verdict
+
+If you're an R (or Python) user still running a Jekyll or WordPress blog, I'd honestly recommend having a look at [Quarto websites](https://quarto.org/docs/websites/). The migration took an afternoon, and the site is now simpler, faster to build, and written in the same format as my research documents.
