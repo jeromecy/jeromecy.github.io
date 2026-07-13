@@ -1,0 +1,253 @@
+/*-- scss:defaults --*/
+
+$font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-monospace: 'Consolas', 'Monaco', monospace;
+
+// Colors from Beamer template
+$crane-orange: rgb(220, 160, 10);
+$crane-blue: rgb(4, 6, 76);
+$crane-orange-light: lighten($crane-orange, 20%);
+
+// Curtin colors (keeping for compatibility)
+$curtin-gold: #CC9900;
+$white: #ffffff;
+$curtin-grey: #999999;
+$curtin-black: #000000;
+$curtin-transparent: rgba(0, 0, 0, 0);
+
+// Use crane colors as primary
+$primary-color: $crane-blue;
+$accent-color: $crane-orange;
+
+$custom-background: linear-gradient(to right, $crane-blue 0%, $crane-orange 100%) !default;
+
+// Headings
+$presentation-heading-color: $crane-blue;
+$link-color: $crane-blue;
+
+/*-- scss:rules --*/
+
+// Nested list sizing
+ul ul {
+    font-size: 0.85em;
+}
+
+ul ul ul {
+    font-size: 0.75em;
+}
+
+/* Title slide styling */
+#title-slide {
+    h1.title {
+      color: $crane-blue !important;
+      font-size: 2em;
+      font-weight: bold;
+    }
+    
+    p.subtitle {
+      color: $crane-orange !important;
+      font-size: 1.4em;
+      font-weight: 500;
+    }
+    
+    p.author,
+    p.institute,
+    p.date {
+      color: $crane-blue !important;
+      font-size: 1.1em;
+    }
+}
+
+// Section headers
+.reveal h1, .reveal h2 {
+  color: $crane-blue;
+  font-weight: bold;
+  border-bottom: 3px solid $crane-orange;
+  padding-bottom: 0.3em;
+  margin-top: 0.5em;
+}
+
+.reveal h3 {
+  color: $crane-blue;
+  font-weight: 600;
+}
+
+// Emphasis and strong
+.reveal em {
+  color: $crane-orange;
+  font-style: italic;
+}
+
+.reveal strong {
+  color: $crane-blue;
+  font-weight: bold;
+}
+
+// Links
+.reveal a {
+  color: $crane-blue;
+  
+  &:hover {
+    color: $crane-orange;
+  }
+}
+
+// Lists
+.reveal ul {
+  list-style-type: circle;
+  
+  li {
+    margin-bottom: 0.4em;
+  }
+}
+
+// Code blocks
+.reveal pre {
+  background: #f5f5f5;
+  border-left: 3px solid $crane-orange;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  font-size: 0.7em;
+}
+
+.reveal code {
+  color: $crane-blue;
+  background: rgba(220, 160, 10, 0.1);
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+}
+
+// Tables
+.reveal table {
+  border-collapse: collapse;
+  margin: 1em auto;
+  
+  th {
+    background: $crane-orange;
+    color: white;
+    font-weight: bold;
+    padding: 0.6em;
+    border: 1px solid darken($crane-orange, 10%);
+  }
+  
+  td {
+    border: 1px solid #ddd;
+    padding: 0.5em;
+  }
+  
+  tr:nth-child(even) {
+    background: rgba(220, 160, 10, 0.08);
+  }
+}
+
+// Blockquotes
+.reveal blockquote {
+  border-left: 5px solid $crane-orange;
+  background: rgba(220, 160, 10, 0.1);
+  padding: 1em;
+  margin: 1em;
+  font-style: italic;
+}
+
+// Footer
+.reveal .footer {
+  color: #ffffff;
+  background: $custom-background;
+  display: block;
+  position: fixed;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  bottom: 0px !important; 
+  width: 100%;
+  z-index: 2 !important;
+  font-size: 0.8em;
+}
+
+// Logo
+.reveal .slide-logo {
+  margin-bottom: 6px !important; 
+  z-index: 5 !important; 
+}
+
+// Menu button
+.reveal .slide-menu-button .fa-bars::before {
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(255, 255, 255)" class="bi bi-list" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/></svg>') !important;
+}
+
+// Slide numbers
+.reveal .slide-number {
+  color: white;
+  background-color: rgba(220, 160, 10, 0.8);
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+// Progress bar
+.reveal .progress {
+  background: rgba(4, 6, 76, 0.2);
+  
+  span {
+    background: $crane-orange;
+  }
+}
+
+// Custom callout boxes
+.alert {
+  background: rgba(220, 160, 10, 0.15);
+  border-left: 5px solid $crane-orange;
+  padding: 1em;
+  margin: 1em 0;
+  border-radius: 5px;
+}
+
+.info {
+  background: rgba(4, 6, 76, 0.1);
+  border-left: 5px solid $crane-blue;
+  padding: 1em;
+  margin: 1em 0;
+  border-radius: 5px;
+}
+
+// Two-column layout helper
+.columns {
+  display: flex;
+  gap: 2em;
+  align-items: flex-start;
+  
+  .column {
+    flex: 1;
+  }
+}
+
+// Utility classes
+.smaller {
+  font-size: 0.85em;
+}
+
+.center {
+  text-align: center;
+}
+
+// Fragment highlighting
+.reveal .fragment.highlight-current-blue.current-fragment {
+  color: $crane-blue;
+  font-weight: bold;
+}
+
+.reveal .fragment.highlight-current-orange.current-fragment {
+  color: $crane-orange;
+  font-weight: bold;
+}
+
+// Figure captions
+.reveal figcaption,
+.reveal .figure p.caption {
+  color: $crane-blue;
+  font-size: 0.8em;
+  font-style: italic;
+  margin-top: 0.5em;
+}
+
+// Incremental items
+.reveal .incremental > * {
+  margin-bottom: 0.5em;
+}

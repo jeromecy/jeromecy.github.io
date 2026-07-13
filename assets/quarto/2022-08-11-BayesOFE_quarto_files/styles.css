@@ -1,0 +1,26 @@
+.gdbar img {
+  width: 900px !important;
+  height: 150px !important;
+  margin: 10px 10px;
+}
+
+.gdbar {
+  width: 1000px !important;
+  height: 170px !important;
+}
+
+td {
+  text-align: center;
+  font-size: 24px;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th{
+  font-size: 24px;
+}
+
+table-layout: fixed;
