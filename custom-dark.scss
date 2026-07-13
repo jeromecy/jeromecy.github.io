@@ -1,17 +1,24 @@
 /*-- scss:defaults --*/
 
-$primary: #2f855a;
+$primary: #48bb78;
 $font-family-sans-serif: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 $headings-font-weight: 700;
-$link-color: #2c7a7b;
+
+$body-bg: #171d26;
+$body-color: #d7dde5;
+$link-color: #6fd6c2;
+$headings-color: #edf2f7;
+$navbar-bg: #10151c;
+$footer-bg: #10151c;
+$code-block-bg: #1f2733;
 
 /*-- scss:rules --*/
 
-// Hero banner (homepage and page headers)
+// Hero banner — deeper green for dark surroundings
 .hero-banner {
   text-align: center;
   padding: 3.5rem 2rem;
-  background: linear-gradient(135deg, #2f855a 0%, #276749 100%);
+  background: linear-gradient(135deg, #276749 0%, #1c4532 100%);
   color: #fff;
   border-radius: 1rem;
   margin: 1rem 0 2.5rem;
@@ -35,41 +42,41 @@ $link-color: #2c7a7b;
   }
 
   .btn-hero {
-    background: rgba(255, 255, 255, 0.16);
-    border: 1px solid rgba(255, 255, 255, 0.55);
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.45);
     color: #fff;
     font-weight: 600;
 
     &:hover {
-      background: rgba(255, 255, 255, 0.3);
+      background: rgba(255, 255, 255, 0.24);
       color: #fff;
     }
   }
 
   .btn-hero-primary {
-    background: #fff;
-    color: #276749;
-    border: 1px solid #fff;
+    background: #f0fff4;
+    color: #1c4532;
+    border: 1px solid #f0fff4;
     font-weight: 600;
 
     &:hover {
-      background: rgba(255, 255, 255, 0.88);
+      background: rgba(240, 255, 244, 0.85);
     }
   }
 }
 
-// Feature/tool cards on the homepage
+// Feature/tool cards
 .tool-card {
-  border: 1px solid #e2e8f0;
+  border: 1px solid #2d3748;
   border-radius: 0.75rem;
   padding: 1.5rem;
   height: 100%;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
-  background: var(--bs-body-bg);
+  background: #1f2733;
 
   &:hover {
     transform: translateY(-4px);
-    box-shadow: 0 10px 24px rgba(47, 133, 90, 0.18);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.45);
   }
 
   h3 {
@@ -78,7 +85,7 @@ $link-color: #2c7a7b;
   }
 
   .tool-tagline {
-    color: #2c7a7b;
+    color: #6fd6c2;
     font-weight: 600;
     font-size: 0.95rem;
   }
@@ -89,7 +96,7 @@ $link-color: #2c7a7b;
   border-radius: 0.75rem;
 
   &:hover {
-    box-shadow: 0 10px 24px rgba(47, 133, 90, 0.18);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.45);
   }
 }
 
@@ -101,7 +108,7 @@ $link-color: #2c7a7b;
 
 .section-subtitle {
   text-align: center;
-  color: #64748b;
+  color: #94a3b8;
   margin-bottom: 2rem;
 }
 
@@ -110,7 +117,7 @@ $link-color: #2c7a7b;
   margin-bottom: 1.25rem;
 
   .cv-dates {
-    color: #64748b;
+    color: #94a3b8;
     font-size: 0.9rem;
     font-weight: 600;
   }
