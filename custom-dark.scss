@@ -122,3 +122,34 @@ $code-block-bg: #1f2733;
     font-weight: 600;
   }
 }
+
+// Hero avatar
+.hero-avatar {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  border: 3px solid rgba(255, 255, 255, 0.75);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.18);
+  margin-bottom: 1rem;
+}
+
+// Pin tool-card call-to-action links to the card bottom
+.tool-card {
+  display: flex;
+  flex-direction: column;
+
+  p:last-child {
+    margin-top: auto;
+    margin-bottom: 0;
+    padding-top: 0.75rem;
+  }
+
+  .tool-cta {
+    font-weight: 600;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

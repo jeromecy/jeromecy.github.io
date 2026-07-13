@@ -15,6 +15,8 @@ listing:
 ---
 
 ::: {.hero-banner}
+<img src="https://www.gravatar.com/avatar/9f00102e0a362e3a92ccefd0d35c6e5d?s=240" class="hero-avatar" alt="Dr. Zhanglong Cao"/>
+
 # Hi, I'm Zhanglong 👋 {.unnumbered}
 
 Lecturer in Statistics at Curtin University (EECMS). I work on Bayesian methods, experimental design, and spatial statistics for agriculture — and I build interactive tools that make data easier to use.
@@ -24,38 +26,38 @@ Lecturer in Statistics at Curtin University (EECMS). I work on Bayesian methods,
 
 ## Featured Interactive Tools {.section-title .unnumbered}
 
-[Practical web apps I built to support researchers and students.]{.section-subtitle style="display:block;"}
+[Practical web apps I built to support researchers, growers, and students.]{.section-subtitle style="display:block;"}
 
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-4 .tool-card}
-### Open Day Web App Demo
+### 🌾 CPAS
+
+[Disease economics for Australian cropping]{.tool-tagline}
+
+The Crop Protection Analytics System estimates the economic value of disease management in Australian broadacre cropping — production value lost to disease and quality downgrade, across GRDC agro-ecological zones, crops, and seasons.
+
+[Visit croppas.com →](https://croppas.com/){.tool-cta}
+:::
+
+::: {.g-col-12 .g-col-md-4 .tool-card}
+### 🍦 Data to Decision
 
 [Play-and-learn decision game]{.tool-tagline}
 
-Data to Decision is a hands-on web demo built for Curtin Open Day 2026. Run a simple ice cream shop, observe outcomes, and learn how statistics and optimisation improve decisions over time.
+A hands-on web demo built for Curtin Open Day 2026. Run a simple ice cream shop, observe outcomes, and learn how statistics and optimisation improve decisions over time.
 
-[Launch live demo →](https://stat-opt-demo.netlify.app/)
+[Launch live demo →](https://stat-opt-demo.netlify.app/){.tool-cta}
 :::
 
 ::: {.g-col-12 .g-col-md-4 .tool-card}
-### MenuMate · AI点菜助手
-
-[AI-powered menu scanner]{.tool-tagline}
-
-Snap a photo of any restaurant menu and get instant personalised recommendations based on your dietary goals, allergies, and group size. Supports 8 languages, with 10 free scans a month.
-
-[Download on the App Store →](https://apps.apple.com/app/ai%E7%82%B9%E8%8F%9C%E5%8A%A9%E6%89%8B-menumate/id6758619316)
-:::
-
-::: {.g-col-12 .g-col-md-4 .tool-card}
-### Journal Suggester
+### 📚 Journal Suggester
 
 [Smart journal recommender]{.tool-tagline}
 
 Paste your manuscript's title and abstract to receive ranked journal suggestions using semantic similarity (SciBERT and domain heuristics), plus scope and metrics context to speed up submission decisions.
 
-[Visit journalsuggester.com →](https://journalsuggester.com/)
+[Visit journalsuggester.com →](https://journalsuggester.com/){.tool-cta}
 :::
 
 :::
