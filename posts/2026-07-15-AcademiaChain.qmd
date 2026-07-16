@@ -1,0 +1,40 @@
+---
+title: "AcademiaChain: Your Erdős Number, Generalized"
+date: 2026-07-15
+categories: [Apps, Open Source, Data Science]
+description: "A new open-source app that finds the shortest co-authorship path between any two scholars on the open OpenAlex graph — plus what happened when I tried to connect myself to Terence Tao."
+image: /assets/images/academiachain_cover.svg
+---
+
+I shipped a new side project yesterday: **[AcademiaChain](https://academiachain.netlify.app)** 🌌 — find the shortest co-authorship path between any two scholars, your Erdős number, generalized.
+
+## 💡 Where this came from
+
+Back in college, I stumbled on a graph theory problem: in any large enough group of people, you can always find a subset who are either all mutually acquainted or all mutual strangers. It sparked an idea — if every human is a node and "knowing each other" is an edge, the whole world is one giant connected graph. I pitched it to a professor back then. They said, "it's possible." The idea faded... until recently.
+
+I still wanted to build it, but without touching private or restricted social data (Facebook-style graphs are off limits for good reason). Then it hit me: **public academic metadata**. If two scholars co-authored a paper, that's an edge — openly available, no privacy trade-off.
+
+## 🌐 What it does
+
+Type in two researchers' names, and AcademiaChain traverses the [OpenAlex](https://openalex.org) open scholarly graph — live, with no pre-built database — to find the chain of co-authors connecting them, along with the bridging papers (title, year, DOI). Progress streams to your browser in real time, and a match renders as a glowing **constellation graph**: drag the stars, and the bonds between scholars grow thicker and brighter the more papers they share. Find a path, and you can generate a shareable **Academic Lineage Certificate** poster.
+
+Under the hood it's a **bidirectional breadth-first search** — two searches growing from each name toward the middle — which turns what would be a 10-second timeout into a sub-second collision, with pruning to skip giant consortium papers and keep the search fast and relevant.
+
+## 😂 The humbling benchmark
+
+I tested it on my own academic network against Terence Tao (Fields Medalist). Result: **No Path Found within 4 degrees.** Maybe it's the strict disciplinary isolation of modern research — or maybe my pruning parameters just weren't greedy enough. Either way, it was a good reminder that "small world" claims are easier to state than to prove.
+
+## ⚠️ A quick heads-up on data quirks
+
+OpenAlex's autocomplete applies fairly aggressive "popularity truncation," so younger scholars or common names can occasionally get buried in the quick dropdown. I added an **Advanced Search Modal** that lets you filter by institution keyword for precise identity locking — but edge cases exist. It's a work in progress.
+
+## 🔒 Privacy, by design
+
+Everything comes from OpenAlex's public, published academic metadata — no private data, no database, no logs. Any API key or academic email you configure lives only in your browser's local storage.
+
+## 🚀 Try it
+
+- **Live demo:** [academiachain.netlify.app](https://academiachain.netlify.app)
+- **Source (100% open):** [github.com/jeromecy/AcademiaChain](https://github.com/jeromecy/AcademiaChain)
+
+Try it with your own name, test the boundaries, or dig into the bidirectional BFS implementation — and let me know how small (or not) your corner of academia turns out to be.

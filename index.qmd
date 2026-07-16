@@ -35,6 +35,18 @@ Lecturer in Statistics at Curtin University (EECMS). I work on Bayesian methods,
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-4 .tool-card}
+![](assets/images/academiachain_cover.svg){.tool-shot fig-alt="AcademiaChain constellation graph illustration"}
+
+### 🌌 AcademiaChain
+
+[Your Erdős number, generalized]{.tool-tagline}
+
+Find the shortest co-authorship path between any two scholars on the open OpenAlex graph — live bidirectional search, a glowing constellation visualisation, and a shareable Academic Lineage Certificate.
+
+[Try it live →](https://academiachain.netlify.app){.tool-cta}
+:::
+
+::: {.g-col-12 .g-col-md-4 .tool-card}
 ![](assets/images/cpas_homepage.png){.tool-shot fig-alt="CPAS website screenshot"}
 
 ### 🌾 CPAS
@@ -44,18 +56,6 @@ Lecturer in Statistics at Curtin University (EECMS). I work on Bayesian methods,
 The Crop Protection Analytics System estimates the economic value of disease management in Australian broadacre cropping — production value lost to disease and quality downgrade, across GRDC agro-ecological zones, crops, and seasons.
 
 [Visit croppas.com →](https://croppas.com/){.tool-cta}
-:::
-
-::: {.g-col-12 .g-col-md-4 .tool-card}
-![](assets/images/openday.png){.tool-shot fig-alt="Data to Decision demo screenshot"}
-
-### 🍦 Data to Decision
-
-[Play-and-learn decision game]{.tool-tagline}
-
-A hands-on web demo built for Curtin Open Day 2026. Run a simple ice cream shop, observe outcomes, and learn how statistics and optimisation improve decisions over time.
-
-[Launch live demo →](https://stat-opt-demo.netlify.app/){.tool-cta}
 :::
 
 ::: {.g-col-12 .g-col-md-4 .tool-card}

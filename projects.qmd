@@ -33,6 +33,12 @@ A visualisation tool for understanding disease and pest impact on crop yield and
 
 ## 📱 Apps & Platforms
 
+### AcademiaChain
+
+Find the shortest co-authorship path between any two scholars on the open OpenAlex graph — a generalised Erdős number, found via live bidirectional BFS with a glowing constellation visualisation and shareable Academic Lineage Certificate. 100% open source.
+
+[🌐 Live Demo](https://academiachain.netlify.app){.btn .btn-primary} [🐙 GitHub](https://github.com/jeromecy/AcademiaChain){.btn .btn-outline-primary}
+
 ### Stats Journey
 
 An interactive learning platform for statistics and data science education — intuitive visualisations, real-time calculations, and coverage from basic stats to machine learning. Built with React, TypeScript, and Tailwind CSS.
